@@ -1,0 +1,9 @@
+#
+# test case discharges
+#
+# Test  locations direction     rate     salinity   
+# -----------------------------------------------
+#   A    fixed     uniform      fixed     fixed
+#   B    fixed    non-uniform   fixed     fixed
+#   C    moving   non-uniform   fixed     fixed
+#   D    moving   non-uniform  variable  variable

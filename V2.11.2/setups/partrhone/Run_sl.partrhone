@@ -1,0 +1,4 @@
+echo "executing test case partrhone"
+
+sbatch -n 9 ./Run_mpi.sh
+

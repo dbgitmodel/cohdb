@@ -1,0 +1,131 @@
+Version: V2.11.2
+Output parameters for test case river: simulation riverD
+
+Time:  3 hours
+  hfront   :   40.03     
+  pdep     :   19.33     
+  hgrad    :  0.2547     
+  vgrad    :  0.5884E-001
+Time:  6 hours
+  hfront   :   34.89     
+  pdep     :   19.72     
+  hgrad    :  0.2490     
+  vgrad    :  0.8350E-001
+Time:  9 hours
+  hfront   :   37.60     
+  pdep     :   20.67     
+  hgrad    :  0.2571     
+  vgrad    :  0.9270E-001
+Time: 12 hours
+  hfront   :   45.66     
+  pdep     :   20.32     
+  hgrad    :  0.2787     
+  vgrad    :  0.2559     
+Time: 15 hours
+  hfront   :   46.87     
+  pdep     :   8.917     
+  hgrad    :  0.4551     
+  vgrad    :  0.4464     
+Time: 18 hours
+  hfront   :   42.12     
+  pdep     :   6.209     
+  hgrad    :  0.3671     
+  vgrad    :  0.9124     
+Time: 21 hours
+  hfront   :   45.08     
+  pdep     :   6.185     
+  hgrad    :  0.3580     
+  vgrad    :  0.8945     
+Time: 24 hours
+  hfront   :   53.90     
+  pdep     :   5.178     
+  hgrad    :  0.3422     
+  vgrad    :   1.372     
+Time: 27 hours
+  hfront   :   56.27     
+  pdep     :   4.327     
+  hgrad    :  0.4697     
+  vgrad    :   1.315     
+Time: 30 hours
+  hfront   :   53.09     
+  pdep     :   4.358     
+  hgrad    :  0.3373     
+  vgrad    :   1.129     
+Time: 33 hours
+  hfront   :   56.33     
+  pdep     :   3.785     
+  hgrad    :  0.3288     
+  vgrad    :   1.753     
+Time: 36 hours
+  hfront   :   65.34     
+  pdep     :   2.563     
+  hgrad    :  0.2909     
+  vgrad    :   2.619     
+Time: 39 hours
+  hfront   :   68.29     
+  pdep     :   2.315     
+  hgrad    :  0.5038     
+  vgrad    :   2.420     
+Time: 42 hours
+  hfront   :   64.92     
+  pdep     :   2.710     
+  hgrad    :  0.3625     
+  vgrad    :   2.315     
+Time: 45 hours
+  hfront   :   66.64     
+  pdep     :   3.461     
+  hgrad    :  0.3502     
+  vgrad    :   1.641     
+Time: 48 hours
+  hfront   :   74.94     
+  pdep     :   3.066     
+  hgrad    :  0.3401     
+  vgrad    :   2.240     
+Time: 51 hours
+  hfront   :   78.15     
+  pdep     :   2.414     
+  hgrad    :  0.4850     
+  vgrad    :   2.257     
+Time: 54 hours
+  hfront   :   74.36     
+  pdep     :   2.303     
+  hgrad    :  0.3409     
+  vgrad    :   2.434     
+Time: 57 hours
+  hfront   :   75.43     
+  pdep     :   2.880     
+  hgrad    :  0.3349     
+  vgrad    :   2.446     
+Time: 60 hours
+  hfront   :   83.50     
+  pdep     :   2.539     
+  hgrad    :  0.3033     
+  vgrad    :   2.281     
+Time: 63 hours
+  hfront   :   87.24     
+  pdep     :   2.206     
+  hgrad    :  0.5174     
+  vgrad    :   3.004     
+Time: 66 hours
+  hfront   :   83.79     
+  pdep     :   1.988     
+  hgrad    :  0.3525     
+  vgrad    :   3.354     
+Time: 69 hours
+  hfront   :   83.95     
+  pdep     :   2.252     
+  hgrad    :  0.3265     
+  vgrad    :   2.897     
+Time: 72 hours
+  hfront   :   91.29     
+  pdep     :   2.468     
+  hgrad    :  0.3331     
+  vgrad    :   2.474     
+
+Harmonic parameters
+  sures    :  0.2579     
+  suamp    :  0.5543     
+  supha    :   327.7     
+  bures    : -0.2527E-001
+  buamp    :  0.5394     
+  bupha    :   304.1     

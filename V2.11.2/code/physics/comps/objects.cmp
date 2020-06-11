@@ -1,0 +1,50 @@
+#
+# Copyright 2013 RBINS-MUMM
+#
+# Licensed under the EUPL, Version 1.1 or - as soon they will be approved by
+# the European Commission - subsequent versions of the EUPL (the "Licence");
+# You may not use this work except in compliance with the Licence.
+# You may obtain a copy of the Licence at:
+#
+# http://ec.europa.eu/idabc/eupl
+#
+# Unless required by the applicable law or agreed to in writing, software
+# distributed under the Licence is distributed on an "AS IS" basis,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the Licence for the specific language governing permissions and
+# limitations under the Licence.
+#
+# Object files for compilation of COHERENS
+#
+# Version - @{COHERENS}dependencies.cmp   V2.9
+#
+# $Date: 2016-10-10 16:36:15 +0200 (Mon, 10 Oct 2016) $
+#
+# $Revision: 973 $
+#
+
+MODULES = \
+couplingvars.o currents.o datatypes.o density.o depths.o diffusion.o fluxes.o \
+grid.o gridpars.o iopars.o meteo.o modids.o multigrid.o nestgrids.o obconds.o \
+optics.o paralpars.o physpars.o relaxation.o structures.o switches.o syspars.o \
+tide.o timepars.o turbpars.o turbulence.o wavepars.o wavevars.o \
+array_interp.o cf90_routines.o check_model.o cif_routines.o comms_MPI.o \
+datatypes_init.o default_model.o diagnostic_routines.o error_routines.o \
+fft_library.o grid_interp.o grid_routines.o inout_paral.o inout_routines.o \
+math_library.o model_output.o modvars_routines.o nla_library.o paral_comms.o \
+paral_utilities.o reset_model.o rng_library.o time_routines.o \
+turbulence_routines.o utility_routines.o
+
+SUBPROGS = \
+Advection_Terms.o Allocate_Arrays.o Bottom_Fluxes.o Corrector_Terms.o \
+Density_Equations.o Diffusion_Coefficients.o Diffusion_Terms.o Grid_Arrays.o \
+Harmonic_Analysis.o Hydrodynamic_Equations.o Inundation_Schemes.o \
+Model_Finalisation.o Model_Initialisation.o Model_Parameters.o \
+MultiGrid_Initialisation.o MultiGrid_Schemes.o Nested_Grids.o \
+Open_Boundary_Conditions.o Open_Boundary_Data_2D.o Open_Boundary_Data_Prof.o \
+Parallel_Initialisation.o Relaxation_Zones.o Structures_Model.o \
+Surface_Boundary_Data_1D.o Surface_Data.o Surface_Fluxes.o Surface_Grids.o \
+Surface_Waves.o Tidal_Forcing.o Time_Averages.o Time_Series.o \
+Transport_Equations.o Turbulence_Equations.o Usrdef_Harmonic_Analysis.o \
+Usrdef_Model.o Usrdef_Nested_Grids.o Usrdef_Output.o Usrdef_Structures.o \
+Usrdef_Surface_Data.o Usrdef_Time_Averages.o Usrdef_Time_Series.o Wave_Coupler.o

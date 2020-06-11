@@ -1,0 +1,10 @@
+#
+# test case weirbar
+#
+# Test  dimension   type of weir(s)  type of orifice
+# --------------------------------------------------
+#   A     2D         single weir       none
+#   B     2DV        single weir       none
+#   C     2DV        single weir       near bottom
+#   D     2DV        no weir           near surface
+#   E     3DV        multiple weirs    none

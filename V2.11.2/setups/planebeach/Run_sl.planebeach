@@ -1,0 +1,18 @@
+#!/bin/sh
+
+RES=$(sbatch -n 8 ./Run_mpi.sh defrunsA)
+jobid=${RES##* }
+
+RES=$(sbatch -n 8 -d afterany:$jobid ./Run_mpi.sh defrunsB)
+jobid=${RES##* }
+
+RES=$(sbatch -n 8 -d afterany:$jobid ./Run_mpi.sh defrunsC)
+jobid=${RES##* }
+
+RES=$(sbatch -n 8 -d afterany:$jobid ./Run_mpi.sh defrunsD)
+jobid=${RES##* }
+
+RES=$(sbatch -n 8 -d afterany:$jobid ./Run_mpi.sh defrunsE)
+jobid=${RES##* }
+
+RES=$(sbatch -n 8 -d afterany:$jobid ./Run_mpi.sh defrunsF)

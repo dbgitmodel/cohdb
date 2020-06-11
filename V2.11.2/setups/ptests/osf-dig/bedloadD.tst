@@ -1,0 +1,43 @@
+Version: V2.7
+Output parameters for test case bedload: simulation bedloadD
+ 
+Time:  40 seconds
+  umean    :  0.2000    
+  bstres   :  0.9732E-01
+  qbed     :  0.6044E-04
+Time: 100 seconds
+  umean    :  0.4000    
+  bstres   :  0.3893    
+  qbed     :  0.4209E-02
+Time: 160 seconds
+  umean    :  0.6000    
+  bstres   :  0.8759    
+  qbed     :  0.2954E-01
+Time: 220 seconds
+  umean    :  0.8000    
+  bstres   :   1.557    
+  qbed     :  0.1106    
+Time: 280 seconds
+  umean    :   1.000    
+  bstres   :   2.433    
+  qbed     :  0.3027    
+Time: 340 seconds
+  umean    :   1.200    
+  bstres   :   3.503    
+  qbed     :  0.6843    
+Time: 400 seconds
+  umean    :   1.400    
+  bstres   :   4.769    
+  qbed     :   1.359    
+Time: 460 seconds
+  umean    :   1.600    
+  bstres   :   6.228    
+  qbed     :   2.459    
+Time: 520 seconds
+  umean    :   1.800    
+  bstres   :   7.883    
+  qbed     :   4.143    
+Time: 580 seconds
+  umean    :   2.000    
+  bstres   :   9.732    
+  qbed     :   6.604    

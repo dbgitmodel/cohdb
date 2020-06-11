@@ -1,0 +1,176 @@
+#
+# $Date: 2015-02-03 10:21:02 +0100 (Tue, 03 Feb 2015) $
+#
+# $Revision: 812 $
+#
+
+
+Figure 1
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   Time
+Ydata		:   bstresmean
+XdataDef	:   (:)
+YdataDef	:   (:)
+TimeUnit	:
+
+Plot options
+xlabel		:   Time [seconds]
+ylabel		:   Averaged bottom stress [Pa]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:
+
+
+Figure 2
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   Time
+Ydata		:   sedmax
+XdataDef	:   (:)
+YdataDef	:   (:)
+TimeUnit	:
+
+Plot options
+xlabel		:   Time [seconds]
+ylabel		:   Maximum concentration [m^3/m^3]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:
+
+
+Figure 3
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   Time
+Ydata		:   sedmin
+XdataDef	:   (:)
+YdataDef	:   (:)
+TimeUnit	:
+
+Plot options
+xlabel		:   Time [seconds]
+ylabel		:   Minimum concentration [m^3/m^3]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:
+
+Figure 4
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   Time
+Ydata		:   sedtot
+XdataDef	:   (:)
+YdataDef	:   (:)
+TimeUnit	:
+
+Plot options
+xlabel		:   Time [seconds]
+ylabel		:   Total sediment amount [kg]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:
+
+Figure 5
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   Time
+Ydata		:   bflxtot
+XdataDef	:   (:)
+YdataDef	:   (:)
+TimeUnit	:
+
+Plot options
+xlabel		:   Time [seconds]
+ylabel		:   Total bottom sediment flux [kg m/s]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:
+
+Figure 6
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   Time
+Ydata		:   dryarea
+XdataDef	:   (:)
+YdataDef	:   (:)
+TimeUnit	:
+
+Plot options
+xlabel		:   Time [seconds]
+ylabel		:   Dry area fraction
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:
+
+Figure 7
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   x
+Ydata		:   ctot
+XdataDef	:   (:)
+YdataDef	:   (:,55,1,end)
+TimeUnit	:
+
+Plot options
+xlabel		:   x
+ylabel		:   Bottom concentration [m^3/m^3]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:
+
+Figure 8
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   time
+Ydata		:   ctot
+XdataDef	:   (:)
+YdataDef	:   (7,55,1,:)
+TimeUnit	:
+
+Plot options
+xlabel		:   Time [seconds]
+ylabel		:   Bottom concentration [m^3/m^3]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:

@@ -1,0 +1,81 @@
+Version: V2.11.2
+Output parameters for test case front: simulation frontD
+
+Time:  0 hours
+  gradh    :   1.000     
+  gradv    :  0.8000     
+  hleng    :   1.000     
+  cmin     :   0.000     
+  cmax     :   2.000     
+Time:  3 hours
+  gradh    :  0.2872     
+  gradv    :  0.3056     
+  hleng    :   7.000     
+  cmin     :  0.1276     
+  cmax     :   1.996     
+Time:  6 hours
+  gradh    :  0.2393     
+  gradv    :  0.2255     
+  hleng    :   8.000     
+  cmin     :  0.1174     
+  cmax     :   1.995     
+Time:  9 hours
+  gradh    :  0.2164     
+  gradv    :  0.2244     
+  hleng    :   9.000     
+  cmin     :  0.1026     
+  cmax     :   1.997     
+Time: 12 hours
+  gradh    :  0.2013     
+  gradv    :  0.2283     
+  hleng    :   10.00     
+  cmin     :  0.7998E-001
+  cmax     :   1.996     
+Time: 15 hours
+  gradh    :  0.1882     
+  gradv    :  0.2242     
+  hleng    :   11.00     
+  cmin     :  0.2120     
+  cmax     :   1.996     
+Time: 18 hours
+  gradh    :  0.1813     
+  gradv    :  0.1966     
+  hleng    :   10.00     
+  cmin     :  0.2043     
+  cmax     :   1.991     
+Time: 21 hours
+  gradh    :  0.1718     
+  gradv    :  0.1987     
+  hleng    :   11.00     
+  cmin     :  0.1893     
+  cmax     :   1.994     
+Time: 24 hours
+  gradh    :  0.1666     
+  gradv    :  0.1984     
+  hleng    :   11.00     
+  cmin     :  0.1927     
+  cmax     :   1.990     
+Time: 27 hours
+  gradh    :  0.1607     
+  gradv    :  0.1887     
+  hleng    :   12.00     
+  cmin     :  0.3074     
+  cmax     :   1.992     
+Time: 30 hours
+  gradh    :  0.1581     
+  gradv    :  0.1826     
+  hleng    :   12.00     
+  cmin     :  0.2625     
+  cmax     :   1.994     
+Time: 33 hours
+  gradh    :  0.1512     
+  gradv    :  0.1839     
+  hleng    :   13.00     
+  cmin     :  0.2490     
+  cmax     :   1.996     
+Time: 36 hours
+  gradh    :  0.1483     
+  gradv    :  0.1833     
+  hleng    :   13.00     
+  cmin     :  0.2474     
+  cmax     :   1.994     

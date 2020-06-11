@@ -1,0 +1,335 @@
+#
+# $Date: 2018-05-11 15:15:43 +0200 (Fri, 11 May 2018) $
+#
+# $Revision: 1131 $
+#
+
+
+Figure 1
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   xpos1
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   xpos1 [longitude]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 2
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   xpos5
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   xpos5 [longitude]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 3
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   xpos9
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   xpos9 [longitude]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 4
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   ypos1
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   xpos1 [latitude]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 5
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   ypos5
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   xpos5 [latitude]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 6
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   ypos9
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   ypos9 [latitude]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 7
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   htrack1
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   htrack1 [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 8
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   htrack4
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   htrack4 [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 9
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   htrack7
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   htrack7 [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 10
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   xdev2
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   xdev2 [longitude]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 11
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   xdev5
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   xdev5 [longitude]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 12
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   xdev8
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   xdev8 [longitude]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 13
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   ydev3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   ydev3 [latitude]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 14
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   ydev6
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   ydev6 [latitude]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 15
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   ydev9
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   ydev9 [latitude]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :

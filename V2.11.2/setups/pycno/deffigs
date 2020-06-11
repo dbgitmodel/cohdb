@@ -1,0 +1,93 @@
+#
+# $Date: 2015-02-03 10:21:02 +0100 (Tue, 03 Feb 2015) $
+#
+# $Revision: 812 $
+#
+
+
+Figure 1
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   vdifcoefmom
+Ydata       :   lev
+XdataDef    :   (1,1,:,end)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 2
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   sal
+Ydata       :   lev
+XdataDef    :   (1,1,:,end)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 3
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   uvel
+Ydata       :   lev
+XdataDef    :   (1,1,:,end)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 4
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   rvmean,vedmax,difmax,tkemax,tmld,usur,drosur
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :

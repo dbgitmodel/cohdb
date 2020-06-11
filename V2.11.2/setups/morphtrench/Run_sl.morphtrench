@@ -1,0 +1,3 @@
+echo "executing test case morphtrench"
+sbatch -n 4 ./Run_mpi.sh
+

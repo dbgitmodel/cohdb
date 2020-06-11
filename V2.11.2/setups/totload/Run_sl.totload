@@ -1,0 +1,3 @@
+echo "executing test case totload"
+sbatch -n 1 ./Run_mpi.sh
+

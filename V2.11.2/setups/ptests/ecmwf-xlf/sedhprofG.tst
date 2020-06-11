@@ -1,0 +1,225 @@
+Version: V2.7
+Output parameters for test case sedhprof: simulation sedhprofG
+ 
+Time:   0 minutes
+  sedmin   :   0.000    
+  sedmax   :   0.000    
+  sedint   :   0.000    
+  t_scale  :   0.000    
+  e_scale  :   4780.    
+Time:   5 minutes
+  sedmin   :  0.1929E-05
+  sedmax   :  0.6156E-05
+  sedint   :  0.2913E-01
+  t_scale  :   220.0    
+  e_scale  :   4780.    
+Time:  10 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.8806E-05
+  sedint   :  0.4115E-01
+  t_scale  :   380.0    
+  e_scale  :   4780.    
+Time:  15 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1058E-04
+  sedint   :  0.4887E-01
+  t_scale  :   540.0    
+  e_scale  :   4780.    
+Time:  20 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1187E-04
+  sedint   :  0.5426E-01
+  t_scale  :   700.0    
+  e_scale  :   4780.    
+Time:  25 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1284E-04
+  sedint   :  0.5811E-01
+  t_scale  :   860.0    
+  e_scale  :   4780.    
+Time:  30 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1356E-04
+  sedint   :  0.6089E-01
+  t_scale  :   1060.    
+  e_scale  :   4780.    
+Time:  35 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1412E-04
+  sedint   :  0.6290E-01
+  t_scale  :   1220.    
+  e_scale  :   4780.    
+Time:  40 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1454E-04
+  sedint   :  0.6435E-01
+  t_scale  :   1380.    
+  e_scale  :   4780.    
+Time:  45 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1486E-04
+  sedint   :  0.6540E-01
+  t_scale  :   1540.    
+  e_scale  :   4780.    
+Time:  50 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1510E-04
+  sedint   :  0.6615E-01
+  t_scale  :   1700.    
+  e_scale  :   4780.    
+Time:  55 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1528E-04
+  sedint   :  0.6669E-01
+  t_scale  :   1820.    
+  e_scale  :   4780.    
+Time:  60 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1542E-04
+  sedint   :  0.6707E-01
+  t_scale  :   1980.    
+  e_scale  :   4780.    
+Time:  65 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1553E-04
+  sedint   :  0.6734E-01
+  t_scale  :   2100.    
+  e_scale  :   4780.    
+Time:  70 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1561E-04
+  sedint   :  0.6753E-01
+  t_scale  :   2220.    
+  e_scale  :   4780.    
+Time:  75 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1567E-04
+  sedint   :  0.6767E-01
+  t_scale  :   2300.    
+  e_scale  :   4780.    
+Time:  80 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1572E-04
+  sedint   :  0.6776E-01
+  t_scale  :   2420.    
+  e_scale  :   4780.    
+Time:  85 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1576E-04
+  sedint   :  0.6783E-01
+  t_scale  :   2500.    
+  e_scale  :   4780.    
+Time:  90 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1578E-04
+  sedint   :  0.6787E-01
+  t_scale  :   2540.    
+  e_scale  :   4780.    
+Time:  95 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1580E-04
+  sedint   :  0.6790E-01
+  t_scale  :   2620.    
+  e_scale  :   4780.    
+Time: 100 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1582E-04
+  sedint   :  0.6792E-01
+  t_scale  :   2660.    
+  e_scale  :   4780.    
+Time: 105 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1583E-04
+  sedint   :  0.6794E-01
+  t_scale  :   2700.    
+  e_scale  :   4780.    
+Time: 110 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1584E-04
+  sedint   :  0.6795E-01
+  t_scale  :   2740.    
+  e_scale  :   4780.    
+Time: 115 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1585E-04
+  sedint   :  0.6795E-01
+  t_scale  :   2740.    
+  e_scale  :   4780.    
+Time: 120 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1585E-04
+  sedint   :  0.6795E-01
+  t_scale  :   2780.    
+  e_scale  :   4780.    
+Time: 125 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1586E-04
+  sedint   :  0.6796E-01
+  t_scale  :   2780.    
+  e_scale  :   4780.    
+Time: 130 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1586E-04
+  sedint   :  0.6796E-01
+  t_scale  :   2780.    
+  e_scale  :   4780.    
+Time: 135 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1586E-04
+  sedint   :  0.6796E-01
+  t_scale  :   2820.    
+  e_scale  :   4780.    
+Time: 140 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1586E-04
+  sedint   :  0.6796E-01
+  t_scale  :   2820.    
+  e_scale  :   4780.    
+Time: 145 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1586E-04
+  sedint   :  0.6796E-01
+  t_scale  :   2820.    
+  e_scale  :   4780.    
+Time: 150 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1586E-04
+  sedint   :  0.6796E-01
+  t_scale  :   2820.    
+  e_scale  :   4780.    
+Time: 155 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1586E-04
+  sedint   :  0.6796E-01
+  t_scale  :   2820.    
+  e_scale  :   4780.    
+Time: 160 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1586E-04
+  sedint   :  0.6796E-01
+  t_scale  :   2820.    
+  e_scale  :   4780.    
+Time: 165 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1586E-04
+  sedint   :  0.6796E-01
+  t_scale  :   2820.    
+  e_scale  :   4780.    
+Time: 170 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1586E-04
+  sedint   :  0.6796E-01
+  t_scale  :   2820.    
+  e_scale  :   4780.    
+Time: 175 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1586E-04
+  sedint   :  0.6796E-01
+  t_scale  :   2820.    
+  e_scale  :   4780.    
+Time: 180 minutes
+  sedmin   :  0.1934E-05
+  sedmax   :  0.1586E-04
+  sedint   :  0.6796E-01
+  t_scale  :   2820.    
+  e_scale  :   4780.    

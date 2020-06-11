@@ -1,0 +1,3 @@
+echo "executing test case convtest"
+sbatch -n 4 ./Run_mpi.sh
+

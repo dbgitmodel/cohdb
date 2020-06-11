@@ -1,0 +1,9 @@
+#
+# test case flood2d (wetting/drying in a channel)
+#
+# Test  iopt_fld    configuration   
+# -----------------------------------
+#   A       1       sloping bottom
+#   B       2       sloping bottom      
+#   C       1       obstacle
+#   D       2       obstacle

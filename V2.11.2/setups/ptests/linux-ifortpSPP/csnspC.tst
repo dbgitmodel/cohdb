@@ -1,0 +1,304 @@
+Version: V2.11
+Output parameters for test case csnsp: simulation csnspC
+ 
+Time:  1.0 weeks
+  tsur     :   7.741     
+  tbot     :   7.753     
+  tmean    :   7.750     
+  tdep     :  -999.9     
+  tgrad    :  0.1761E-002
+  twidth   :  -999.9     
+Time:  2.0 weeks
+  tsur     :   7.564     
+  tbot     :   7.577     
+  tmean    :   7.573     
+  tdep     :  -999.9     
+  tgrad    :  0.1213E-002
+  twidth   :  -999.9     
+Time:  3.0 weeks
+  tsur     :   7.420     
+  tbot     :   7.428     
+  tmean    :   7.426     
+  tdep     :  -999.9     
+  tgrad    :  0.9520E-003
+  twidth   :  -999.9     
+Time:  4.0 weeks
+  tsur     :   7.337     
+  tbot     :   7.348     
+  tmean    :   7.345     
+  tdep     :  -999.9     
+  tgrad    :  0.1367E-002
+  twidth   :  -999.9     
+Time:  5.0 weeks
+  tsur     :   7.246     
+  tbot     :   7.250     
+  tmean    :   7.249     
+  tdep     :  -999.9     
+  tgrad    :  0.4360E-003
+  twidth   :  -999.9     
+Time:  6.0 weeks
+  tsur     :   7.138     
+  tbot     :   7.158     
+  tmean    :   7.151     
+  tdep     :  -999.9     
+  tgrad    :  0.1581E-002
+  twidth   :  -999.9     
+Time:  7.0 weeks
+  tsur     :   6.931     
+  tbot     :   6.955     
+  tmean    :   6.947     
+  tdep     :  -999.9     
+  tgrad    :  0.1954E-002
+  twidth   :  -999.9     
+Time:  8.0 weeks
+  tsur     :   6.791     
+  tbot     :   6.817     
+  tmean    :   6.809     
+  tdep     :  -999.9     
+  tgrad    :  0.1787E-002
+  twidth   :  -999.9     
+Time:  9.0 weeks
+  tsur     :   6.829     
+  tbot     :   6.781     
+  tmean    :   6.791     
+  tdep     :  -999.9     
+  tgrad    :  0.6688E-002
+  twidth   :  -999.9     
+Time: 10.0 weeks
+  tsur     :   6.762     
+  tbot     :   6.786     
+  tmean    :   6.778     
+  tdep     :  -999.9     
+  tgrad    :  0.1810E-002
+  twidth   :  -999.9     
+Time: 11.0 weeks
+  tsur     :   6.716     
+  tbot     :   6.733     
+  tmean    :   6.730     
+  tdep     :  -999.9     
+  tgrad    :  0.2967E-002
+  twidth   :  -999.9     
+Time: 12.0 weeks
+  tsur     :   6.743     
+  tbot     :   6.650     
+  tmean    :   6.676     
+  tdep     :  -999.9     
+  tgrad    :  0.1065E-001
+  twidth   :  -999.9     
+Time: 13.0 weeks
+  tsur     :   6.708     
+  tbot     :   6.730     
+  tmean    :   6.726     
+  tdep     :  -999.9     
+  tgrad    :  0.3978E-002
+  twidth   :  -999.9     
+Time: 14.0 weeks
+  tsur     :   6.884     
+  tbot     :   6.772     
+  tmean    :   6.809     
+  tdep     :  -999.9     
+  tgrad    :  0.6484E-002
+  twidth   :  -999.9     
+Time: 15.0 weeks
+  tsur     :   7.047     
+  tbot     :   6.820     
+  tmean    :   6.932     
+  tdep     :  -999.9     
+  tgrad    :  0.3520E-001
+  twidth   :  -999.9     
+Time: 16.0 weeks
+  tsur     :   7.230     
+  tbot     :   6.891     
+  tmean    :   7.032     
+  tdep     :  -999.9     
+  tgrad    :  0.2487E-001
+  twidth   :  -999.9     
+Time: 17.0 weeks
+  tsur     :   7.945     
+  tbot     :   6.953     
+  tmean    :   7.219     
+  tdep     :  -999.9     
+  tgrad    :  0.5920E-001
+  twidth   :  -999.9     
+Time: 18.0 weeks
+  tsur     :   8.430     
+  tbot     :   7.000     
+  tmean    :   7.430     
+  tdep     :   21.36     
+  tgrad    :  0.1341     
+  twidth   :  -999.9     
+Time: 19.0 weeks
+  tsur     :   8.854     
+  tbot     :   7.057     
+  tmean    :   7.634     
+  tdep     :   29.74     
+  tgrad    :  0.1216     
+  twidth   :  -999.9     
+Time: 20.0 weeks
+  tsur     :   9.207     
+  tbot     :   7.119     
+  tmean    :   7.948     
+  tdep     :   32.79     
+  tgrad    :  0.2870     
+  twidth   :  -999.9     
+Time: 21.0 weeks
+  tsur     :   10.13     
+  tbot     :   7.178     
+  tmean    :   8.209     
+  tdep     :   33.16     
+  tgrad    :  0.3149     
+  twidth   :  -999.9     
+Time: 22.0 weeks
+  tsur     :   10.48     
+  tbot     :   7.232     
+  tmean    :   8.406     
+  tdep     :   33.35     
+  tgrad    :  0.4003     
+  twidth   :  -999.9     
+Time: 23.0 weeks
+  tsur     :   11.58     
+  tbot     :   7.294     
+  tmean    :   8.717     
+  tdep     :   34.69     
+  tgrad    :  0.4561     
+  twidth   :  -999.9     
+Time: 24.0 weeks
+  tsur     :   14.38     
+  tbot     :   7.354     
+  tmean    :   9.065     
+  tdep     :   34.48     
+  tgrad    :  0.4786     
+  twidth   :   24.09     
+Time: 25.0 weeks
+  tsur     :   13.25     
+  tbot     :   7.405     
+  tmean    :   9.299     
+  tdep     :   34.22     
+  tgrad    :  0.5049     
+  twidth   :   15.21     
+Time: 26.0 weeks
+  tsur     :   13.17     
+  tbot     :   7.521     
+  tmean    :   9.598     
+  tdep     :   40.76     
+  tgrad    :  0.3463     
+  twidth   :   24.36     
+Time: 27.0 weeks
+  tsur     :   13.66     
+  tbot     :   7.606     
+  tmean    :   9.883     
+  tdep     :   39.91     
+  tgrad    :  0.3634     
+  twidth   :   15.86     
+Time: 28.0 weeks
+  tsur     :   13.11     
+  tbot     :   7.667     
+  tmean    :   10.07     
+  tdep     :   39.85     
+  tgrad    :  0.5815     
+  twidth   :   6.693     
+Time: 29.0 weeks
+  tsur     :   14.34     
+  tbot     :   7.733     
+  tmean    :   10.37     
+  tdep     :   39.32     
+  tgrad    :  0.6130     
+  twidth   :   6.119     
+Time: 30.0 weeks
+  tsur     :   14.18     
+  tbot     :   7.787     
+  tmean    :   10.55     
+  tdep     :   39.05     
+  tgrad    :  0.7609     
+  twidth   :   5.150     
+Time: 31.0 weeks
+  tsur     :   14.46     
+  tbot     :   7.852     
+  tmean    :   10.71     
+  tdep     :   40.87     
+  tgrad    :   1.030     
+  twidth   :   4.355     
+Time: 32.0 weeks
+  tsur     :   14.62     
+  tbot     :   7.916     
+  tmean    :   10.92     
+  tdep     :   40.53     
+  tgrad    :   1.021     
+  twidth   :   4.171     
+Time: 33.0 weeks
+  tsur     :   14.76     
+  tbot     :   7.977     
+  tmean    :   11.08     
+  tdep     :   40.67     
+  tgrad    :   1.093     
+  twidth   :   4.077     
+Time: 34.0 weeks
+  tsur     :   14.64     
+  tbot     :   8.061     
+  tmean    :   11.17     
+  tdep     :   42.12     
+  tgrad    :   1.016     
+  twidth   :   4.844     
+Time: 35.0 weeks
+  tsur     :   14.63     
+  tbot     :   8.126     
+  tmean    :   11.21     
+  tdep     :   41.83     
+  tgrad    :   1.049     
+  twidth   :   4.413     
+Time: 36.0 weeks
+  tsur     :   14.52     
+  tbot     :   8.182     
+  tmean    :   11.24     
+  tdep     :   41.91     
+  tgrad    :   1.291     
+  twidth   :   3.979     
+Time: 37.0 weeks
+  tsur     :   14.33     
+  tbot     :   8.256     
+  tmean    :   11.24     
+  tdep     :   43.54     
+  tgrad    :  0.9933     
+  twidth   :   5.510     
+Time: 38.0 weeks
+  tsur     :   14.39     
+  tbot     :   8.327     
+  tmean    :   11.31     
+  tdep     :   43.14     
+  tgrad    :  0.9781     
+  twidth   :   5.151     
+Time: 39.0 weeks
+  tsur     :   14.02     
+  tbot     :   8.384     
+  tmean    :   11.20     
+  tdep     :   43.30     
+  tgrad    :   1.075     
+  twidth   :   5.510     
+Time: 40.0 weeks
+  tsur     :   13.56     
+  tbot     :   8.482     
+  tmean    :   11.08     
+  tdep     :   44.45     
+  tgrad    :  0.8964     
+  twidth   :   9.669     
+Time: 41.0 weeks
+  tsur     :   12.37     
+  tbot     :   8.654     
+  tmean    :   10.87     
+  tdep     :   50.99     
+  tgrad    :  0.6077     
+  twidth   :   35.80     
+Time: 42.0 weeks
+  tsur     :   12.19     
+  tbot     :   8.812     
+  tmean    :   10.84     
+  tdep     :   50.61     
+  tgrad    :  0.5847     
+  twidth   :   36.17     
+Time: 43.0 weeks
+  tsur     :   11.57     
+  tbot     :   9.064     
+  tmean    :   10.71     
+  tdep     :   54.72     
+  tgrad    :  0.4357     
+  twidth   :  -999.9     

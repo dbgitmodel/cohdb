@@ -1,0 +1,268 @@
+#
+# $Date: 2016-02-22 13:24:45 +0100 (Mon, 22 Feb 2016) $
+#
+# $Revision: 910 $
+#
+
+
+Figure 1
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   depmeanatc_1
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 2
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   umvel_2
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 3
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   bstresatc_3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 4
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   qtotatu_4
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 5
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   bed_update_int_5
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 6
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   bed_update_dep_int_6
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 7
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   bed_update_ero_int_3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 8
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   vert_sed_balance_4
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 9
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   x
+Ydata       :   umvel
+XdataDef    :   (:)
+YdataDef    :   (:,1,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 10
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   x
+Ydata       :   bed_update_int
+XdataDef    :   (:)
+YdataDef    :   (:,1,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 11
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   x
+Ydata       :   bstresatc
+XdataDef    :   (:)
+YdataDef    :   (:,1,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 12
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   x
+Ydata       :   qtotatu_1
+XdataDef    :   (:)
+YdataDef    :   (:,1,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 

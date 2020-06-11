@@ -1,0 +1,3 @@
+echo "executing test case bohai"
+sbatch -n 4 ./Run_mpi.sh
+

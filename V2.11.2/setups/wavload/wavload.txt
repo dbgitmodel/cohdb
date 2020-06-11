@@ -1,0 +1,9 @@
+#
+# test case wavload
+#
+# Test  iopt_sed_mode iopt_sed_bedeq  iopt_sed_toteq
+# --------------------------------------------------
+#   A       1              5              -
+#   B       4              -              4
+#   C       4              -              6
+#   D       4              -              7

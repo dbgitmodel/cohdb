@@ -1,0 +1,159 @@
+#
+# $Date: 2015-02-03 10:21:02 +0100 (Tue, 03 Feb 2015) $
+#
+# $Revision: 812 $
+#
+
+
+Figure 1
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   ubot
+Ydata       :   waveheight
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Bottom current [m/s]
+ylabel      :   Wave height [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 2
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   bstres_mean
+Ydata       :   waveheight
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Mean bottom stress [Pa]
+ylabel      :   Wave height [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 3
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   bstres_max
+Ydata       :   waveheight
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Maximum bottom stress [Pa]
+ylabel      :   Wave height [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 4
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   bstres_wav
+Ydata       :   waveheight
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Maximum wave-only bottom stress [Pa]
+ylabel      :   Wave height [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 5
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   zarough
+Ydata       :   waveheight
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Apparent bottom roughness [m]
+ylabel      :   Wave height [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 6
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   bdragcoef
+Ydata       :   waveheight
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Bottom drag coefficient
+ylabel      :   Wave height [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 7
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   wavethick
+Ydata       :   waveheight
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Wave boundary layer thickness
+ylabel      :   Wave height [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :

@@ -1,0 +1,4 @@
+#!/bin/sh
+# run main program
+
+time ./coherens 

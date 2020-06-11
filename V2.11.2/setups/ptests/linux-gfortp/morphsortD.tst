@@ -1,0 +1,758 @@
+Version: V2.11.2
+Output parameters for test case morphsort: simulation morphsortD
+
+Time:  6.0 hours
+
+Station:   1
+  bstresatc1              :  0.1822E-002
+  bedloadatu_1_1          :  0.9282E-001
+  bedloadatu_2_1          :   0.000     
+  bed_update_int_1        : -0.7857E-001
+  sed_avail_tot_1         :  0.3214     
+  vert_sed_balance_1      :  0.6631E-006
+  bed_update_dep_int_1_1  :   0.000     
+  bed_update_dep_int_2_1  :   0.000     
+  bed_update_ero_int_1_1  : -0.7857E-001
+  bed_update_ero_int_2_1  :   0.000     
+  bed_fraction_11_1       :   1.000     
+  bed_fraction_12_1       :   0.000     
+  bed_fraction_21_1       :   0.000     
+  bed_fraction_22_1       :   1.000     
+Station:   2
+  bstresatc2              :  0.1786E-002
+  bedloadatu_1_2          :  0.9003E-001
+  bedloadatu_2_2          :   0.000     
+  bed_update_int_2        :  0.2730E-002
+  sed_avail_tot_2         :  0.4027     
+  vert_sed_balance_2      :  0.1092E-005
+  bed_update_dep_int_1_2  :  0.7857E-001
+  bed_update_dep_int_2_2  :   0.000     
+  bed_update_ero_int_1_2  : -0.7584E-001
+  bed_update_ero_int_2_2  :   0.000     
+  bed_fraction_11_2       :   1.000     
+  bed_fraction_12_2       :   0.000     
+  bed_fraction_21_2       :   0.000     
+  bed_fraction_22_2       :   1.000     
+Station:   3
+  bstresatc3              :  0.1537E-002
+  bedloadatu_1_3          :  0.7022E-001
+  bedloadatu_2_3          :   0.000     
+  bed_update_int_3        :  0.2037E-002
+  sed_avail_tot_3         :  0.4020     
+  vert_sed_balance_3      :  0.5790E-004
+  bed_update_dep_int_1_3  :  0.6133E-001
+  bed_update_dep_int_2_3  :   0.000     
+  bed_update_ero_int_1_3  : -0.5929E-001
+  bed_update_ero_int_2_3  :   0.000     
+  bed_fraction_11_3       :   1.000     
+  bed_fraction_12_3       :   0.000     
+  bed_fraction_21_3       :   0.000     
+  bed_fraction_22_3       :   1.000     
+Station:   4
+  bstresatc4              :  0.1286E-002
+  bedloadatu_1_4          :  0.5223E-001
+  bedloadatu_2_4          :   0.000     
+  bed_update_int_4        :  0.1382E-002
+  sed_avail_tot_4         :  0.4014     
+  vert_sed_balance_4      : -0.2059E-004
+  bed_update_dep_int_1_4  :  0.4569E-001
+  bed_update_dep_int_2_4  :   0.000     
+  bed_update_ero_int_1_4  : -0.4431E-001
+  bed_update_ero_int_2_4  :   0.000     
+  bed_fraction_11_4       :   1.000     
+  bed_fraction_12_4       :   0.000     
+  bed_fraction_21_4       :   0.000     
+  bed_fraction_22_4       :   1.000     
+
+Time: 12.0 hours
+
+Station:   1
+  bstresatc1              :  0.1806E-002
+  bedloadatu_1_1          :  0.2931E-001
+  bedloadatu_2_1          :  0.4141E-001
+  bed_update_int_1        : -0.1416     
+  sed_avail_tot_1         :  0.2584     
+  vert_sed_balance_1      :  0.2444E-005
+  bed_update_dep_int_1_1  :   0.000     
+  bed_update_dep_int_2_1  :   0.000     
+  bed_update_ero_int_1_1  : -0.1176     
+  bed_update_ero_int_2_1  : -0.2400E-001
+  bed_fraction_11_1       :  0.3188     
+  bed_fraction_12_1       :  0.6812     
+  bed_fraction_21_1       :   0.000     
+  bed_fraction_22_1       :   0.000     
+Station:   2
+  bstresatc2              :  0.1779E-002
+  bedloadatu_1_2          :  0.7081E-001
+  bedloadatu_2_2          :  0.1256E-001
+  bed_update_int_2        : -0.5615E-002
+  sed_avail_tot_2         :  0.3944     
+  vert_sed_balance_2      :  0.4758E-005
+  bed_update_dep_int_1_2  :  0.1176     
+  bed_update_dep_int_2_2  :  0.2400E-001
+  bed_update_ero_int_1_2  : -0.1435     
+  bed_update_ero_int_2_2  : -0.3765E-002
+  bed_fraction_11_2       :  0.7856     
+  bed_fraction_12_2       :  0.2144     
+  bed_fraction_21_2       :   0.000     
+  bed_fraction_22_2       :   1.000     
+Station:   3
+  bstresatc3              :  0.1537E-002
+  bedloadatu_1_3          :  0.6056E-001
+  bedloadatu_2_3          :  0.5838E-002
+  bed_update_int_3        : -0.4476E-002
+  sed_avail_tot_3         :  0.3955     
+  vert_sed_balance_3      :  0.4510E-004
+  bed_update_dep_int_1_3  :  0.9605E-001
+  bed_update_dep_int_2_3  :  0.1495E-001
+  bed_update_ero_int_1_3  : -0.1139     
+  bed_update_ero_int_2_3  : -0.1622E-002
+  bed_fraction_11_3       :  0.8605     
+  bed_fraction_12_3       :  0.1395     
+  bed_fraction_21_3       :   0.000     
+  bed_fraction_22_3       :   1.000     
+Station:   4
+  bstresatc4              :  0.1286E-002
+  bedloadatu_1_4          :  0.1978E-001
+  bedloadatu_2_4          :  0.1698E-001
+  bed_update_int_4        :  0.9755E-002
+  sed_avail_tot_4         :  0.4098     
+  vert_sed_balance_4      : -0.2767E-004
+  bed_update_dep_int_1_4  :  0.8840E-001
+  bed_update_dep_int_2_4  :  0.6548E-003
+  bed_update_ero_int_1_4  : -0.7097E-001
+  bed_update_ero_int_2_4  : -0.8330E-002
+  bed_fraction_11_4       :  0.3791     
+  bed_fraction_12_4       :  0.6209     
+  bed_fraction_21_4       :   1.000     
+  bed_fraction_22_4       :   0.000     
+
+Time: 18.0 hours
+
+Station:   1
+  bstresatc1              :  0.1793E-002
+  bedloadatu_1_1          :  0.2690E-001
+  bedloadatu_2_1          :  0.4231E-001
+  bed_update_int_1        : -0.1986     
+  sed_avail_tot_1         :  0.2014     
+  vert_sed_balance_1      :  0.9984E-006
+  bed_update_dep_int_1_1  :   0.000     
+  bed_update_dep_int_2_1  :   0.000     
+  bed_update_ero_int_1_1  : -0.1405     
+  bed_update_ero_int_2_1  : -0.5810E-001
+  bed_fraction_11_1       :  0.2953     
+  bed_fraction_12_1       :  0.7047     
+  bed_fraction_21_1       :   0.000     
+  bed_fraction_22_1       :   0.000     
+Station:   2
+  bstresatc2              :  0.1772E-002
+  bedloadatu_1_2          :  0.5023E-001
+  bedloadatu_2_2          :  0.2595E-001
+  bed_update_int_2        : -0.1340E-001
+  sed_avail_tot_2         :  0.3866     
+  vert_sed_balance_2      :  0.2530E-005
+  bed_update_dep_int_1_2  :  0.1405     
+  bed_update_dep_int_2_2  :  0.5810E-001
+  bed_update_ero_int_1_2  : -0.1922     
+  bed_update_ero_int_2_2  : -0.1986E-001
+  bed_fraction_11_2       :  0.5585     
+  bed_fraction_12_2       :  0.4415     
+  bed_fraction_21_2       :   0.000     
+  bed_fraction_22_2       :   1.000     
+Station:   3
+  bstresatc3              :  0.1538E-002
+  bedloadatu_1_3          :  0.4974E-001
+  bedloadatu_2_3          :  0.1238E-001
+  bed_update_int_3        : -0.1058E-001
+  sed_avail_tot_3         :  0.3894     
+  vert_sed_balance_3      :  0.4688E-004
+  bed_update_dep_int_1_3  :  0.1216     
+  bed_update_dep_int_2_3  :  0.3551E-001
+  bed_update_ero_int_1_3  : -0.1584     
+  bed_update_ero_int_2_3  : -0.9261E-002
+  bed_fraction_11_3       :  0.7065     
+  bed_fraction_12_3       :  0.2935     
+  bed_fraction_21_3       :   0.000     
+  bed_fraction_22_3       :   1.000     
+Station:   4
+  bstresatc4              :  0.1286E-002
+  bedloadatu_1_4          :  0.2237E-001
+  bedloadatu_2_4          :  0.1563E-001
+  bed_update_int_4        :  0.1991E-001
+  sed_avail_tot_4         :  0.4199     
+  vert_sed_balance_4      : -0.2618E-004
+  bed_update_dep_int_1_4  :  0.1253     
+  bed_update_dep_int_2_4  :  0.4388E-002
+  bed_update_ero_int_1_4  : -0.8824E-001
+  bed_update_ero_int_2_4  : -0.2157E-001
+  bed_fraction_11_4       :  0.4285     
+  bed_fraction_12_4       :  0.5715     
+  bed_fraction_21_4       :   1.000     
+  bed_fraction_22_4       :   0.000     
+
+Time: 24.0 hours
+
+Station:   1
+  bstresatc1              :  0.1780E-002
+  bedloadatu_1_1          :  0.2400E-001
+  bedloadatu_2_1          :  0.4359E-001
+  bed_update_int_1        : -0.2544     
+  sed_avail_tot_1         :  0.1456     
+  vert_sed_balance_1      :  0.8047E-006
+  bed_update_dep_int_1_1  :   0.000     
+  bed_update_dep_int_2_1  :   0.000     
+  bed_update_ero_int_1_1  : -0.1613     
+  bed_update_ero_int_2_1  : -0.9308E-001
+  bed_fraction_11_1       :  0.2657     
+  bed_fraction_12_1       :  0.7343     
+  bed_fraction_21_1       :   0.000     
+  bed_fraction_22_1       :   0.000     
+Station:   2
+  bstresatc2              :  0.1766E-002
+  bedloadatu_1_2          :  0.3709E-001
+  bedloadatu_2_2          :  0.3446E-001
+  bed_update_int_2        : -0.1769E-001
+  sed_avail_tot_2         :  0.3823     
+  vert_sed_balance_2      :  0.4733E-005
+  bed_update_dep_int_1_2  :  0.1613     
+  bed_update_dep_int_2_2  :  0.9308E-001
+  bed_update_ero_int_1_2  : -0.2273     
+  bed_update_ero_int_2_2  : -0.4479E-001
+  bed_fraction_11_2       :  0.4133     
+  bed_fraction_12_2       :  0.5867     
+  bed_fraction_21_2       :   0.000     
+  bed_fraction_22_2       :   1.000     
+Station:   3
+  bstresatc3              :  0.1538E-002
+  bedloadatu_1_3          :  0.4325E-001
+  bedloadatu_2_3          :  0.1631E-001
+  bed_update_int_3        : -0.1299E-001
+  sed_avail_tot_3         :  0.3870     
+  vert_sed_balance_3      :  0.4748E-004
+  bed_update_dep_int_1_3  :  0.1495     
+  bed_update_dep_int_2_3  :  0.5469E-001
+  bed_update_ero_int_1_3  : -0.1961     
+  bed_update_ero_int_2_3  : -0.2111E-001
+  bed_fraction_11_3       :  0.6141     
+  bed_fraction_12_3       :  0.3859     
+  bed_fraction_21_3       :   0.000     
+  bed_fraction_22_3       :   1.000     
+Station:   4
+  bstresatc4              :  0.1287E-002
+  bedloadatu_1_4          :  0.2397E-001
+  bedloadatu_2_4          :  0.1479E-001
+  bed_update_int_4        :  0.2695E-001
+  sed_avail_tot_4         :  0.4269     
+  vert_sed_balance_4      : -0.2689E-004
+  bed_update_dep_int_1_4  :  0.1573     
+  bed_update_dep_int_2_4  :  0.1078E-001
+  bed_update_ero_int_1_4  : -0.1072     
+  bed_update_ero_int_2_4  : -0.3394E-001
+  bed_fraction_11_4       :  0.4591     
+  bed_fraction_12_4       :  0.5409     
+  bed_fraction_21_4       :   1.000     
+  bed_fraction_22_4       :   0.000     
+
+Time: 30.0 hours
+
+Station:   1
+  bstresatc1              :  0.1767E-002
+  bedloadatu_1_1          :  0.2023E-001
+  bedloadatu_2_1          :  0.4547E-001
+  bed_update_int_1        : -0.3087     
+  sed_avail_tot_1         :  0.9127E-001
+  vert_sed_balance_1      :  0.9239E-006
+  bed_update_dep_int_1_1  :   0.000     
+  bed_update_dep_int_2_1  :   0.000     
+  bed_update_ero_int_1_1  : -0.1794     
+  bed_update_ero_int_2_1  : -0.1293     
+  bed_fraction_11_1       :  0.2256     
+  bed_fraction_12_1       :  0.7744     
+  bed_fraction_21_1       :   0.000     
+  bed_fraction_22_1       :   0.000     
+Station:   2
+  bstresatc2              :  0.1761E-002
+  bedloadatu_1_2          :  0.2873E-001
+  bedloadatu_2_2          :  0.3984E-001
+  bed_update_int_2        : -0.2037E-001
+  sed_avail_tot_2         :  0.3796     
+  vert_sed_balance_2      :  0.1630E-005
+  bed_update_dep_int_1_2  :  0.1794     
+  bed_update_dep_int_2_2  :  0.1293     
+  bed_update_ero_int_1_2  : -0.2539     
+  bed_update_ero_int_2_2  : -0.7522E-001
+  bed_fraction_11_2       :  0.3206     
+  bed_fraction_12_2       :  0.6794     
+  bed_fraction_21_2       :   0.000     
+  bed_fraction_22_2       :   1.000     
+Station:   3
+  bstresatc3              :  0.1539E-002
+  bedloadatu_1_3          :  0.3972E-001
+  bedloadatu_2_3          :  0.1847E-001
+  bed_update_int_3        : -0.1335E-001
+  sed_avail_tot_3         :  0.3866     
+  vert_sed_balance_3      :  0.4796E-004
+  bed_update_dep_int_1_3  :  0.1786     
+  bed_update_dep_int_2_3  :  0.7319E-001
+  bed_update_ero_int_1_3  : -0.2297     
+  bed_update_ero_int_2_3  : -0.3539E-001
+  bed_fraction_11_3       :  0.5637     
+  bed_fraction_12_3       :  0.4363     
+  bed_fraction_21_3       :   0.000     
+  bed_fraction_22_3       :   1.000     
+Station:   4
+  bstresatc4              :  0.1287E-002
+  bedloadatu_1_4          :  0.2495E-001
+  bedloadatu_2_4          :  0.1428E-001
+  bed_update_int_4        :  0.3183E-001
+  sed_avail_tot_4         :  0.4318     
+  vert_sed_balance_4      : -0.2617E-004
+  bed_update_dep_int_1_4  :  0.1857     
+  bed_update_dep_int_2_4  :  0.1908E-001
+  bed_update_ero_int_1_4  : -0.1272     
+  bed_update_ero_int_2_4  : -0.4577E-001
+  bed_fraction_11_4       :  0.4777     
+  bed_fraction_12_4       :  0.5223     
+  bed_fraction_21_4       :   1.000     
+  bed_fraction_22_4       :   0.000     
+
+Time: 36.0 hours
+
+Station:   1
+  bstresatc1              :  0.1756E-002
+  bedloadatu_1_1          :  0.1443E-001
+  bedloadatu_2_1          :  0.4869E-001
+  bed_update_int_1        : -0.3613     
+  sed_avail_tot_1         :  0.3870E-001
+  vert_sed_balance_1      :  0.1550E-005
+  bed_update_dep_int_1_1  :   0.000     
+  bed_update_dep_int_2_1  :   0.000     
+  bed_update_ero_int_1_1  : -0.1937     
+  bed_update_ero_int_2_1  : -0.1676     
+  bed_fraction_11_1       :  0.1618     
+  bed_fraction_12_1       :  0.8382     
+  bed_fraction_21_1       :   0.000     
+  bed_fraction_22_1       :   0.000     
+Station:   2
+  bstresatc2              :  0.1756E-002
+  bedloadatu_1_2          :  0.2219E-001
+  bedloadatu_2_2          :  0.4403E-001
+  bed_update_int_2        : -0.2272E-001
+  sed_avail_tot_2         :  0.3773     
+  vert_sed_balance_2      :  0.1426E-004
+  bed_update_dep_int_1_2  :  0.1937     
+  bed_update_dep_int_2_2  :  0.1676     
+  bed_update_ero_int_1_2  : -0.2746     
+  bed_update_ero_int_2_2  : -0.1094     
+  bed_fraction_11_2       :  0.2478     
+  bed_fraction_12_2       :  0.7522     
+  bed_fraction_21_2       :   0.000     
+  bed_fraction_22_2       :   1.000     
+Station:   3
+  bstresatc3              :  0.1540E-002
+  bedloadatu_1_3          :  0.3791E-001
+  bedloadatu_2_3          :  0.1960E-001
+  bed_update_int_3        : -0.1263E-001
+  sed_avail_tot_3         :  0.3874     
+  vert_sed_balance_3      :  0.4745E-004
+  bed_update_dep_int_1_3  :  0.2083     
+  bed_update_dep_int_2_3  :  0.9134E-001
+  bed_update_ero_int_1_3  : -0.2613     
+  bed_update_ero_int_2_3  : -0.5096E-001
+  bed_fraction_11_3       :  0.5378     
+  bed_fraction_12_3       :  0.4622     
+  bed_fraction_21_3       :   0.000     
+  bed_fraction_22_3       :   1.000     
+Station:   4
+  bstresatc4              :  0.1287E-002
+  bedloadatu_1_4          :  0.2555E-001
+  bedloadatu_2_4          :  0.1398E-001
+  bed_update_int_4        :  0.3533E-001
+  sed_avail_tot_4         :  0.4353     
+  vert_sed_balance_4      : -0.2642E-004
+  bed_update_dep_int_1_4  :  0.2117     
+  bed_update_dep_int_2_4  :  0.2863E-001
+  bed_update_ero_int_1_4  : -0.1478     
+  bed_update_ero_int_2_4  : -0.5727E-001
+  bed_fraction_11_4       :  0.4890     
+  bed_fraction_12_4       :  0.5110     
+  bed_fraction_21_4       :   1.000     
+  bed_fraction_22_4       :   0.000     
+
+Time: 42.0 hours
+
+Station:   1
+  bstresatc1              :  0.1746E-002
+  bedloadatu_1_1          :   0.000     
+  bedloadatu_2_1          :   0.000     
+  bed_update_int_1        : -0.4000     
+  sed_avail_tot_1         :  0.4456E-006
+  vert_sed_balance_1      :  0.5960E-006
+  bed_update_dep_int_1_1  :   0.000     
+  bed_update_dep_int_2_1  :   0.000     
+  bed_update_ero_int_1_1  : -0.2000     
+  bed_update_ero_int_2_1  : -0.2000     
+  bed_fraction_11_1       :   0.000     
+  bed_fraction_12_1       :   0.000     
+  bed_fraction_21_1       :   0.000     
+  bed_fraction_22_1       :   0.000     
+Station:   2
+  bstresatc2              :  0.1749E-002
+  bedloadatu_1_2          :  0.1474E-001
+  bedloadatu_2_2          :  0.4867E-001
+  bed_update_int_2        : -0.3688E-001
+  sed_avail_tot_2         :  0.3631     
+  vert_sed_balance_2      :  0.1396E-004
+  bed_update_dep_int_1_2  :  0.2000     
+  bed_update_dep_int_2_2  :  0.2002     
+  bed_update_ero_int_1_2  : -0.2896     
+  bed_update_ero_int_2_2  : -0.1475     
+  bed_fraction_11_2       :  0.1651     
+  bed_fraction_12_2       :  0.8349     
+  bed_fraction_21_2       :   0.000     
+  bed_fraction_22_2       :   1.000     
+Station:   3
+  bstresatc3              :  0.1540E-002
+  bedloadatu_1_3          :  0.3699E-001
+  bedloadatu_2_3          :  0.2019E-001
+  bed_update_int_3        : -0.1136E-001
+  sed_avail_tot_3         :  0.3886     
+  vert_sed_balance_3      :  0.4978E-004
+  bed_update_dep_int_1_3  :  0.2382     
+  bed_update_dep_int_2_3  :  0.1094     
+  bed_update_ero_int_1_3  : -0.2917     
+  bed_update_ero_int_2_3  : -0.6720E-001
+  bed_fraction_11_3       :  0.5244     
+  bed_fraction_12_3       :  0.4756     
+  bed_fraction_21_3       :   0.000     
+  bed_fraction_22_3       :   1.000     
+Station:   4
+  bstresatc4              :  0.1288E-002
+  bedloadatu_1_4          :  0.2591E-001
+  bedloadatu_2_4          :  0.1379E-001
+  bed_update_int_4        :  0.3797E-001
+  sed_avail_tot_4         :  0.4380     
+  vert_sed_balance_4      : -0.2643E-004
+  bed_update_dep_int_1_4  :  0.2363     
+  bed_update_dep_int_2_4  :  0.3897E-001
+  bed_update_ero_int_1_4  : -0.1687     
+  bed_update_ero_int_2_4  : -0.6858E-001
+  bed_fraction_11_4       :  0.4958     
+  bed_fraction_12_4       :  0.5042     
+  bed_fraction_21_4       :   1.000     
+  bed_fraction_22_4       :   0.000     
+
+Time: 48.0 hours
+
+Station:   1
+  bstresatc1              :  0.1739E-002
+  bedloadatu_1_1          :   0.000     
+  bedloadatu_2_1          :   0.000     
+  bed_update_int_1        : -0.4000     
+  sed_avail_tot_1         :  0.4456E-006
+  vert_sed_balance_1      :  0.5960E-006
+  bed_update_dep_int_1_1  :   0.000     
+  bed_update_dep_int_2_1  :   0.000     
+  bed_update_ero_int_1_1  : -0.2000     
+  bed_update_ero_int_2_1  : -0.2000     
+  bed_fraction_11_1       :   0.000     
+  bed_fraction_12_1       :   0.000     
+  bed_fraction_21_1       :   0.000     
+  bed_fraction_22_1       :   0.000     
+Station:   2
+  bstresatc2              :  0.1734E-002
+  bedloadatu_1_2          :  0.7229E-002
+  bedloadatu_2_2          :  0.5284E-001
+  bed_update_int_2        : -0.8735E-001
+  sed_avail_tot_2         :  0.3126     
+  vert_sed_balance_2      :  0.1451E-004
+  bed_update_dep_int_1_2  :  0.2000     
+  bed_update_dep_int_2_2  :  0.2002     
+  bed_update_ero_int_1_2  : -0.2990     
+  bed_update_ero_int_2_2  : -0.1885     
+  bed_fraction_11_2       :  0.8097E-001
+  bed_fraction_12_2       :  0.9190     
+  bed_fraction_21_2       :   0.000     
+  bed_fraction_22_2       :   1.000     
+Station:   3
+  bstresatc3              :  0.1541E-002
+  bedloadatu_1_3          :  0.3740E-001
+  bedloadatu_2_3          :  0.1997E-001
+  bed_update_int_3        : -0.9227E-002
+  sed_avail_tot_3         :  0.3908     
+  vert_sed_balance_3      :  0.5529E-004
+  bed_update_dep_int_1_3  :  0.2685     
+  bed_update_dep_int_2_3  :  0.1273     
+  bed_update_ero_int_1_3  : -0.3204     
+  bed_update_ero_int_2_3  : -0.8459E-001
+  bed_fraction_11_3       :  0.5300     
+  bed_fraction_12_3       :  0.4700     
+  bed_fraction_21_3       :   0.000     
+  bed_fraction_22_3       :   1.000     
+Station:   4
+  bstresatc4              :  0.1288E-002
+  bedloadatu_1_4          :  0.2614E-001
+  bedloadatu_2_4          :  0.1368E-001
+  bed_update_int_4        :  0.4008E-001
+  sed_avail_tot_4         :  0.4401     
+  vert_sed_balance_4      : -0.2560E-004
+  bed_update_dep_int_1_4  :  0.2600     
+  bed_update_dep_int_2_4  :  0.4979E-001
+  bed_update_ero_int_1_4  : -0.1900     
+  bed_update_ero_int_2_4  : -0.7978E-001
+  bed_fraction_11_4       :  0.5001     
+  bed_fraction_12_4       :  0.4999     
+  bed_fraction_21_4       :   1.000     
+  bed_fraction_22_4       :   0.000     
+
+Time: 54.0 hours
+
+Station:   1
+  bstresatc1              :  0.1733E-002
+  bedloadatu_1_1          :   0.000     
+  bedloadatu_2_1          :   0.000     
+  bed_update_int_1        : -0.4000     
+  sed_avail_tot_1         :  0.4456E-006
+  vert_sed_balance_1      :  0.5960E-006
+  bed_update_dep_int_1_1  :   0.000     
+  bed_update_dep_int_2_1  :   0.000     
+  bed_update_ero_int_1_1  : -0.2000     
+  bed_update_ero_int_2_1  : -0.2000     
+  bed_fraction_11_1       :   0.000     
+  bed_fraction_12_1       :   0.000     
+  bed_fraction_21_1       :   0.000     
+  bed_fraction_22_1       :   0.000     
+Station:   2
+  bstresatc2              :  0.1720E-002
+  bedloadatu_1_2          :  0.2786E-001
+  bedloadatu_2_2          :  0.3868E-001
+  bed_update_int_2        : -0.1403     
+  sed_avail_tot_2         :  0.2597     
+  vert_sed_balance_2      :  0.1407E-004
+  bed_update_dep_int_1_2  :  0.2000     
+  bed_update_dep_int_2_2  :  0.2002     
+  bed_update_ero_int_1_2  : -0.3172     
+  bed_update_ero_int_2_2  : -0.2233     
+  bed_fraction_11_2       :  0.3190     
+  bed_fraction_12_2       :  0.6810     
+  bed_fraction_21_2       :   0.000     
+  bed_fraction_22_2       :   0.000     
+Station:   3
+  bstresatc3              :  0.1542E-002
+  bedloadatu_1_3          :  0.3859E-001
+  bedloadatu_2_3          :  0.1930E-001
+  bed_update_int_3        : -0.6543E-002
+  sed_avail_tot_3         :  0.3935     
+  vert_sed_balance_3      :  0.9138E-004
+  bed_update_dep_int_1_3  :  0.2995     
+  bed_update_dep_int_2_3  :  0.1447     
+  bed_update_ero_int_1_3  : -0.3485     
+  bed_update_ero_int_2_3  : -0.1023     
+  bed_fraction_11_3       :  0.5464     
+  bed_fraction_12_3       :  0.4536     
+  bed_fraction_21_3       :   0.000     
+  bed_fraction_22_3       :   1.000     
+Station:   4
+  bstresatc4              :  0.1288E-002
+  bedloadatu_1_4          :  0.2630E-001
+  bedloadatu_2_4          :  0.1361E-001
+  bed_update_int_4        :  0.4191E-001
+  sed_avail_tot_4         :  0.4419     
+  vert_sed_balance_4      : -0.2633E-004
+  bed_update_dep_int_1_4  :  0.2833     
+  bed_update_dep_int_2_4  :  0.6087E-001
+  bed_update_ero_int_1_4  : -0.2113     
+  bed_update_ero_int_2_4  : -0.9090E-001
+  bed_fraction_11_4       :  0.5029     
+  bed_fraction_12_4       :  0.4971     
+  bed_fraction_21_4       :   1.000     
+  bed_fraction_22_4       :   0.000     
+
+Time: 60.0 hours
+
+Station:   1
+  bstresatc1              :  0.1726E-002
+  bedloadatu_1_1          :   0.000     
+  bedloadatu_2_1          :   0.000     
+  bed_update_int_1        : -0.4000     
+  sed_avail_tot_1         :  0.4456E-006
+  vert_sed_balance_1      :  0.5960E-006
+  bed_update_dep_int_1_1  :   0.000     
+  bed_update_dep_int_2_1  :   0.000     
+  bed_update_ero_int_1_1  : -0.2000     
+  bed_update_ero_int_2_1  : -0.2000     
+  bed_fraction_11_1       :   0.000     
+  bed_fraction_12_1       :   0.000     
+  bed_fraction_21_1       :   0.000     
+  bed_fraction_22_1       :   0.000     
+Station:   2
+  bstresatc2              :  0.1705E-002
+  bedloadatu_1_2          :  0.2561E-001
+  bedloadatu_2_2          :  0.3945E-001
+  bed_update_int_2        : -0.1939     
+  sed_avail_tot_2         :  0.2061     
+  vert_sed_balance_2      :  0.1502E-004
+  bed_update_dep_int_1_2  :  0.2000     
+  bed_update_dep_int_2_2  :  0.2002     
+  bed_update_ero_int_1_2  : -0.3390     
+  bed_update_ero_int_2_2  : -0.2551     
+  bed_fraction_11_2       :  0.2962     
+  bed_fraction_12_2       :  0.7038     
+  bed_fraction_21_2       :   0.000     
+  bed_fraction_22_2       :   0.000     
+Station:   3
+  bstresatc3              :  0.1543E-002
+  bedloadatu_1_3          :  0.3950E-001
+  bedloadatu_2_3          :  0.1880E-001
+  bed_update_int_3        : -0.4000E-002
+  sed_avail_tot_3         :  0.3960     
+  vert_sed_balance_3      :  0.1241E-003
+  bed_update_dep_int_1_3  :  0.3315     
+  bed_update_dep_int_2_3  :  0.1617     
+  bed_update_ero_int_1_3  : -0.3779     
+  bed_update_ero_int_2_3  : -0.1193     
+  bed_fraction_11_3       :  0.5586     
+  bed_fraction_12_3       :  0.4414     
+  bed_fraction_21_3       :   0.000     
+  bed_fraction_22_3       :   1.000     
+Station:   4
+  bstresatc4              :  0.1289E-002
+  bedloadatu_1_4          :  0.2632E-001
+  bedloadatu_2_4          :  0.1362E-001
+  bed_update_int_4        :  0.4319E-001
+  sed_avail_tot_4         :  0.4432     
+  vert_sed_balance_4      : -0.1808E-004
+  bed_update_dep_int_1_4  :  0.3064     
+  bed_update_dep_int_2_4  :  0.7201E-001
+  bed_update_ero_int_1_4  : -0.2338     
+  bed_update_ero_int_2_4  : -0.1015     
+  bed_fraction_11_4       :  0.9128     
+  bed_fraction_12_4       :  0.8723E-001
+  bed_fraction_21_4       :  0.5030     
+  bed_fraction_22_4       :  0.4969     
+
+Time: 66.0 hours
+
+Station:   1
+  bstresatc1              :  0.1720E-002
+  bedloadatu_1_1          :   0.000     
+  bedloadatu_2_1          :   0.000     
+  bed_update_int_1        : -0.4000     
+  sed_avail_tot_1         :  0.4456E-006
+  vert_sed_balance_1      :  0.5960E-006
+  bed_update_dep_int_1_1  :   0.000     
+  bed_update_dep_int_2_1  :   0.000     
+  bed_update_ero_int_1_1  : -0.2000     
+  bed_update_ero_int_2_1  : -0.2000     
+  bed_fraction_11_1       :   0.000     
+  bed_fraction_12_1       :   0.000     
+  bed_fraction_21_1       :   0.000     
+  bed_fraction_22_1       :   0.000     
+Station:   2
+  bstresatc2              :  0.1691E-002
+  bedloadatu_1_2          :  0.2297E-001
+  bedloadatu_2_2          :  0.4049E-001
+  bed_update_int_2        : -0.2463     
+  sed_avail_tot_2         :  0.1537     
+  vert_sed_balance_2      :  0.1575E-004
+  bed_update_dep_int_1_2  :  0.2000     
+  bed_update_dep_int_2_2  :  0.2002     
+  bed_update_ero_int_1_2  : -0.3588     
+  bed_update_ero_int_2_2  : -0.2877     
+  bed_fraction_11_2       :  0.2681     
+  bed_fraction_12_2       :  0.7319     
+  bed_fraction_21_2       :   0.000     
+  bed_fraction_22_2       :   0.000     
+Station:   3
+  bstresatc3              :  0.1544E-002
+  bedloadatu_1_3          :  0.4177E-001
+  bedloadatu_2_3          :  0.1750E-001
+  bed_update_int_3        : -0.5143E-003
+  sed_avail_tot_3         :  0.3995     
+  vert_sed_balance_3      :  0.1428E-003
+  bed_update_dep_int_1_3  :  0.3689     
+  bed_update_dep_int_2_3  :  0.1754     
+  bed_update_ero_int_1_3  : -0.4102     
+  bed_update_ero_int_2_3  : -0.1346     
+  bed_fraction_11_3       :  0.5899     
+  bed_fraction_12_3       :  0.4101     
+  bed_fraction_21_3       :   0.000     
+  bed_fraction_22_3       :   1.000     
+Station:   4
+  bstresatc4              :  0.1289E-002
+  bedloadatu_1_4          :  0.2606E-001
+  bedloadatu_2_4          :  0.1376E-001
+  bed_update_int_4        :  0.4337E-001
+  sed_avail_tot_4         :  0.4434     
+  vert_sed_balance_4      :  0.4370E-005
+  bed_update_dep_int_1_4  :  0.3289     
+  bed_update_dep_int_2_4  :  0.8351E-001
+  bed_update_ero_int_1_4  : -0.2579     
+  bed_update_ero_int_2_4  : -0.1112     
+  bed_fraction_11_4       :  0.4981     
+  bed_fraction_12_4       :  0.5019     
+  bed_fraction_21_4       :   1.000     
+  bed_fraction_22_4       :   0.000     
+
+Time: 72.0 hours
+
+Station:   1
+  bstresatc1              :  0.1713E-002
+  bedloadatu_1_1          :   0.000     
+  bedloadatu_2_1          :   0.000     
+  bed_update_int_1        : -0.4000     
+  sed_avail_tot_1         :  0.4456E-006
+  vert_sed_balance_1      :  0.5960E-006
+  bed_update_dep_int_1_1  :   0.000     
+  bed_update_dep_int_2_1  :   0.000     
+  bed_update_ero_int_1_1  : -0.2000     
+  bed_update_ero_int_2_1  : -0.2000     
+  bed_fraction_11_1       :   0.000     
+  bed_fraction_12_1       :   0.000     
+  bed_fraction_21_1       :   0.000     
+  bed_fraction_22_1       :   0.000     
+Station:   2
+  bstresatc2              :  0.1677E-002
+  bedloadatu_1_2          :  0.1966E-001
+  bedloadatu_2_2          :  0.4195E-001
+  bed_update_int_2        : -0.2973     
+  sed_avail_tot_2         :  0.1027     
+  vert_sed_balance_2      :  0.1490E-004
+  bed_update_dep_int_1_2  :  0.2000     
+  bed_update_dep_int_2_2  :  0.2002     
+  bed_update_ero_int_1_2  : -0.3762     
+  bed_update_ero_int_2_2  : -0.3213     
+  bed_fraction_11_2       :  0.2316     
+  bed_fraction_12_2       :  0.7684     
+  bed_fraction_21_2       :   0.000     
+  bed_fraction_22_2       :   0.000     
+Station:   3
+  bstresatc3              :  0.1545E-002
+  bedloadatu_1_3          :  0.3993E-001
+  bedloadatu_2_3          :  0.1865E-001
+  bed_update_int_3        :  0.9819E-004
+  sed_avail_tot_3         :  0.4001     
+  vert_sed_balance_3      :  0.1382E-003
+  bed_update_dep_int_1_3  :  0.4000     
+  bed_update_dep_int_2_3  :  0.1930     
+  bed_update_ero_int_1_3  : -0.4436     
+  bed_update_ero_int_2_3  : -0.1493     
+  bed_fraction_11_3       :  0.5635     
+  bed_fraction_12_3       :  0.4365     
+  bed_fraction_21_3       :   0.000     
+  bed_fraction_22_3       :   1.000     
+Station:   4
+  bstresatc4              :  0.1289E-002
+  bedloadatu_1_4          :  0.2605E-001
+  bedloadatu_2_4          :  0.1377E-001
+  bed_update_int_4        :  0.4455E-001
+  sed_avail_tot_4         :  0.4446     
+  vert_sed_balance_4      :  0.1557E-005
+  bed_update_dep_int_1_4  :  0.3507     
+  bed_update_dep_int_2_4  :  0.9543E-001
+  bed_update_ero_int_1_4  : -0.2792     
+  bed_update_ero_int_2_4  : -0.1224     
+  bed_fraction_11_4       :  0.4978     
+  bed_fraction_12_4       :  0.5022     
+  bed_fraction_21_4       :   1.000     
+  bed_fraction_22_4       :   0.000     

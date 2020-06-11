@@ -1,0 +1,3 @@
+echo "executing test case rhone"
+sbatch -n 8 ./Run_mpi.sh
+

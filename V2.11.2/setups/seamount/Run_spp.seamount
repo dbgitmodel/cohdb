@@ -1,0 +1,14 @@
+#!/bin/sh
+
+#PBS -l select=1:ncpus=4:mpiprocs=4
+#PBS -l walltime=00:30:00
+#PBS -l place=shared
+
+echo "executing test case seamount"
+
+cd $PBS_O_WORKDIR
+
+./Run_spp.sh
+
+
+

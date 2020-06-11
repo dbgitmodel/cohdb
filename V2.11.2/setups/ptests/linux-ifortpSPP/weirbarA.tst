@@ -1,0 +1,291 @@
+Version: V2.11
+Output parameters for test case weirbar: simulation weirbarA
+ 
+Time:  1.0 hours
+  wdeptot1 :   2.355     
+  wmean1   :   1.460     
+  eloss1   :   7.371     
+  uvelmax  :   146.0     
+  uvelmin  :  -12.06     
+Time:  2.0 hours
+  wdeptot1 :   1.918     
+  wmean1   :   1.035     
+  eloss1   :   4.711     
+  uvelmax  :   103.5     
+  uvelmin  :  -12.88     
+Time:  3.0 hours
+  wdeptot1 :   1.299     
+  wmean1   : -0.6700     
+  eloss1   :   1.629     
+  uvelmax  :   2.923     
+  uvelmin  :  -67.00     
+Time:  4.0 hours
+  wdeptot1 :   1.177     
+  wmean1   :  -1.574     
+  eloss1   :   8.999     
+  uvelmax  :  -15.92     
+  uvelmin  :  -157.4     
+Time:  5.0 hours
+  wdeptot1 :   1.095     
+  wmean1   :  -1.999     
+  eloss1   :   14.51     
+  uvelmax  :  -19.73     
+  uvelmin  :  -199.9     
+Time:  6.0 hours
+  wdeptot1 :   1.038     
+  wmean1   :  -2.125     
+  eloss1   :   16.40     
+  uvelmax  :  -20.54     
+  uvelmin  :  -212.5     
+Time:  7.0 hours
+  wdeptot1 :   1.009     
+  wmean1   :  -1.976     
+  eloss1   :   14.20     
+  uvelmax  :  -6.795     
+  uvelmin  :  -197.6     
+Time:  8.0 hours
+  wdeptot1 :   1.020     
+  wmean1   :  -1.525     
+  eloss1   :   8.455     
+  uvelmax  :   10.75     
+  uvelmin  :  -152.5     
+Time:  9.0 hours
+  wdeptot1 :   1.099     
+  wmean1   : -0.5699     
+  eloss1   :   1.189     
+  uvelmax  :   22.21     
+  uvelmin  :  -56.99     
+Time: 10.0 hours
+  wdeptot1 :   1.938     
+  wmean1   :   1.161     
+  eloss1   :   5.001     
+  uvelmax  :   116.1     
+  uvelmin  :   13.51     
+Time: 11.0 hours
+  wdeptot1 :   2.649     
+  wmean1   :   1.599     
+  eloss1   :   9.347     
+  uvelmax  :   159.9     
+  uvelmin  :   32.40     
+Time: 12.0 hours
+  wdeptot1 :   2.947     
+  wmean1   :   1.663     
+  eloss1   :   10.06     
+  uvelmax  :   166.3     
+  uvelmin  :   40.11     
+Time: 13.0 hours
+  wdeptot1 :   2.743     
+  wmean1   :   1.422     
+  eloss1   :   7.304     
+  uvelmax  :   142.2     
+  uvelmin  :   21.57     
+Time: 14.0 hours
+  wdeptot1 :   2.075     
+  wmean1   :  0.7668     
+  eloss1   :   2.083     
+  uvelmax  :   76.68     
+  uvelmin  :  -7.952     
+Time: 15.0 hours
+  wdeptot1 :   1.552     
+  wmean1   :  -1.037     
+  eloss1   :   3.889     
+  uvelmax  :  -9.868     
+  uvelmin  :  -103.7     
+Time: 16.0 hours
+  wdeptot1 :   1.419     
+  wmean1   :  -1.764     
+  eloss1   :   11.29     
+  uvelmax  :  -21.00     
+  uvelmin  :  -176.4     
+Time: 17.0 hours
+  wdeptot1 :   1.313     
+  wmean1   :  -2.144     
+  eloss1   :   16.70     
+  uvelmax  :  -24.74     
+  uvelmin  :  -214.4     
+Time: 18.0 hours
+  wdeptot1 :   1.234     
+  wmean1   :  -2.262     
+  eloss1   :   18.59     
+  uvelmax  :  -25.26     
+  uvelmin  :  -226.2     
+Time: 19.0 hours
+  wdeptot1 :   1.188     
+  wmean1   :  -2.116     
+  eloss1   :   16.27     
+  uvelmax  :  -13.25     
+  uvelmin  :  -211.6     
+Time: 20.0 hours
+  wdeptot1 :   1.188     
+  wmean1   :  -1.678     
+  eloss1   :   10.24     
+  uvelmax  :   5.975     
+  uvelmin  :  -167.8     
+Time: 21.0 hours
+  wdeptot1 :   1.258     
+  wmean1   : -0.8342     
+  eloss1   :   2.539     
+  uvelmax  :   18.27     
+  uvelmin  :  -83.42     
+Time: 22.0 hours
+  wdeptot1 :   1.917     
+  wmean1   :  0.9547     
+  eloss1   :   3.424     
+  uvelmax  :   95.47     
+  uvelmin  :   9.513     
+Time: 23.0 hours
+  wdeptot1 :   2.646     
+  wmean1   :   1.480     
+  eloss1   :   8.018     
+  uvelmax  :   148.0     
+  uvelmin  :   29.77     
+Time: 24.0 hours
+  wdeptot1 :   2.951     
+  wmean1   :   1.571     
+  eloss1   :   8.972     
+  uvelmax  :   157.1     
+  uvelmin  :   37.86     
+Time: 25.0 hours
+  wdeptot1 :   2.748     
+  wmean1   :   1.331     
+  eloss1   :   6.403     
+  uvelmax  :   133.1     
+  uvelmin  :   19.53     
+Time: 26.0 hours
+  wdeptot1 :   2.081     
+  wmean1   :  0.6259     
+  eloss1   :   1.381     
+  uvelmax  :   62.59     
+  uvelmin  :  -10.41     
+Time: 27.0 hours
+  wdeptot1 :   1.630     
+  wmean1   :  -1.156     
+  eloss1   :   4.843     
+  uvelmax  :  -12.42     
+  uvelmin  :  -115.6     
+Time: 28.0 hours
+  wdeptot1 :   1.496     
+  wmean1   :  -1.820     
+  eloss1   :   12.03     
+  uvelmax  :  -22.67     
+  uvelmin  :  -182.0     
+Time: 29.0 hours
+  wdeptot1 :   1.382     
+  wmean1   :  -2.187     
+  eloss1   :   17.37     
+  uvelmax  :  -26.30     
+  uvelmin  :  -218.7     
+Time: 30.0 hours
+  wdeptot1 :   1.295     
+  wmean1   :  -2.301     
+  eloss1   :   19.23     
+  uvelmax  :  -26.72     
+  uvelmin  :  -230.1     
+Time: 31.0 hours
+  wdeptot1 :   1.244     
+  wmean1   :  -2.155     
+  eloss1   :   16.88     
+  uvelmax  :  -15.32     
+  uvelmin  :  -215.5     
+Time: 32.0 hours
+  wdeptot1 :   1.239     
+  wmean1   :  -1.722     
+  eloss1   :   10.78     
+  uvelmax  :   4.434     
+  uvelmin  :  -172.2     
+Time: 33.0 hours
+  wdeptot1 :   1.306     
+  wmean1   : -0.9021     
+  eloss1   :   2.967     
+  uvelmax  :   17.04     
+  uvelmin  :  -90.21     
+Time: 34.0 hours
+  wdeptot1 :   1.893     
+  wmean1   :  0.8692     
+  eloss1   :   2.844     
+  uvelmax  :   86.92     
+  uvelmin  :   8.166     
+Time: 35.0 hours
+  wdeptot1 :   2.645     
+  wmean1   :   1.442     
+  eloss1   :   7.612     
+  uvelmax  :   144.2     
+  uvelmin  :   28.98     
+Time: 36.0 hours
+  wdeptot1 :   2.953     
+  wmean1   :   1.542     
+  eloss1   :   8.643     
+  uvelmax  :   154.2     
+  uvelmin  :   37.16     
+Time: 37.0 hours
+  wdeptot1 :   2.749     
+  wmean1   :   1.303     
+  eloss1   :   6.129     
+  uvelmax  :   130.3     
+  uvelmin  :   18.87     
+Time: 38.0 hours
+  wdeptot1 :   2.084     
+  wmean1   :  0.5783     
+  eloss1   :   1.177     
+  uvelmax  :   57.83     
+  uvelmin  :  -11.23     
+Time: 39.0 hours
+  wdeptot1 :   1.655     
+  wmean1   :  -1.186     
+  eloss1   :   5.098     
+  uvelmax  :  -13.20     
+  uvelmin  :  -118.6     
+Time: 40.0 hours
+  wdeptot1 :   1.519     
+  wmean1   :  -1.838     
+  eloss1   :   12.27     
+  uvelmax  :  -23.19     
+  uvelmin  :  -183.8     
+Time: 41.0 hours
+  wdeptot1 :   1.403     
+  wmean1   :  -2.200     
+  eloss1   :   17.57     
+  uvelmax  :  -26.77     
+  uvelmin  :  -220.0     
+Time: 42.0 hours
+  wdeptot1 :   1.313     
+  wmean1   :  -2.312     
+  eloss1   :   19.42     
+  uvelmax  :  -27.17     
+  uvelmin  :  -231.2     
+Time: 43.0 hours
+  wdeptot1 :   1.260     
+  wmean1   :  -2.166     
+  eloss1   :   17.06     
+  uvelmax  :  -15.96     
+  uvelmin  :  -216.6     
+Time: 44.0 hours
+  wdeptot1 :   1.255     
+  wmean1   :  -1.734     
+  eloss1   :   10.94     
+  uvelmax  :   3.963     
+  uvelmin  :  -173.4     
+Time: 45.0 hours
+  wdeptot1 :   1.320     
+  wmean1   : -0.9217     
+  eloss1   :   3.097     
+  uvelmax  :   16.67     
+  uvelmin  :  -92.17     
+Time: 46.0 hours
+  wdeptot1 :   1.889     
+  wmean1   :  0.8452     
+  eloss1   :   2.686     
+  uvelmax  :   84.52     
+  uvelmin  :   7.735     
+Time: 47.0 hours
+  wdeptot1 :   2.645     
+  wmean1   :   1.431     
+  eloss1   :   7.493     
+  uvelmax  :   143.1     
+  uvelmin  :   28.75     
+Time: 48.0 hours
+  wdeptot1 :   2.954     
+  wmean1   :   1.533     
+  eloss1   :   8.544     
+  uvelmax  :   153.3     
+  uvelmin  :   36.95     

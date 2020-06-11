@@ -1,0 +1,296 @@
+#
+# Copyright 2014 RBINS-MUMM
+#
+# Licensed under the EUPL, Version 1.1 or - as soon they will be approved by
+# the European Commission - subsequent versions of the EUPL (the "Licence");
+# You may not use this work except in compliance with the Licence.
+# You may obtain a copy of the Licence at:
+#
+# http://ec.europa.eu/idabc/eupl
+#
+# Unless required by the applicable law or agreed to in writing, software
+# distributed under the Licence is distributed on an "AS IS" basis,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the Licence for the specific language governing permissions and
+# limitations under the Licence.
+#
+# Dependencies for compiling of COHERENS
+#
+# Version - @{COHERENS}dependencies.cmp   V2.11.2
+#
+# $Date: 2018-07-13 10:07:41 +0200 (Fri, 13 Jul 2018) $
+#
+# $Revision: 1163 $
+#
+
+# modules
+
+couplingvars.o: couplingvars.F90
+currents.o: currents.f90
+datatypes.o: datatypes.f90 syspars.o
+density.o: density.f90
+depths.o: depths.f90
+diffusion.o: diffusion.f90
+fluxes.o: fluxes.f90
+grid.o: grid.f90
+gridpars.o: gridpars.f90
+iopars.o: iopars.f90 datatypes.o syspars.o
+meteo.o: meteo.f90
+modids.o: modids.f90 syspars.o
+multigrid.o: multigrid.f90 datatypes.o syspars.o
+nestgrids.o: nestgrids.f90 datatypes.o
+obconds.o: obconds.f90 syspars.o
+optics.o: optics.f90
+paralpars.o: paralpars.f90 datatypes.o syspars.o
+physpars.o: physpars.f90 iopars.o syspars.o
+relaxation.o: relaxation.f90
+structures.o: structures.f90 syspars.o
+switches.o: switches.f90
+syspars.o: syspars.f90
+tide.o: tide.f90 syspars.o
+timepars.o: timepars.f90 syspars.o
+turbpars.o: turbpars.f90
+turbulence.o: turbulence.f90
+wavepars.o: wavepars.f90 syspars.o
+wavevars.o: wavevars.f90 syspars.o
+
+array_interp.o: array_interp.f90 depths.o grid.o gridpars.o iopars.o \
+ switches.o syspars.o error_routines.o time_routines.o
+cf90_routines.o: cf90_routines.F90 iopars.o switches.o syspars.o \
+ error_routines.o time_routines.o
+check_model.o: check_model.f90 datatypes.o depths.o fluxes.o grid.o \
+ gridpars.o iopars.o modids.o nestgrids.o paralpars.o physpars.o structures.o \
+ switches.o syspars.o tide.o timepars.o error_routines.o grid_routines.o \
+ modvars_routines.o paral_utilities.o time_routines.o utility_routines.o
+cif_routines.o: cif_routines.f90 datatypes.o iopars.o paralpars.o syspars.o \
+ error_routines.o utility_routines.o
+comms_MPI.o: comms_MPI.F90 iopars.o paralpars.o switches.o syspars.o \
+ error_routines.o modvars_routines.o time_routines.o
+datatypes_init.o: datatypes_init.f90 datatypes.o iopars.o switches.o
+default_model.o: default_model.f90 datatypes.o gridpars.o iopars.o modids.o \
+ nestgrids.o obconds.o paralpars.o physpars.o relaxation.o structures.o \
+ switches.o syspars.o tide.o timepars.o turbpars.o datatypes_init.o \
+ error_routines.o modvars_routines.o time_routines.o
+diagnostic_routines.o: diagnostic_routines.f90 currents.o density.o depths.o \
+ diffusion.o fluxes.o grid.o gridpars.o iopars.o modids.o obconds.o optics.o \
+ physpars.o switches.o tide.o array_interp.o error_routines.o grid_routines.o \
+ paral_utilities.o time_routines.o
+error_routines.o: error_routines.F90 datatypes.o iopars.o paralpars.o \
+ switches.o syspars.o timepars.o utility_routines.o
+fft_library.o: fft_library.f90 iopars.o syspars.o error_routines.o \
+ time_routines.o utility_routines.o
+grid_interp.o: grid_interp.f90 datatypes.o depths.o grid.o gridpars.o \
+ iopars.o modids.o paralpars.o switches.o syspars.o array_interp.o \
+ error_routines.o grid_routines.o time_routines.o
+grid_routines.o: grid_routines.f90 depths.o grid.o gridpars.o iopars.o \
+ multigrid.o paralpars.o physpars.o switches.o syspars.o error_routines.o \
+ math_library.o paral_comms.o time_routines.o
+inout_paral.o: inout_paral.f90 datatypes.o grid.o gridpars.o iopars.o \
+ paralpars.o switches.o syspars.o error_routines.o grid_routines.o \
+ inout_routines.o paral_comms.o time_routines.o
+inout_routines.o: inout_routines.f90 datatypes.o iopars.o modids.o \
+ paralpars.o physpars.o switches.o syspars.o timepars.o cf90_routines.o \
+ cif_routines.o datatypes_init.o error_routines.o modvars_routines.o \
+ reset_model.o time_routines.o utility_routines.o
+math_library.o: math_library.f90 grid.o gridpars.o iopars.o paralpars.o \
+ switches.o syspars.o array_interp.o error_routines.o time_routines.o
+model_output.o: model_output.f90 currents.o datatypes.o density.o depths.o \
+ diffusion.o fluxes.o grid.o gridpars.o iopars.o meteo.o modids.o optics.o \
+ physpars.o switches.o syspars.o timepars.o turbulence.o wavevars.o \
+ array_interp.o biology_output.o diagnostic_routines.o error_routines.o \
+ grid_interp.o math_library.o modvars_routines.o paral_utilities.o \
+ particle_output.o sediment_output.o time_routines.o turbulence_routines.o
+modvars_routines.o: modvars_routines.f90 datatypes.o gridpars.o iopars.o \
+ modids.o nestgrids.o obconds.o paralpars.o physpars.o relaxation.o \
+ structures.o switches.o syspars.o tide.o wavepars.o biovars_routines.o \
+ datatypes_init.o partvars_routines.o sedvars_routines.o utility_routines.o
+nla_library.o: nla_library.f90 grid.o gridpars.o iopars.o syspars.o \
+ error_routines.o math_library.o time_routines.o utility_routines.o
+paral_comms.o: paral_comms.f90 datatypes.o grid.o gridpars.o iopars.o \
+ multigrid.o paralpars.o switches.o syspars.o comms_MPI.o error_routines.o \
+ time_routines.o
+paral_utilities.o: paral_utilities.f90 grid.o gridpars.o iopars.o \
+ multigrid.o paralpars.o switches.o syspars.o comms_MPI.o error_routines.o \
+ paral_comms.o time_routines.o
+reset_model.o: reset_model.f90 datatypes.o density.o fluxes.o grid.o \
+ gridpars.o iopars.o nestgrids.o paralpars.o physpars.o structures.o \
+ switches.o syspars.o tide.o timepars.o wavevars.o cf90_routines.o \
+ error_routines.o modvars_routines.o time_routines.o utility_routines.o
+rng_library.o: rng_library.f90 iopars.o switches.o syspars.o \
+ error_routines.o time_routines.o
+time_routines.o: time_routines.f90 iopars.o paralpars.o switches.o syspars.o \
+ timepars.o error_routines.o modvars_routines.o utility_routines.o
+turbulence_routines.o: turbulence_routines.f90 gridpars.o iopars.o syspars.o \
+ turbpars.o turbulence.o error_routines.o time_routines.o
+utility_routines.o: utility_routines.f90 iopars.o switches.o syspars.o
+
+# subprograms
+
+Advection_Terms.o: Advection_Terms.f90 currents.o depths.o grid.o gridpars.o \
+ iopars.o modids.o obconds.o physpars.o switches.o syspars.o timepars.o \
+ wavevars.o array_interp.o error_routines.o paral_comms.o time_routines.o \
+ utility_routines.o
+Allocate_Arrays.o: Allocate_Arrays.f90 currents.o density.o depths.o \
+ diffusion.o fluxes.o grid.o gridpars.o iopars.o meteo.o nestgrids.o \
+ obconds.o optics.o paralpars.o physpars.o relaxation.o structures.o \
+ switches.o syspars.o tide.o timepars.o turbulence.o wavevars.o \
+ error_routines.o time_routines.o utility_routines.o
+Bottom_Fluxes.o: Bottom_Fluxes.f90 currents.o depths.o fluxes.o grid.o \
+ gridpars.o iopars.o modids.o physpars.o switches.o syspars.o timepars.o \
+ wavevars.o array_interp.o error_routines.o math_library.o paral_comms.o \
+ time_routines.o
+Corrector_Terms.o: Corrector_Terms.f90 currents.o depths.o grid.o gridpars.o \
+ iopars.o syspars.o timepars.o error_routines.o time_routines.o
+Density_Equations.o: Density_Equations.f90 currents.o datatypes.o density.o \
+ depths.o diffusion.o fluxes.o grid.o gridpars.o iopars.o meteo.o modids.o \
+ nestgrids.o obconds.o optics.o physpars.o relaxation.o structures.o \
+ switches.o syspars.o timepars.o turbulence.o array_interp.o datatypes_init.o \
+ error_routines.o grid_routines.o paral_comms.o time_routines.o \
+ utility_routines.o
+Diffusion_Coefficients.o: Diffusion_Coefficients.f90 currents.o density.o \
+ depths.o diffusion.o grid.o gridpars.o iopars.o modids.o paralpars.o \
+ physpars.o switches.o syspars.o timepars.o array_interp.o error_routines.o \
+ grid_routines.o paral_comms.o time_routines.o
+Diffusion_Terms.o: Diffusion_Terms.f90 currents.o depths.o diffusion.o \
+ grid.o gridpars.o iopars.o modids.o obconds.o physpars.o switches.o \
+ syspars.o timepars.o array_interp.o error_routines.o time_routines.o
+Grid_Arrays.o: Grid_Arrays.f90 currents.o datatypes.o depths.o grid.o \
+ gridpars.o iopars.o modids.o multigrid.o paralpars.o physpars.o switches.o \
+ syspars.o timepars.o array_interp.o error_routines.o grid_routines.o \
+ inout_routines.o math_library.o modvars_routines.o paral_comms.o \
+ paral_utilities.o time_routines.o
+Harmonic_Analysis.o: Harmonic_Analysis.f90 datatypes.o depths.o grid.o \
+ gridpars.o iopars.o modids.o paralpars.o physpars.o switches.o syspars.o \
+ tide.o timepars.o check_model.o datatypes_init.o default_model.o \
+ error_routines.o grid_routines.o inout_paral.o inout_routines.o \
+ math_library.o model_output.o nla_library.o paral_comms.o paral_utilities.o \
+ reset_model.o time_routines.o utility_routines.o
+Hydrodynamic_Equations.o: Hydrodynamic_Equations.f90 currents.o depths.o \
+ fluxes.o grid.o gridpars.o iopars.o meteo.o modids.o obconds.o paralpars.o \
+ physpars.o relaxation.o switches.o syspars.o tide.o timepars.o turbulence.o \
+ wavevars.o array_interp.o error_routines.o grid_routines.o paral_comms.o \
+ paral_utilities.o time_routines.o
+Inundation_Schemes.o: Inundation_Schemes.f90 currents.o depths.o grid.o \
+ gridpars.o iopars.o modids.o physpars.o switches.o syspars.o timepars.o \
+ error_routines.o paral_comms.o time_routines.o
+Model_Initialisation.o: Model_Initialisation.F90 currents.o datatypes.o \
+ density.o depths.o diffusion.o fluxes.o grid.o gridpars.o iopars.o meteo.o \
+ modids.o obconds.o optics.o paralpars.o physpars.o structures.o switches.o \
+ syspars.o tide.o timepars.o turbulence.o array_interp.o check_biology.o \
+ check_model.o check_particles.o check_sediments.o cif_routines.o comms_MPI.o \
+ datatypes_init.o default_biology.o default_model.o default_particles.o \
+ default_sediments.o error_routines.o inout_paral.o inout_routines.o \
+ paral_comms.o paral_utilities.o reset_biology.o reset_model.o \
+ reset_particles.o reset_sediments.o rng_library.o time_routines.o
+Model_Finalisation.o: Model_Finalisation.f90 currents.o datatypes.o \
+ density.o depths.o fluxes.o grid.o gridpars.o iopars.o obconds.o paralpars.o \
+ structures.o switches.o syspars.o tide.o timepars.o turbulence.o wavevars.o \
+ comms_MPI.o error_routines.o inout_paral.o inout_routines.o \
+ modvars_routines.o paral_comms.o rng_library.o time_routines.o
+Model_Parameters.o: Model_Parameters.f90 gridpars.o iopars.o nestgrids.o \
+ obconds.o paralpars.o physpars.o relaxation.o structures.o switches.o \
+ syspars.o tide.o timepars.o turbpars.o cif_routines.o error_routines.o \
+ time_routines.o
+MultiGrid_Initialisation.o: MultiGrid_Initialisation.f90 currents.o depths.o \
+ grid.o gridpars.o iopars.o modids.o multigrid.o obconds.o paralpars.o \
+ physpars.o structures.o switches.o syspars.o timepars.o error_routines.o \
+ grid_routines.o paral_comms.o time_routines.o
+MultiGrid_Schemes.o: MultiGrid_Schemes.f90 currents.o depths.o grid.o \
+ gridpars.o iopars.o meteo.o multigrid.o physpars.o structures.o switches.o \
+ syspars.o timepars.o wavevars.o error_routines.o grid_routines.o \
+ paral_comms.o paral_utilities.o time_routines.o
+Nested_Grids.o: Nested_Grids.f90 currents.o datatypes.o depths.o gridpars.o \
+ iopars.o nestgrids.o paralpars.o switches.o syspars.o timepars.o \
+ datatypes_init.o error_routines.o grid_interp.o grid_routines.o \
+ inout_paral.o inout_routines.o modvars_routines.o time_routines.o \
+ utility_routines.o
+Open_Boundary_Conditions.o: Open_Boundary_Conditions.f90 currents.o \
+ density.o depths.o diffusion.o fluxes.o grid.o gridpars.o iopars.o modids.o \
+ multigrid.o obconds.o physpars.o switches.o syspars.o tide.o timepars.o \
+ wavevars.o array_interp.o nla_library.o time_routines.o utility_routines.o
+Open_Boundary_Data_2D.o: Open_Boundary_Data_2D.f90 datatypes.o depths.o \
+ fluxes.o grid.o gridpars.o iopars.o meteo.o obconds.o paralpars.o physpars.o \
+ switches.o syspars.o tide.o timepars.o error_routines.o inout_routines.o \
+ modvars_routines.o paral_comms.o time_routines.o utility_routines.o
+Open_Boundary_Data_Prof.o: Open_Boundary_Data_Prof.f90 datatypes.o \
+ gridpars.o iopars.o paralpars.o relaxation.o switches.o syspars.o timepars.o \
+ error_routines.o inout_routines.o modvars_routines.o time_routines.o \
+ utility_routines.o
+Parallel_Initialisation.o: Parallel_Initialisation.f90 datatypes.o grid.o \
+ gridpars.o iopars.o modids.o multigrid.o paralpars.o physpars.o switches.o \
+ syspars.o comms_MPI.o error_routines.o inout_routines.o modvars_routines.o \
+ time_routines.o utility_routines.o
+Relaxation_Zones.o: Relaxation_Zones.f90 datatypes.o grid.o gridpars.o \
+ iopars.o paralpars.o relaxation.o switches.o syspars.o error_routines.o \
+ grid_routines.o inout_routines.o modvars_routines.o paral_comms.o \
+ time_routines.o utility_routines.o
+Structures_Model.o: Structures_Model.f90 currents.o datatypes.o depths.o \
+ fluxes.o grid.o gridpars.o iopars.o modids.o paralpars.o physpars.o \
+ structures.o switches.o syspars.o timepars.o array_interp.o datatypes_init.o \
+ error_routines.o grid_interp.o grid_routines.o inout_routines.o \
+ modvars_routines.o paral_comms.o time_routines.o utility_routines.o
+Surface_Boundary_Data_1D.o: Surface_Boundary_Data_1D.f90 datatypes.o \
+ depths.o grid.o gridpars.o iopars.o obconds.o paralpars.o physpars.o \
+ switches.o syspars.o tide.o timepars.o error_routines.o inout_routines.o \
+ modvars_routines.o time_routines.o utility_routines.o
+Surface_Data.o: Surface_Data.f90 datatypes.o gridpars.o iopars.o paralpars.o \
+ switches.o syspars.o timepars.o error_routines.o grid_interp.o \
+ inout_routines.o modvars_routines.o paral_comms.o time_routines.o \
+ utility_routines.o
+Surface_Fluxes.o: Surface_Fluxes.f90 currents.o datatypes.o density.o \
+ fluxes.o grid.o gridpars.o iopars.o meteo.o modids.o optics.o paralpars.o \
+ physpars.o switches.o syspars.o timepars.o array_interp.o datatypes_init.o \
+ error_routines.o grid_routines.o math_library.o modvars_routines.o \
+ paral_comms.o time_routines.o
+Surface_Grids.o: Surface_Grids.f90 datatypes.o gridpars.o iopars.o \
+ paralpars.o syspars.o error_routines.o grid_interp.o grid_routines.o \
+ inout_routines.o modvars_routines.o paral_comms.o time_routines.o
+Surface_Waves.o: Surface_Waves.f90 currents.o datatypes.o depths.o fluxes.o \
+ grid.o gridpars.o iopars.o modids.o physpars.o switches.o syspars.o \
+ timepars.o wavevars.o array_interp.o datatypes_init.o error_routines.o \
+ modvars_routines.o paral_comms.o time_routines.o
+Tidal_Forcing.o: Tidal_Forcing.f90 grid.o gridpars.o iopars.o modids.o \
+ switches.o syspars.o tide.o timepars.o array_interp.o error_routines.o \
+ math_library.o paral_comms.o time_routines.o utility_routines.o
+Time_Averages.o: Time_Averages.f90 datatypes.o depths.o grid.o gridpars.o \
+ iopars.o modids.o paralpars.o switches.o syspars.o timepars.o check_model.o \
+ datatypes_init.o default_model.o error_routines.o grid_routines.o \
+ inout_paral.o inout_routines.o model_output.o paral_comms.o \
+ paral_utilities.o reset_model.o time_routines.o utility_routines.o
+Time_Series.o: Time_Series.f90 datatypes.o depths.o grid.o gridpars.o \
+ iopars.o modids.o paralpars.o switches.o syspars.o timepars.o check_model.o \
+ datatypes_init.o default_model.o error_routines.o grid_routines.o \
+ inout_paral.o inout_routines.o model_output.o paral_comms.o \
+ paral_utilities.o reset_model.o time_routines.o utility_routines.o
+Transport_Equations.o: Transport_Equations.f90 currents.o depths.o \
+ diffusion.o grid.o gridpars.o iopars.o modids.o physpars.o relaxation.o \
+ switches.o syspars.o timepars.o wavevars.o array_interp.o error_routines.o \
+ modvars_routines.o nla_library.o paral_comms.o time_routines.o \
+ utility_routines.o
+Turbulence_Equations.o: Turbulence_Equations.f90 currents.o depths.o \
+ diffusion.o fluxes.o grid.o gridpars.o iopars.o modids.o physpars.o \
+ switches.o syspars.o timepars.o turbpars.o turbulence.o array_interp.o \
+ error_routines.o math_library.o paral_comms.o time_routines.o \
+ turbulence_routines.o
+Wave_Coupler.o: Wave_Coupler.F90 couplingvars.o currents.o datatypes.o \
+ depths.o grid.o gridpars.o iopars.o modids.o paralpars.o switches.o \
+ syspars.o timepars.o wavepars.o wavevars.o array_interp.o comms_MPI.o \
+ datatypes_init.o error_routines.o grid_interp.o grid_routines.o \
+ inout_routines.o paral_comms.o time_routines.o
+
+# user-defined subprograms
+
+Usrdef_Harmonic_Analysis.o: Usrdef_Harmonic_Analysis.f90 $(MODFILES)
+Usrdef_Model.o: Usrdef_Model.f90 $(MODFILES)
+Usrdef_Nested_Grids.o: Usrdef_Nested_Grids.f90 $(MODFILES)
+Usrdef_Output.o: Usrdef_Output.f90 $(MODFILES)
+Usrdef_Structures.o: Usrdef_Structures.f90 $(MODFILES)
+Usrdef_Surface_Data.o: Usrdef_Surface_Data.f90 $(MODFILES)
+Usrdef_Time_Averages.o: Usrdef_Time_Averages.f90 $(MODFILES)
+Usrdef_Time_Series.o: Usrdef_Time_Series.f90 $(MODFILES)
+
+# main program
+
+Coherens_Program.o: Coherens_Program.f90 iopars.o paralpars.o switches.o \
+ syspars.o timepars.o comms_MPI.o error_routines.o inout_routines.o \
+ time_routines.o utility_routines.o

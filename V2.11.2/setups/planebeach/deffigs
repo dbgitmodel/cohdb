@@ -1,0 +1,482 @@
+#
+# $Date: 2016-02-22 13:24:45 +0100 (Mon, 22 Feb 2016) $
+#
+# $Revision: 910 $
+#
+
+
+Figure 1
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   bstresatc1
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 2
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   umstokes3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 3
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   vmstokes5
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 4
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   umvel7
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 5
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   vmvel8
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 6
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   waveheight2
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 7
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   waveperiod4
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 8
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   wavedir6
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 9
+
+User data
+ChartType   :
+Runs        :   planebeachA,planebeachB,planebeachD,planebeachE,planebeachF
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   wavepres8
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 10
+
+User data
+ChartType   :
+Runs        :   planebeachA,planebeachC,planebeachD,planebeachE,planebeachF
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   umswdissip2
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 11
+
+User data
+ChartType   :
+Runs        :   planebeachA,planebeachC,planebeachD,planebeachE,planebeachF
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   umbwdissip4
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 12
+
+User data
+ChartType   :
+Runs        :   planebeachA,planebeachC,planebeachD,planebeachE,planebeachF
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   vmswdissip6
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 13
+
+User data
+ChartType   :
+Runs        :   planebeachA,planebeachC,planebeachD,planebeachE,planebeachF
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   vmbwdissip7
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 14
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   y
+Ydata       :   zeta
+XdataDef    :   (:)
+YdataDef    :   (6,:,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 15
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   y
+Ydata       :   umstokesatc
+XdataDef    :   (:)
+YdataDef    :   (6,:,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 16
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   y
+Ydata       :   vmstokesatc
+XdataDef    :   (:)
+YdataDef    :   (6,:,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 17
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   y
+Ydata       :   umveltot
+XdataDef    :   (:)
+YdataDef    :   (6,:,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 18
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   y
+Ydata       :   vmveltot
+XdataDef    :   (:)
+YdataDef    :   (6,:,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 19
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   y
+Ydata       :   waveheight
+XdataDef    :   (:)
+YdataDef    :   (6,:,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 20
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   y
+Ydata       :   waveperiod
+XdataDef    :   (:)
+YdataDef    :   (6,:,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 21
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   y
+Ydata       :   wavedir
+XdataDef    :   (:)
+YdataDef    :   (6,:,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 22
+
+User data
+ChartType   :
+Runs        :   planebeachA,planebeachB,planebeachD,planebeachE,planebeachF
+PhysProp    :   
+Xdata       :   y
+Ydata       :   wavepres
+XdataDef    :   (:)
+YdataDef    :   (6,:,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 

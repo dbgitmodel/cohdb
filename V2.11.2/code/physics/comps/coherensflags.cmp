@@ -1,0 +1,58 @@
+#
+# Licensed under the EUPL, Version 1.1 or - as soon they will be approved by
+# the European Commission - subsequent versions of the EUPL (the "Licence");
+# You may not use this work except in compliance with the Licence.
+# You may obtain a copy of the Licence at:
+#
+# http://ec.europa.eu/idabc/eupl
+#
+# Unless required by the applicable law or agreed to in writing, software
+# distributed under the Licence is distributed on an "AS IS" basis,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the Licence for the specific language governing permissions and
+# limitations under the Licence.
+#
+# Generic Makefile for COHERENS
+#
+# Author - Patrick Luyten
+# 
+# Version - @{COHERENS}Makefile   V2.x
+#
+# $Date: 2014-07-16 12:04:27 +0200 (Wed, 16 Jul 2014) $
+#
+# $Revision: 731 $
+#
+
+# options for compilation with CPP
+## -DALLOC :allocates/deallocates local arrays
+## -DMPI   :includes MPI library
+## -DMCT   :inclludes MCT library
+## -DSWAN  :includes SWAN wave model
+## -DCDF   :includes netCDF library
+## -DVERIF :enables output for verification procedure
+
+#CPPDFLAGS = -DCDF -DMPI -DMCT -DSWAN
+CPPDFLAGS = -DCDF
+
+# double precision
+#FCDEFS = -fdefault-real-8
+
+# physics directory path
+PHYSMOD = COHERENS/code/physics
+
+# sediment directory path
+#SEDMOD = COHERENS/code/sediment_default
+SEDMOD = COHERENS/code/sediment
+
+# biology directory path
+BIOMOD = COHERENS/code/biology_default
+
+# particle directory path 
+#PARMOD = COHERENS/code/tracers_default
+PARMOD = COHERENS/code/tracers
+
+#include files
+FCIFLAGS =  -I/usr/include
+#library files
+#FLIB_FILES =  -L/usr/lib -lnetcdff -lmct -lmpeu -lswan
+FLIB_FILES =  -L/usr/lib -lnetcdff

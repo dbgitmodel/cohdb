@@ -1,0 +1,62 @@
+#!/bin/sh
+#
+# Version - @{COHERENS}install_test   V2.9
+#
+# $Date: 2017-09-08 09:49:20 +0200 (Fri, 08 Sep 2017) $
+#
+# $Revision: 1048 $
+#
+# installs a test case or user application, defined in path/test_name on the
+# current directory
+# syntax:
+#   install_test [[-c] test_name [path]]
+# if path is omitted, path is taken as COHERENS/setups
+# if test_name and path are absent, installs only the standard COHERENS code
+# with option '-c', all source code is copied to the current directory
+# use option '-c' only if VPATH is not defined in the Makefile
+
+# clear any old links that may exist
+
+rm -f SOURCE BSOURCE SSOURCE COMPS BCOMPS SCOMPS SCR SETUP
+
+# create the linked directories
+#  SOURCE: full path name of subdirectory with the COHERENS source code
+#  BSOURCE: full path name of subdirectory with the biological source code
+#  COMPS: full path name of subdirectory with files for compilation
+#  BCOMPS: full path name of subdirectory with files for biological compilation
+#  SRC: full path name of subdirectory with shell scripts
+#  SETUP: full path name of the sudirectory containing case-dependent setup
+
+# create links
+
+ln -s COHERENS/code/physics/source SOURCE
+ln -s COHERENS/code/source/biology_default BSOURCE
+ln -s COHERENS/code/sediment/source SSOURCE
+ln -s COHERENS/code/tracers/source TSOURCE
+
+ln -s COHERENS/code/physics/comps COMPS
+ln -s COHERENS/code/physics/comps BCOMPS
+ln -s COHERENS/code/sediment/comps SCOMPS
+ln -s COHERENS/code/tracers/comps TCOMPS
+
+ln -s COHERENS/scr SCR
+
+cp COMPS/coherensflags.cmp .
+cp COMPS/Makefile .
+cp SCR/* .
+
+if [ "$1" = "-t" ]
+then
+  ln -s COHERENS/setups/$2 SETUP
+  cp SETUP/* .
+  shift 2
+elif [ "$1" = "-u" ]
+then
+  ln -s $2 SETUP
+  cp SETUP/* .
+  shift
+  shift
+fi
+if [ "$1" = "-o" ]; then
+  cp $2 coherensflags.cmp
+fi

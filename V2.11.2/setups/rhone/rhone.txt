@@ -1,0 +1,12 @@
+#
+# rhone plume experiments
+#
+# Test  Purpose
+# ---------------------------------------------------
+#  A    default with Q = 1500 m3/s
+#  B    Q = 6000 m3/s
+#  C    Paconowski-Philander formulation
+#  D    WIND = 6,  WDIR = 0
+#  E    WIND = 6,  WDIR = 90
+#  F    WIND = 6,  WDIR = 180
+#  G    WIND = 6,  WDIR = 270

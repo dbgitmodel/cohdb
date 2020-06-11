@@ -1,0 +1,40 @@
+#
+# Copyright 2013 RBINS-MUMM
+#
+# Licensed under the EUPL, Version 1.1 or - as soon they will be approved by
+# the European Commission - subsequent versions of the EUPL (the "Licence");
+# You may not use this work except in compliance with the Licence.
+# You may obtain a copy of the Licence at:
+#
+# http://ec.europa.eu/idabc/eupl
+#
+# Unless required by the applicable law or agreed to in writing, software
+# distributed under the Licence is distributed on an "AS IS" basis,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the Licence for the specific language governing permissions and
+# limitations under the Licence.
+#
+# Dependencies for compiling the default (empty) sediment model
+#
+# Version -  @{COHERENS}dependencies_sed_cmp   V2.11.2
+#
+# $Date: 2018-07-13 10:07:41 +0200 (Fri, 13 Jul 2018) $
+#
+# $Revision: 1163 $
+#
+
+# modules
+
+check_sediments.o: check_sediments.f90
+default_sediments.o: default_sediments.f90
+reset_sediments.o: reset_sediments.f90
+sediment_output.o: sediment_output.f90 gridpars.o syspars.o
+sedvars_routines.o: sedvars_routines.f90 datatypes.o syspars.o
+
+# subprograms
+
+Sediment_Model.o: Sediment_Model.f90 gridpars.o syspars.o
+
+# user-defined subprograms
+
+Usrdef_Sediment.o: Usrdef_Sediment.f90 $(MODFILES)

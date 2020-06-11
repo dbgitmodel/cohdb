@@ -1,0 +1,94 @@
+#
+# Copyright 2014 RBINS-MUMM
+#
+# Licensed under the EUPL, Version 1.1 or - as soon they will be approved by
+# the European Commission - subsequent versions of the EUPL (the "Licence");
+# You may not use this work except in compliance with the Licence.
+# You may obtain a copy of the Licence at:
+#
+# http://ec.europa.eu/idabc/eupl
+#
+# Unless required by the applicable law or agreed to in writing, software
+# distributed under the Licence is distributed on an "AS IS" basis,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the Licence for the specific language governing permissions and
+# limitations under the Licence.
+#
+# Dependencies for compiling the particle model
+#
+# Version -  @{COHERENS}dependencies_part_cmp   V2.11.2
+#
+# $Date: 2016-04-04 09:25:08 +0200 (Mon, 04 Apr 2016) $
+#
+# $Revision: 931 $
+#
+
+# modules
+
+partids.o: partids.f90 syspars.o
+partpars.o: partpars.f90 syspars.o
+partswitches.o: partswitches.f90
+parttypes.o: parttypes.f90 syspars.o
+partvars.o: partvars.f90 datatypes.o parttypes.o
+
+check_particles.o: check_particles.f90 iopars.o partpars.o partswitches.o \
+ partvars.o switches.o syspars.o timepars.o error_routines.o time_routines.o \
+ utility_routines.o
+default_particles.o: default_particles.f90 iopars.o partpars.o \
+ partswitches.o partvars.o switches.o syspars.o timepars.o time_routines.o
+particle_routines.o: particle_routines.f90 depths.o grid.o gridpars.o \
+ partvars.o switches.o syspars.o
+parttypes_init.o: parttypes_init.f90 parttypes.o
+partvars_routines.o: partvars_routines.f90 datatypes.o gridpars.o iopars.o \
+ modids.o partids.o partpars.o partswitches.o switches.o syspars.o
+reset_particles.o: reset_particles.f90 gridpars.o iopars.o paralpars.o \
+ partpars.o partswitches.o partvars.o switches.o syspars.o timepars.o \
+ error_routines.o time_routines.o
+
+# subprograms
+ 
+Allocate_Particle_Arrays.o: Allocate_Particle_Arrays.f90 currents.o \
+ density.o depths.o grid.o gridpars.o iopars.o meteo.o paralpars.o partpars.o \
+ partswitches.o partvars.o switches.o syspars.o error_routines.o \
+ parttypes_init.o time_routines.o
+Particle_Cloud.o: Particle_Cloud.f90 datatypes.o depths.o grid.o gridpars.o \
+ iopars.o partpars.o partswitches.o partvars.o physpars.o switches.o \
+ syspars.o timepars.o error_routines.o grid_interp.o inout_routines.o \
+ modvars_routines.o particle_routines.o rng_library.o time_routines.o
+Particle_Finalisation.o: Particle_Finalisation.f90 datatypes.o iopars.o \
+ partswitches.o partvars.o switches.o timepars.o error_routines.o \
+ inout_routines.o modvars_routines.o time_routines.o
+Particle_Forcing_Data.o: Particle_Forcing_Data.f90 currents.o datatypes.o \
+ density.o depths.o diffusion.o grid.o gridpars.o iopars.o modids.o \
+ paralpars.o partids.o partpars.o partswitches.o partvars.o physpars.o \
+ switches.o syspars.o timepars.o comms_MPI.o error_routines.o inout_paral.o \
+ inout_routines.o modvars_routines.o paral_comms.o time_routines.o \
+ utility_routines.o
+Particle_Initialisation.o: Particle_Initialisation.f90 datatypes.o depths.o \
+ grid.o gridpars.o iopars.o modids.o paralpars.o partpars.o partswitches.o \
+ partvars.o switches.o syspars.o timepars.o check_model.o check_particles.o \
+ comms_MPI.o datatypes_init.o default_model.o default_particles.o \
+ error_routines.o grid_interp.o inout_routines.o particle_routines.o \
+ reset_model.o reset_particles.o rng_library.o time_routines.o
+Particle_Model.o: Particle_Model.f90 currents.o density.o depths.o grid.o \
+ gridpars.o iopars.o meteo.o paralpars.o partids.o partpars.o partswitches.o \
+ partvars.o physpars.o switches.o syspars.o timepars.o error_routines.o \
+ grid_interp.o inout_routines.o math_library.o paral_comms.o \
+ particle_routines.o rng_library.o time_routines.o
+particle_output.o: particle_output.f90 depths.o grid.o gridpars.o iopars.o \
+ partids.o partvars.o syspars.o array_interp.o error_routines.o grid_interp.o \
+ modvars_routines.o paral_utilities.o time_routines.o
+Particle_Parameters.o: Particle_Parameters.f90 iopars.o paralpars.o \
+ partpars.o partswitches.o partvars.o syspars.o cif_routines.o \
+ error_routines.o time_routines.o
+Particle_Trajects.o: Particle_Trajects.f90 datatypes.o depths.o grid.o \
+ gridpars.o iopars.o modids.o paralpars.o partids.o partpars.o partswitches.o \
+ partvars.o switches.o syspars.o timepars.o array_interp.o cf90_routines.o \
+ check_model.o check_particles.o cif_routines.o datatypes_init.o \
+ default_model.o default_particles.o error_routines.o inout_routines.o \
+ modvars_routines.o particle_routines.o parttypes_init.o reset_particles.o \
+ time_routines.o utility_routines.o
+
+# user-defined subprograms
+
+Usrdef_Particle.o: Usrdef_Particle.f90 $(MODFILES)

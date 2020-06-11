@@ -1,0 +1,30 @@
+#
+# Copyright 2013 RBINS-MUMM
+#
+# Licensed under the EUPL, Version 1.1 or - as soon they will be approved by
+# the European Commission - subsequent versions of the EUPL (the "Licence");
+# You may not use this work except in compliance with the Licence.
+# You may obtain a copy of the Licence at:
+#
+# http://ec.europa.eu/idabc/eupl
+#
+# Unless required by the applicable law or agreed to in writing, software
+# distributed under the Licence is distributed on an "AS IS" basis,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the Licence for the specific language governing permissions and
+# limitations under the Licence.
+#
+# Object files for the default (empty) biological model
+#
+# Version - @{COHERENS}objects_bio_cmp   V2.11.2
+#
+# $Date: 2018-07-13 10:07:41 +0200 (Fri, 13 Jul 2018) $
+#
+# $Revision: 1163 $
+#
+
+MODULES_BIO = \
+biology_output.o biovars_routines.o check_biology.o \
+default_biology.o reset_biology.o
+
+SUBPROGS_BIO = Biological_Model.o Usrdef_Biology.o

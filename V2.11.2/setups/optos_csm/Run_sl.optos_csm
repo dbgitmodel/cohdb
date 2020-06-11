@@ -1,0 +1,3 @@
+echo "executing test case optos_csm"
+sbatch -n 11 ./Run_mpi.sh
+

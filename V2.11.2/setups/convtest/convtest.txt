@@ -1,0 +1,12 @@
+#
+# test case convtest
+#
+#  Test  iopt_curr iopt_hdif_coef iopt_meteo iopt_dens_convect
+#  ------------------------------------------------------------------------
+#   A         2           0           0              0
+#   B         2           1           0              0
+#   C         2           1           1              0
+#   D         2           1           1              1 
+#   E         0           1           1              1
+
+

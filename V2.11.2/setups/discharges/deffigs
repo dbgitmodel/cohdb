@@ -1,0 +1,489 @@
+#
+# $Date: 2015-02-03 10:21:02 +0100 (Tue, 03 Feb 2015) $
+#
+# $Revision: 812 $
+#
+
+
+Figure 1
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   balance
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time
+ylabel      :   balance
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 2
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   zetad1
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time
+ylabel      :   zetad1 [cm]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 3
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   zetad2
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time
+ylabel      :   zetad2 [cm]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 4
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   zetad3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time
+ylabel      :   zetad3 [cm]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 5
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   zetad4
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time
+ylabel      :   zetad4 [cm]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 6
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   velmagd1
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time
+ylabel      :   velmagd1 [cm/s]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 7
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   velmagd2
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time
+ylabel      :   velmagd2 [cm/s]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 8
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   velmagd3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time
+ylabel      :   velmagd3 [cm/s]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 9
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   velmagd4
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time
+ylabel      :   velmagd4 [cm/s]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 10
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   veldird3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time
+ylabel      :   veldird3
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 11
+
+User data
+ChartType   :	
+Runs        :   
+PhysProp    :   
+Xdata       :   x
+Ydata       :   uvel
+XdataDef    :   (51:150)
+YdataDef    :   (51:150,76,end,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 12
+
+User data
+ChartType   :	
+Runs        :   
+PhysProp    :   
+Xdata       :   x
+Ydata       :   uvel
+XdataDef    :   (51:150)
+YdataDef    :   (51:150,76,1,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 13
+
+User data
+ChartType   :	
+Runs        :   
+PhysProp    :   
+Xdata       :   x
+Ydata       :   zeta
+XdataDef    :   (51:150)
+YdataDef    :   (51:150,76,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 14
+
+User data
+ChartType   :	
+Runs        :   
+PhysProp    :   
+Xdata       :   y
+Ydata       :   vvel
+XdataDef    :   (51:150)
+YdataDef    :   (126,51:150,end,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 15
+
+User data
+ChartType   :	
+Runs        :   
+PhysProp    :   
+Xdata       :   y
+Ydata       :   vvel
+XdataDef    :   (51:150)
+YdataDef    :   (126,51:150,1,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 16
+
+User data
+ChartType   :	
+Runs        :   
+PhysProp    :   
+Xdata       :   y
+Ydata       :   zeta
+XdataDef    :   (51:150)
+YdataDef    :   (126,51:150,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 17
+
+User data
+ChartType   :	
+Runs        :   
+PhysProp    :   
+Xdata       :   x
+Ydata       :   uvel
+XdataDef    :   (51:150)
+YdataDef    :   (51:150,126,end,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 18
+
+User data
+ChartType   :	
+Runs        :   
+PhysProp    :   
+Xdata       :   x
+Ydata       :   uvel
+XdataDef    :   (51:150)
+YdataDef    :   (51:150,126,1,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 19
+
+User data
+ChartType   :	
+Runs        :   
+PhysProp    :   
+Xdata       :   x
+Ydata       :   zeta
+XdataDef    :   (51:150)
+YdataDef    :   (51:150,126,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 20
+
+User data
+ChartType   :	
+Runs        :   
+PhysProp    :   
+Xdata       :   y
+Ydata       :   vvel
+XdataDef    :   (51:150)
+YdataDef    :   (76,51:150,end,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 21
+
+User data
+ChartType   :	
+Runs        :   
+PhysProp    :   
+Xdata       :   y
+Ydata       :   vvel
+XdataDef    :   (51:150)
+YdataDef    :   (76,51:150,end,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 22
+
+User data
+ChartType   :	
+Runs        :   
+PhysProp    :   
+Xdata       :   y
+Ydata       :   zeta
+XdataDef    :   (51:150)
+YdataDef    :   (76,51:150,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :

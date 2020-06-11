@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+#PBS -l walltime=00:10:00
+#PBS -l nodes=1:ppn=1:ib
+
+cd /data/group/bwk_HYDR//patrick
+
+mpirun -np 1 ./postproc

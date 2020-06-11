@@ -1,0 +1,336 @@
+Version: V2.11.2
+Output parameters for test case sedhprof: simulation sedhprofC
+
+Time:   0 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :   0.000     
+  sedmax   :   0.000     
+  sedint   :   0.000     
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time:   5 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9560E-007
+  sedmax   :  0.4437E-006
+  sedint   :  0.2091E-002
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time:  10 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.8123E-006
+  sedint   :  0.3762E-002
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time:  15 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.1118E-005
+  sedint   :  0.5094E-002
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time:  20 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.1373E-005
+  sedint   :  0.6155E-002
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time:  25 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.1584E-005
+  sedint   :  0.6998E-002
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time:  30 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.1759E-005
+  sedint   :  0.7667E-002
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time:  35 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.1905E-005
+  sedint   :  0.8196E-002
+  t_scale  :   0.000     
+  e_scale  :   0.000     
+Time:  40 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2026E-005
+  sedint   :  0.8614E-002
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time:  45 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2126E-005
+  sedint   :  0.8943E-002
+  t_scale  :   0.000     
+  e_scale  :   0.000     
+Time:  50 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2210E-005
+  sedint   :  0.9201E-002
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time:  55 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2279E-005
+  sedint   :  0.9403E-002
+  t_scale  :   0.000     
+  e_scale  :   0.000     
+Time:  60 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2337E-005
+  sedint   :  0.9561E-002
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time:  65 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2385E-005
+  sedint   :  0.9683E-002
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time:  70 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2424E-005
+  sedint   :  0.9777E-002
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time:  75 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2457E-005
+  sedint   :  0.9849E-002
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time:  80 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2485E-005
+  sedint   :  0.9905E-002
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time:  85 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2508E-005
+  sedint   :  0.9946E-002
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time:  90 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2527E-005
+  sedint   :  0.9978E-002
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time:  95 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2542E-005
+  sedint   :  0.1000E-001
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time: 100 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2555E-005
+  sedint   :  0.1002E-001
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time: 105 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2566E-005
+  sedint   :  0.1003E-001
+  t_scale  :   0.000     
+  e_scale  :   0.000     
+Time: 110 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2575E-005
+  sedint   :  0.1004E-001
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time: 115 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2583E-005
+  sedint   :  0.1004E-001
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time: 120 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2589E-005
+  sedint   :  0.1005E-001
+  t_scale  :   0.000     
+  e_scale  :   0.000     
+Time: 125 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2594E-005
+  sedint   :  0.1005E-001
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time: 130 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2598E-005
+  sedint   :  0.1005E-001
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time: 135 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2601E-005
+  sedint   :  0.1005E-001
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time: 140 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2601E-005
+  sedint   :  0.1005E-001
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time: 145 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2601E-005
+  sedint   :  0.1005E-001
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time: 150 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2601E-005
+  sedint   :  0.1005E-001
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time: 155 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2601E-005
+  sedint   :  0.1005E-001
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time: 160 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2601E-005
+  sedint   :  0.1005E-001
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time: 165 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2601E-005
+  sedint   :  0.1005E-001
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time: 170 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2601E-005
+  sedint   :  0.1005E-001
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time: 175 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2601E-005
+  sedint   :  0.1005E-001
+  t_scale  :   0.000     
+  e_scale  :   4780.     
+Time: 180 minutes
+  cheight  :  0.3120E-001
+  cref     :  0.7348E-002
+  ceq      :  0.1301E-005
+  sedmin   :  0.9621E-007
+  sedmax   :  0.2601E-005
+  sedint   :  0.1005E-001
+  t_scale  :   0.000     
+  e_scale  :   4780.     

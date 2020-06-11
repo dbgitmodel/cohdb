@@ -1,0 +1,731 @@
+#
+# $Date: 2018-05-15 09:24:02 +0200 (Tue, 15 May 2018) $
+#
+# $Revision: 1135 $
+#
+
+
+Figure 1
+
+User data
+ChartType   :
+Runs        :   partestA,partestB,partestC,partestF,partestG
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   xpos01
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   xpos01 [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 2
+
+User data
+ChartType   :
+Runs        :   partestA,partestB,partestC,partestF,partestG
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   xpos15
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   xpos15 [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 3
+
+User data
+ChartType   :
+Runs        :   partestA,partestB,partestC,partestF,partestG
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   xpos30
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   xpos30 [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 4
+
+User data
+ChartType   :
+Runs        :   partestA,partestB,partestC,partestF,partestG
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   ypos01
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   ypos01 [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 5
+
+User data
+ChartType   :
+Runs        :   partestA,partestB,partestC,partestF,partestG
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   ypos15
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   ypos15 [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 6
+
+User data
+ChartType   :
+Runs        :   partestA,partestB,partestC,partestF,partestG
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   ypos30
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   ypos30 [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 7
+
+User data
+ChartType   :
+Runs        :   partestB,partestC,partestF
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   zpos01
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   zpos01 [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 8
+
+User data
+ChartType   :
+Runs        :   partestB,partestC,partestF
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   zpos15
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   zpos15 [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 9
+
+User data
+ChartType   :
+Runs        :   partestB,partestC,partestF
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   zpos30
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   zpos30 [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 10
+
+User data
+ChartType   :
+Runs        :   partestA,partestB,partestC,partestF,partestG
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   htrack01
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   htrack01 [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 11
+
+User data
+ChartType   :
+Runs        :   partestA,partestB,partestC,partestF,partestG
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   htrack15
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   htrack15 [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 12
+
+User data
+ChartType   :
+Runs        :   partestA,partestB,partestC,partestF,partestG
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   htrack30
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   htrack30 [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 13
+
+User data
+ChartType   :
+Runs        :   partestB,partestC,partestF
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   vtrack01
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   vtrack01 [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 14
+
+User data
+ChartType   :
+Runs        :   partestB,partestC,partestF
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   vtrack15
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   vtrack15 [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 15
+
+User data
+ChartType   :
+Runs        :   partestB,partestC,partestF
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   vtrack30
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   vtrack30 [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 16
+
+User data
+ChartType   :
+Runs        :   partestD,partestE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   xcen1
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   xcen1 [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 17
+
+User data
+ChartType   :
+Runs        :   partestD,partestE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   xcen2
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   xcen2 [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 18
+
+User data
+ChartType   :
+Runs        :   partestD,partestE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   xcen3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   xcen3 [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 19
+
+User data
+ChartType   :
+Runs        :   partestD,partestE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   ycen1
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   ycen1 [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 20
+
+User data
+ChartType   :
+Runs        :   partestD,partestE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   ycen2
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   ycen2 [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 21
+
+User data
+ChartType   :
+Runs        :   partestD,partestE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   ycen3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   ycen3 [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 22
+
+User data
+ChartType   :
+Runs        :   partestD,partestE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   zcen1
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   zcen1 [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 23
+
+User data
+ChartType   :
+Runs        :   partestD,partestE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   zcen2
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   zcen2 [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 24
+
+User data
+ChartType   :
+Runs        :   partestD,partestE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   zcen3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   zcen3 [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 25
+
+User data
+ChartType   :
+Runs        :   partestD,partestE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   xdev1
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   xdev1 [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 26
+
+User data
+ChartType   :
+Runs        :   partestD,partestE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   xdev2
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   xdev2 [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 27
+
+User data
+ChartType   :
+Runs        :   partestD,partestE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   xdev3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   xdev3 [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 28
+
+User data
+ChartType   :
+Runs        :   partestD,partestE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   ydev1
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   ydev1 [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 29
+
+User data
+ChartType   :
+Runs        :   partestD,partestE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   ydev2
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   ydev2 [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 30
+
+User data
+ChartType   :
+Runs        :   partestD,partestE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   ydev3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   ydev3 [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 31
+
+User data
+ChartType   :
+Runs        :   partestD,partestE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   zdev1
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   zdev1 [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 32
+
+User data
+ChartType   :
+Runs        :   partestD,partestE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   zdev2
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   zdev2 [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 33
+
+User data
+ChartType   :
+Runs        :   partestD,partestE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   zdev3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   zdev3 [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :

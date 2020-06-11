@@ -1,0 +1,181 @@
+#
+# $Date: 2015-02-03 10:21:02 +0100 (Tue, 03 Feb 2015) $
+#
+# $Revision: 812 $
+#
+
+
+Figure 1
+
+User data
+ChartType   :	
+Runs        :	
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   gradh
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   gradh [1/km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 2
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   gradv
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   gradv [1/m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 3
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   cmin
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 4
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   cmax
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 5
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   hleng
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   hleng [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 6
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   x
+Ydata       :   sal
+XdataDef    :   (:)
+YdataDef    :   (:,1,end-1,end)
+TimeUnit    :
+
+Plot options
+xlabel      :   
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 7
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   x
+Ydata       :   wphys
+XdataDef    :   (:)
+YdataDef    :   (:,1,10,end)
+TimeUnit    :
+
+Plot options
+xlabel      :   
+ylabel      :   
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 8
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   sal
+Ydata       :   lev
+XdataDef    :   (30,1,:,end)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :  
+ylabel      :   
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :

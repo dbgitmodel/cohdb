@@ -1,0 +1,3 @@
+echo "executing test case weirbar"
+sbatch -n 8 ./Run_mpi.sh
+

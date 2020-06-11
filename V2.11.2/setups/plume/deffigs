@@ -1,0 +1,335 @@
+#
+# $Date: 2018-07-23 16:34:19 +0200 (Mon, 23 Jul 2018) $
+#
+# $Revision: 1170 $
+#
+
+
+Figure 1
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   hbulge
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   hbulge [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 2
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   hwidth
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   hwidth [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 3
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   pdep
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   pdep [m]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 4
+
+User data
+ChartType   :	
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   hfront
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   hfront [km]
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 5
+
+User data
+ChartType   :	
+Runs        :
+PhysProp    :   
+Xdata       :   x
+Ydata       :   sal
+XdataDef    :   (:)
+YdataDef    :   (:,5,end,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 6
+
+User data
+ChartType   :	
+Runs        :
+PhysProp    :   
+Xdata       :   x
+Ydata       :   uvel
+XdataDef    :   (:)
+YdataDef    :   (:,5,end,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 7
+
+User data
+ChartType   :	
+Runs        :
+PhysProp    :   
+Xdata       :   x
+Ydata       :   vvel
+XdataDef    :   (:)
+YdataDef    :   (:,5,end,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 8
+
+User data
+ChartType   :	
+Runs        :
+PhysProp    :   
+Xdata       :   x
+Ydata       :   wphys
+XdataDef    :   (:)
+YdataDef    :   (:,5,10,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 9
+
+User data
+ChartType   :	
+Runs        :
+PhysProp    :   
+Xdata       :   y
+Ydata       :   sal
+XdataDef    :   (:)
+YdataDef    :   (50,:,end,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 10
+
+User data
+ChartType   :	
+Runs        :
+PhysProp    :   
+Xdata       :   y
+Ydata       :   uvel
+XdataDef    :   (:)
+YdataDef    :   (50,:,end,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 11
+
+User data
+ChartType   :	
+Runs        :
+PhysProp    :   
+Xdata       :   y
+Ydata       :   vvel
+XdataDef    :   (:)
+YdataDef    :   (50,:,end,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 12
+
+User data
+ChartType   :	
+Runs        :
+PhysProp    :   
+Xdata       :   y
+Ydata       :   wphys
+XdataDef    :   (:)
+YdataDef    :   (50,:,10,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 13
+
+User data
+ChartType   :	
+Runs        :	plumeC
+PhysProp    :   
+Xdata       :   y
+Ydata       :   hdifcoef2d_scal
+XdataDef    :   (:)
+YdataDef    :   (50,:,end,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 14
+
+User data
+ChartType   :	
+Runs        :	plumeC
+PhysProp    :   
+Xdata       :   x
+Ydata       :   hdifcoef2datc
+XdataDef    :   (:)
+YdataDef    :   (:,5,end,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 15
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   sures,svres,selmaj,sellip,zetres,zetamp,zetpha
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :

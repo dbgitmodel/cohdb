@@ -1,0 +1,22 @@
+nGlbAtts : 17
+Conventions : CF-1.6
+title : Domain decomposition
+institution : RBINS – Operational Directorate Natural Environment
+source : Coherens version V2.10.1
+nCoordinates : 0
+nVariables : 4
+Floattype : S
+packing : F
+varatts : 1,3,2,11,3,mgvars%nc1procs,global_x_index_of_local_sw_corner_per_process,,Global X-index of local SW corner per process,_,,F,
+varatts : 2,3,2,11,3,mgvars%nc2procs,global_x_index_of_local_se_corner_per_process,,Global X-index of local SE corner per process,_,,F,
+varatts : 3,3,2,11,3,mgvars%nr1procs,global_y_index_of_local_sw_corner_per_process,,Global Y-index of local SW corner per process,_,,F,
+varatts : 4,3,2,11,3,mgvars%nr2procs,global_y_index_of_local_se_corner_per_process,,Global Y-index of local SE corner per process,_,,F,
+#
+mgvars%nc1procs
+          1         53          1         53        105          1         53        105          1         53        105          1         27          1         27         53          1         27         53          1         27         53          1         14          1         14         27          1         14         27          1         14         27
+mgvars%nc2procs
+         52        104         52        104        158         52        104        158         52        104        158         26         52         26         52         79         26         52         79         26         52         79         13         26         13         26         40         13         26         40         13         26         40
+mgvars%nr1procs
+          1          1         53         53         53        105        105        105        157        157        157          1          1         27         27         27         53         53         53         79         79         79          1          1         14         14         14         27         27         27         40         40         40
+mgvars%nr2procs
+         52         52        104        104        104        156        156        156        206        206        206         26         26         52         52         52         78         78         78        103        103        103         13         13         26         26         26         39         39         39         52         52         52

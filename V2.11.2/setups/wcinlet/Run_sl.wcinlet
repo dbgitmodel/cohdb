@@ -1,0 +1,2 @@
+echo "executing test case wcinlet"
+sbatch -n 4 ./Run_mpi.sh

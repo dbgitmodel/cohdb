@@ -1,0 +1,12 @@
+#
+# test case flocest (obcestA test case including particle module)
+#
+# Test   Initial sediment  microfloc size critical stress density gradient
+#                          (micron)       (m^2/s^2)                   
+# -------------------------------------------------------------------------
+#   A    none                  15           0.001            off
+#   B    microfloc in estuary  15           0.001            off
+         macrofloc in river
+#   C    none                  30           0.001            off                
+#   D    none                  15           0.002            off
+#   E    none                  15           0.001            on

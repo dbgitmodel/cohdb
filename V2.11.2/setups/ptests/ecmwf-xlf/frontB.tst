@@ -1,0 +1,81 @@
+Version: V2.7
+Output parameters for test case front: simulation frontB
+ 
+Time:  0 hours
+  gradh    :   1.000    
+  gradv    :  0.8000    
+  hleng    :   1.000    
+  cmin     :   0.000    
+  cmax     :   2.000    
+Time:  3 hours
+  gradh    :  0.2869    
+  gradv    :  0.4789    
+  hleng    :   15.00    
+  cmin     : -0.6327E-01
+  cmax     :   2.654    
+Time:  6 hours
+  gradh    :  0.3123    
+  gradv    :  0.1940    
+  hleng    :   10.00    
+  cmin     :  0.1853    
+  cmax     :   2.001    
+Time:  9 hours
+  gradh    :  0.2482    
+  gradv    :  0.1816    
+  hleng    :   24.00    
+  cmin     :  0.2013    
+  cmax     :   1.997    
+Time: 12 hours
+  gradh    :  0.2641    
+  gradv    :  0.2013    
+  hleng    :   9.000    
+  cmin     :  0.2592    
+  cmax     :   2.009    
+Time: 15 hours
+  gradh    :  0.2323    
+  gradv    :  0.1694    
+  hleng    :   10.00    
+  cmin     :  0.3746    
+  cmax     :   2.026    
+Time: 18 hours
+  gradh    :  0.2352    
+  gradv    :  0.1878    
+  hleng    :   14.00    
+  cmin     :  0.3123    
+  cmax     :   1.999    
+Time: 21 hours
+  gradh    :  0.2122    
+  gradv    :  0.1446    
+  hleng    :   14.00    
+  cmin     :  0.4544    
+  cmax     :   1.997    
+Time: 24 hours
+  gradh    :  0.2177    
+  gradv    :  0.1740    
+  hleng    :   15.00    
+  cmin     :  0.2838    
+  cmax     :   2.001    
+Time: 27 hours
+  gradh    :  0.2039    
+  gradv    :  0.1647    
+  hleng    :   15.00    
+  cmin     :  0.5029    
+  cmax     :   2.041    
+Time: 30 hours
+  gradh    :  0.2299    
+  gradv    :  0.1786    
+  hleng    :   15.00    
+  cmin     :  0.4834    
+  cmax     :   2.008    
+Time: 33 hours
+  gradh    :  0.1920    
+  gradv    :  0.1374    
+  hleng    :   15.00    
+  cmin     :  0.5878    
+  cmax     :   2.002    
+Time: 36 hours
+  gradh    :  0.2068    
+  gradv    :  0.1710    
+  hleng    :   15.00    
+  cmin     :  0.4445    
+  cmax     :   2.008    

@@ -1,0 +1,164 @@
+# This file is part of COHERENS. You can redistribute and/or modify it under
+# the conditions of the COHERENS license. Details are found in the file
+# COHERENS_License.
+
+#
+# Copyright 2013 RBINS-MUMM
+#
+# Licensed under the EUPL, Version 1.1 or - as soon they will be approved by
+# the European Commission - subsequent versions of the EUPL (the "Licence");
+# You may not use this work except in compliance with the Licence.
+# You may obtain a copy of the Licence at:
+#
+# http://ec.europa.eu/idabc/eupl
+#
+# Unless required by the applicable law or agreed to in writing, software
+# distributed under the Licence is distributed on an "AS IS" basis,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the Licence for the specific language governing permissions and
+# limitations under the Licence.
+#
+# Series of targets for compiling COHERENS on different platforms
+#
+# Author - Patrick Luyten
+#
+# $Date: 2018-07-13 10:07:41 +0200 (Fri, 13 Jul 2018) $
+#
+# $Revision: 1163 $
+#
+
+# DEC Alpha standard (Digital Fortran)
+osf-dig:
+	$(MAKE) $(EXEFILE) \
+        "FC=f90" "FCOPTS=-fast" "FCDEFS=$(FCDEFS)" "FCDEBUG=" \
+        "CPP=" "CPPF=cpp" "CPPOPTS=-C -P" "CPPDEFS=$(CPPDFLAGS)"
+
+# DEC Alpha debugging (Digital Fortran)
+osf-dig-g:
+	$(MAKE) $(EXEFILE) "FC=f90" "FCOPTS=-O2" "FCDEFS=$(FCDEFS)" \
+        "FCDEBUG=-g -check bounds -warn argument_checking -u" \
+        "CPP=" "CPPF=cpp" "CPPOPTS=-C -P" "CPPDEFS=$(CPPDFLAGS)"
+
+# Linux gfortran (GNU Fortran)
+linux-gfort:
+	$(MAKE) $(EXEFILE) "FC=gfortran-mp-9" "FCOPTS= -O3" "FCDEFS=$(FCDEFS)" \
+        "FCDEBUG=" "CPP=" "CPPF=cpp" "CPPOPTS=-traditional-cpp" \
+        "CPPDEFS=$(CPPDFLAGS)"
+
+# Linux gfortran (GNU Fortran)
+#linux-gfort-mp:
+#	$(MAKE) $(EXEFILE) "FC=gfortran" "FCOPTS= -O3" "FCDEFS=$(FCDEFS)" \
+#        "FCDEBUG=" "CPP=" "CPPF=/opt/local/bin/mpicc-openmpi-gcc48" "CPPOPTS=-traditional-cpp" \
+#        "CPPDEFS=$(CPPDFLAGS)"
+
+# Linux gfortran (GNU Fortran)
+linux-gfort-mp:
+	$(MAKE) $(EXEFILE) "FC=gfortran-mp-9" "FCOPTS= -O0" "FCDEFS=$(FCDEFS)" \
+        "FCDEBUG=" "CPP=" "CPPF=cpp" \
+        "CPPOPTS=-traditional-cpp" \
+        "CPPDEFS=$(CPPDFLAGS)"
+
+# Linux grid0 (GNU Fortran with MPI)
+linux-gfortp:
+	$(MAKE) $(EXEFILE) "FC=mpif90" "FCOPTS= -O3" "FCDEFS=$(FCDEFS)" \
+        "FCDEBUG=" "CPP=" "CPPF=cpp" "CPPOPTS=-traditional-cpp" \
+        "CPPDEFS=$(CPPDFLAGS)"
+
+# Linux gfortran debugging (GNU Fortran)
+linux-gfort-g:
+	$(MAKE) $(EXEFILE) "FC=gfortran" "FCOPTS=" "FCDEFS=$(FCDEFS)" \
+        "FCDEBUG=-fbounds-check -Wall -ffpe-trap=invalid,zero,overflow -fimplicit-none -fbacktrace" \
+        "CPP=" "CPPF=cpp" "CPPOPTS=-traditional-cpp" "CPPDEFS=$(CPPDFLAGS)"
+
+# Linux gfortran debugging (GNU Fortran with MPI)
+linux-gfortp-g:
+	$(MAKE) $(EXEFILE) "FC=mpif90" "FCOPTS=" "FCDEFS=$(FCDEFS)" \
+        "FCDEBUG=-fbounds-check -Wall -ffpe-trap=invalid,zero,overflow -fimplicit-none -fbacktrace" \
+        "CPP=" "CPPF=cpp" "CPPOPTS=-traditional-cpp" "CPPDEFS=$(CPPDFLAGS)"
+
+# HPCE standard (XL Fortran)
+ecmwf-xlf:
+	$(MAKE) $(EXEFILE) "FC=mpxlf90_r" \
+        "FCOPTS=-O3 -qstrict -qarch=auto -qtune=auto -qsuffix=f=f90 -qsuffix=cpp=F90" \
+        "FCDEFS=$(FCDEFS)" "FCDEBUG="\
+        "CPP=" "CPPF=/usr/ccs/lib/cpp" "CPPOPTS=-C -P" "CPPDEFS=$(CPPDFLAGS)"
+
+# HPCE debugging (XL Fortran)
+ecmwf-xlf-g:
+	$(MAKE) $(EXEFILE) "FC=mpxlf90_r" \
+        "FCOPTS=-O3 -qstrict -qarch=auto -qtune=auto -qsuffix=f=f90 -qsuffix=cpp=F90" \
+        "FCDEFS=$(FCDEFS)" \
+        "FCDEBUG=-qcheck -qflttrap=zerodivide:invalid:overflow:enable -qsigtrap" \
+        "CPP=" "CPPF=/usr/ccs/lib/cpp" "CPPOPTS=-C -P" "CPPDEFS=$(CPPDFLAGS)"
+
+#Intel fortran compiler v 9 without MPI, dynamically linked
+linux-iforts:
+	$(MAKE) $(EXEFILE) "FC=ifort" "FCOPTS=-cpp1 -i-dynamic" \
+        "FCDEFS=$(CPPDFLAGS)" "FCDEBUG=" \
+        "FCIFLAGS_COMP=-Wl,-rpath=/opt/intel/Compiler/11.0/083/lib/intel64/ -I/usr/local/include" \
+        "CPP=" "CPPF=@cp" "CPPOPTS=" "CPPDEFS="
+
+#Intel fortran compiler v 9 without MPI, dynamically linked
+linux-iforts-g:
+	$(MAKE) $(EXEFILE) "FC=ifort" "FCOPTS=-cpp1 -i-dynamic" \
+        "FCDEFS=$(CPPDFLAGS)" "FCDEBUG=-debug -O0 -g -traceback -check bounds" \
+        "FCIFLAGS_COMP=-Wl,-rpath=/opt/intel/Compiler/11.0/083/lib/intel64/ -I/usr/local/include" \
+        "CPP=" "CPPF=@cp" "CPPOPTS=" "CPPDEFS="
+
+#Intel fortran compiler v 9 without MPI, dynamically linked
+linux-ifortsd:
+	$(MAKE) $(EXEFILE) "FC=ifort" "FCOPTS=-cpp1 -i-dynamic" \
+	"FCDEFS=$(CPPDFLAGS)" "FCDEBUG=-debug -O0 -pg -CB -traceback " \
+	"FCIFLAGS_COMP=-Wl,-rpath=/opt/intel/Compiler/11.0/083/lib/intel64/" \
+	"CPP=" "CPPF=@cp" "CPPOPTS=" "CPPDEFS="
+
+#Intel fortran compiler v 9 without MPI, dynamically linked
+linux-ifortsd2:
+	$(MAKE) $(EXEFILE) "FC=ifort" "FCOPTS=-cpp1 -i-dynamic" \
+	"FCDEFS=$(CPPDFLAGS)" "FCDEBUG=-debug -O0 -u -CB -fpe0 -traceback" \
+	"FCIFLAGS_COMP=-Wl,-rpath=/opt/intel/Compiler/11.0/083/lib/intel64/" \
+	"CPP=" "CPPF=@cp" "CPPOPTS=" "CPPDEFS="
+
+#Intel fortran compiler v 9 with MPICH2, dynamically linked Intel libs
+linux-ifortp:
+	$(MAKE) $(EXEFILE) "FC=mpif90" "FCOPTS=-cpp1 -i-dynamic" \
+        "FCDEFS=$(CPPDFLAGS)" "FCDEBUG=" \
+        "FCIFLAGS_COMP= -Wl,-rpath=/usr/local/mpich2/intel/lib" \
+        "CPP=" "CPPF=@cp" "CPPOPTS=" "CPPDEFS="
+linux-ifortpd:
+	$(MAKE) $(EXEFILE) "FC=mpif90" "FCOPTS=-cpp1 -i-dynamic" \
+        "FCDEFS=$(CPPDFLAGS)" "FCDEBUG= -debug -O0 -u -CB  -traceback" \
+        "FCIFLAGS_COMP= -Wl,-rpath=/usr/local/mpich2/intel/lib" \
+        "CPP=" "CPPF=@cp" "CPPOPTS=" "CPPDEFS="
+
+linux-ifortpdp:
+	$(MAKE) $(EXEFILE) "FC=mpif90" "FCOPTS=-cpp1 -i-dynamic" \
+        "FCDEFS=$(CPPDFLAGS)" "FCDEBUG=-debug -O0 -pg" \
+        "FCIFLAGS_COMP= -Wl,-rpath=/usr/local/mpich2/intel/lib" \
+        "CPP=" "CPPF=@cp" "CPPOPTS=" "CPPDEFS="
+
+#Intel fortran on Space Pole cluster
+linux-ifortpSPP:
+	$(MAKE) $(EXEFILE) "FC=mpif90" "FCOPTS=-cpp1 -i-dynamic" \
+        "FCDEFS=" "FCDEBUG=-O2 -g -traceback -heap-arrays" \
+        "FCIFLAGS_COMP=" \
+        "CPP=" "CPPF=fpp" "CPPOPTS=" "CPPDEFS=$(CPPDFLAGS)" 
+
+#Intel fortran on Space Pole cluster with debugging
+linux-ifortpSPP-g:
+	$(MAKE) $(EXEFILE) "FC=mpif90" "FCOPTS=-cpp1 -i-dynamic" \
+        "FCDEFS=" "FCDEBUG=-O2 -g -traceback -heap-arraysv -check bounds -fpe0" \
+        "FCIFLAGS_COMP=" \
+        "CPP=" "CPPF=fpp" "CPPOPTS=" "CPPDEFS=$(CPPDFLAGS)" 
+
+# Vic cluster (Intel)
+vic-intel:
+	$(MAKE) $(EXEFILE) "FC=mpif90" "FCOPTS=-O1" \
+        "FCDEFS=" "FCDEBUG="\
+        "CPP=" "CPPF=/lib/cpp" "CPPOPTS=-P -traditional" "CPPDEFS=$(CPPDFLAGS)"
+
+# Vic cluster debugging (Intel)
+vic-intel-g:
+	$(MAKE) $(EXEFILE) "FC=mpif90" "FCOPTS=-O1" \
+        "FCDEFS=" "FCDEBUG=-check bounds -u"\
+        "CPP=" "CPPF=/lib/cpp" "CPPOPTS=-P -traditional" "CPPDEFS=$(CPPDFLAGS)"

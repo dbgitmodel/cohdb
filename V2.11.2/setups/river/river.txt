@@ -1,0 +1,9 @@
+#
+# test case river
+#
+# Test  iopt_adv_3D iopt_vdif_coef iopt_turb_alg
+# ----------------------------------------------
+#   A       1              3             -
+#   B       1              2             1
+#   C       1              2             3
+#   D       3              3             -

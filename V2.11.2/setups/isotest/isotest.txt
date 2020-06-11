@@ -1,0 +1,12 @@
+#
+# test case isotest
+#
+#  Test  iopt_hdif_scal  bed slope
+#  -------------------------------
+#   A         1           no
+#   B         1           yes
+#   C         2           no
+#   D         2           yes
+#   E         3           no
+#   F         3           yes
+

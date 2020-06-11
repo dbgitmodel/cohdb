@@ -1,0 +1,94 @@
+Version: V2.11.2
+Output parameters for test case thacker: simulation thackerC
+
+Time:    0 seconds
+  bstresmean  :   0.000     
+  sedmax      :   0.000     
+  sedmin      :   0.000     
+  sedtot      :   0.000     
+  bflxtot     :   0.000     
+  dryarea     :   0.000     
+Time:  300 seconds
+  bstresmean  :  0.2980E-001
+  sedmax      :   74.09     
+  sedmin      :   0.000     
+  sedtot      :  0.7740E+008
+  bflxtot     :   6257.     
+  dryarea     :   0.000     
+Time:  600 seconds
+  bstresmean  :  0.3847E-001
+  sedmax      :   417.9     
+  sedmin      :   0.000     
+  sedtot      :  0.7956E+010
+  bflxtot     :   2354.     
+  dryarea     :   0.000     
+Time:  900 seconds
+  bstresmean  :  0.9450E-002
+  sedmax      :   1136.     
+  sedmin      :   0.000     
+  sedtot      :  0.1677E+011
+  bflxtot     :  0.6567E+005
+  dryarea     :   0.000     
+Time: 1200 seconds
+  bstresmean  :  0.1113E-001
+  sedmax      :   843.5     
+  sedmin      :   0.000     
+  sedtot      :  0.9650E+010
+  bflxtot     : -0.5829E+005
+  dryarea     :   0.000     
+Time: 1500 seconds
+  bstresmean  :  0.4229E-001
+  sedmax      :   242.6     
+  sedmin      :   0.000     
+  sedtot      :  0.1252E+011
+  bflxtot     :  -418.2     
+  dryarea     :   0.000     
+Time: 1800 seconds
+  bstresmean  :  0.3211E-001
+  sedmax      :   574.2     
+  sedmin      :   0.000     
+  sedtot      :  0.1399E+011
+  bflxtot     :  0.2870E+005
+  dryarea     :   0.000     
+Time: 2100 seconds
+  bstresmean  :  0.3734E-002
+  sedmax      :   859.8     
+  sedmin      :   0.000     
+  sedtot      :  0.4430E+011
+  bflxtot     :  0.1346E+005
+  dryarea     :   0.000     
+Time: 2400 seconds
+  bstresmean  :  0.1766E-001
+  sedmax      :   484.2     
+  sedmin      :   0.000     
+  sedtot      :  0.2821E+011
+  bflxtot     : -0.1868E+005
+  dryarea     :   0.000     
+Time: 2700 seconds
+  bstresmean  :  0.3800E-001
+  sedmax      :   272.7     
+  sedmin      :   0.000     
+  sedtot      :  0.1531E+011
+  bflxtot     :  -1679.     
+  dryarea     :   0.000     
+Time: 3000 seconds
+  bstresmean  :  0.1950E-001
+  sedmax      :   411.8     
+  sedmin      :   0.000     
+  sedtot      :  0.1908E+011
+  bflxtot     :  -6447.     
+  dryarea     :   0.000     
+Time: 3300 seconds
+  bstresmean  :  0.2198E-002
+  sedmax      :   602.7     
+  sedmin      :   0.000     
+  sedtot      :  0.7713E+010
+  bflxtot     : -0.2233E+005
+  dryarea     :   0.000     
+Time: 3600 seconds
+  bstresmean  :  0.2570E-001
+  sedmax      :   186.3     
+  sedmin      :   0.000     
+  sedtot      :  0.4966E+010
+  bflxtot     : -0.1203E+005
+  dryarea     :   0.000     

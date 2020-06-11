@@ -1,0 +1,40 @@
+#
+# Copyright 2013 RBINS-MUMM
+#
+# Licensed under the EUPL, Version 1.1 or - as soon they will be approved by
+# the European Commission - subsequent versions of the EUPL (the "Licence");
+# You may not use this work except in compliance with the Licence.
+# You may obtain a copy of the Licence at:
+#
+# http://ec.europa.eu/idabc/eupl
+#
+# Unless required by the applicable law or agreed to in writing, software
+# distributed under the Licence is distributed on an "AS IS" basis,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the Licence for the specific language governing permissions and
+# limitations under the Licence.
+#
+# Dependencies for compiling the default (empty) particle model
+#
+# Version -  @{COHERENS}dependencies_part_cmp   V2.11.2
+#
+# $Date: 2015-01-16 16:39:38 +0100 (Fri, 16 Jan 2015) $
+#
+# $Revision: 796 $
+#
+
+# modules
+
+check_particles.o: check_particles.f90
+default_particles.o: default_particles.f90
+particle_output.o: particle_output.f90
+partvars_routines.o: partvars_routines.f90 datatypes.o
+reset_particles.o: reset_particles.f90
+
+# subprograms
+
+Particle_Model.o: Particle_Model.f90 syspars.o
+
+# user-defined subprograms
+
+Usrdef_Particle.o: Usrdef_Particle.f90 $(MODFILES)

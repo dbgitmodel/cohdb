@@ -1,0 +1,579 @@
+Version: V2.7
+Output parameters for test case flood2d: simulation flood2dC
+ 
+Time:  0.5 hours
+  volerr    : -0.1781E-01
+  depmeanerr:  0.5762E-03
+  depmaxerr :  0.1118E-02
+  dryarea   :   45.00    
+  volume1   :   99.72    
+  volume2   :  0.5519E-01
+  volume3   :  0.2248    
+  uvelmax   :   87.04    
+  uvelmin   :  -36.07    
+  wphysmax  :   21.92    
+  wphysmin  :  -14.48    
+Time:  1.0 hours
+  volerr    :  0.3444E-01
+  depmeanerr:  0.1025E-02
+  depmaxerr :  0.2235E-02
+  dryarea   :   35.00    
+  volume1   :   99.23    
+  volume2   :  0.5288    
+  volume3   :  0.2406    
+  uvelmax   :   117.7    
+  uvelmin   :  -197.4    
+  wphysmax  :   1.934    
+  wphysmin  :  -12.37    
+Time:  1.5 hours
+  volerr    : -0.1752E-01
+  depmeanerr:  0.1364E-02
+  depmaxerr :  0.3353E-02
+  dryarea   :   28.00    
+  volume1   :   98.79    
+  volume2   :  0.9607    
+  volume3   :  0.2524    
+  uvelmax   :   160.2    
+  uvelmin   :  -35.23    
+  wphysmax  :   3.775    
+  wphysmin  :  -6.263    
+Time:  2.0 hours
+  volerr    : -0.6381E-02
+  depmeanerr:  0.1677E-02
+  depmaxerr :  0.4470E-02
+  dryarea   :   28.00    
+  volume1   :   95.44    
+  volume2   :   1.693    
+  volume3   :   2.869    
+  uvelmax   :   269.8    
+  uvelmin   :  -56.08    
+  wphysmax  :   25.10    
+  wphysmin  :  -13.47    
+Time:  2.5 hours
+  volerr    : -0.1199E-01
+  depmeanerr:  0.1950E-02
+  depmaxerr :  0.5588E-02
+  dryarea   :   20.00    
+  volume1   :   89.14    
+  volume2   :   2.210    
+  volume3   :   8.653    
+  uvelmax   :   371.8    
+  uvelmin   :  -76.43    
+  wphysmax  :   71.16    
+  wphysmin  :  -42.75    
+Time:  3.0 hours
+  volerr    : -0.1490E-01
+  depmeanerr:  0.2104E-02
+  depmaxerr :  0.6706E-02
+  dryarea   :   7.000    
+  volume1   :   79.92    
+  volume2   :   2.552    
+  volume3   :   17.53    
+  uvelmax   :   441.7    
+  uvelmin   :  -86.99    
+  wphysmax  :   74.36    
+  wphysmin  :  -117.0    
+Time:  3.5 hours
+  volerr    : -0.1701E-01
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   69.22    
+  volume2   :   2.652    
+  volume3   :   28.13    
+  uvelmax   :   486.9    
+  uvelmin   :  -13.87    
+  wphysmax  :   31.92    
+  wphysmin  :  -23.40    
+Time:  4.0 hours
+  volerr    : -0.8416E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   59.99    
+  volume2   :   3.847    
+  volume3   :   36.16    
+  uvelmax   :   112.5    
+  uvelmin   :  -4.607    
+  wphysmax  :   5.149    
+  wphysmin  :  -1.460    
+Time:  4.5 hours
+  volerr    : -0.2429E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   62.06    
+  volume2   :   3.809    
+  volume3   :   34.13    
+  uvelmax   :   27.46    
+  uvelmin   :  -2.387    
+  wphysmax  :   2.304    
+  wphysmin  : -0.8620    
+Time:  5.0 hours
+  volerr    : -0.2770E-03
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   59.21    
+  volume2   :   4.315    
+  volume3   :   36.48    
+  uvelmax   :   6.573    
+  uvelmin   :  -23.37    
+  wphysmax  :  0.7591    
+  wphysmin  :  -1.804    
+Time:  5.5 hours
+  volerr    : -0.7316E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   60.19    
+  volume2   :   4.220    
+  volume3   :   35.59    
+  uvelmax   :   55.73    
+  uvelmin   :  -1.032    
+  wphysmax  :   3.732    
+  wphysmin  :  -1.162    
+Time:  6.0 hours
+  volerr    :  0.4946E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   59.61    
+  volume2   :   4.310    
+  volume3   :   36.08    
+  uvelmax   :   1.166    
+  uvelmin   :  -55.44    
+  wphysmax  :   1.171    
+  wphysmin  :  -3.151    
+Time:  6.5 hours
+  volerr    : -0.1686E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   59.26    
+  volume2   :   4.357    
+  volume3   :   36.39    
+  uvelmax   :   30.38    
+  uvelmin   : -0.8359    
+  wphysmax  :   1.652    
+  wphysmin  : -0.5571    
+Time:  7.0 hours
+  volerr    :  0.3814E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   60.66    
+  volume2   :   4.106    
+  volume3   :   35.23    
+  uvelmax   :  0.8161    
+  uvelmin   :  -30.80    
+  wphysmax  :  0.3400    
+  wphysmin  :  -1.058    
+Time:  7.5 hours
+  volerr    :  0.4697E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   60.11    
+  volume2   :   4.037    
+  volume3   :   35.85    
+  uvelmax   :  0.6075    
+  uvelmin   :  -37.89    
+  wphysmax  :  0.8470    
+  wphysmin  :  -2.298    
+Time:  8.0 hours
+  volerr    :  0.1999E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   61.71    
+  volume2   :   3.599    
+  volume3   :   34.69    
+  uvelmax   :   4.022    
+  uvelmin   :  -19.62    
+  wphysmax  :  0.3933    
+  wphysmin  : -0.5552    
+Time:  8.5 hours
+  volerr    :  0.7806E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   62.10    
+  volume2   :   3.276    
+  volume3   :   34.63    
+  uvelmax   :  0.2152    
+  uvelmin   :  -81.14    
+  wphysmax  :   1.229    
+  wphysmin  :  -3.168    
+Time:  9.0 hours
+  volerr    :  0.4579E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   63.73    
+  volume2   :   2.775    
+  volume3   :   33.50    
+  uvelmax   :  0.4061    
+  uvelmin   :  -48.28    
+  wphysmax  :  0.6381    
+  wphysmin  :  -1.493    
+Time:  9.5 hours
+  volerr    :  0.6529E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   64.71    
+  volume2   :   2.229    
+  volume3   :   33.06    
+  uvelmax   :  0.1158    
+  uvelmin   :  -101.7    
+  wphysmax  :   1.324    
+  wphysmin  :  -2.978    
+Time: 10.0 hours
+  volerr    :  0.5446E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   66.13    
+  volume2   :   1.670    
+  volume3   :   32.20    
+  uvelmax   :  0.1499    
+  uvelmin   :  -107.1    
+  wphysmax  :   1.199    
+  wphysmin  :  -2.618    
+Time: 10.5 hours
+  volerr    :  0.4489E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   67.03    
+  volume2   :   1.178    
+  volume3   :   31.79    
+  uvelmax   :  0.1831    
+  uvelmin   :  -133.2    
+  wphysmax  :   1.068    
+  wphysmin  :  -3.128    
+Time: 11.0 hours
+  volerr    :  0.2845E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   67.56    
+  volume2   :  0.8646    
+  volume3   :   31.58    
+  uvelmax   :  0.2132    
+  uvelmin   :  -157.0    
+  wphysmax  :  0.8198    
+  wphysmin  :  -4.145    
+Time: 11.5 hours
+  volerr    :  0.1813E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   67.86    
+  volume2   :  0.7008    
+  volume3   :   31.44    
+  uvelmax   :  0.4135    
+  uvelmin   :  -174.5    
+  wphysmax  :  0.5865    
+  wphysmin  :  -8.638    
+Time: 12.0 hours
+  volerr    :  0.6469E-03
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   68.20    
+  volume2   :  0.6033    
+  volume3   :   31.20    
+  uvelmax   :   17.22    
+  uvelmin   :  -119.3    
+  wphysmax  :   3.323    
+  wphysmin  :  -3.714    
+Time: 12.5 hours
+  volerr    : -0.1769E-03
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   68.76    
+  volume2   :  0.5138    
+  volume3   :   30.73    
+  uvelmax   :   17.89    
+  uvelmin   :  -118.2    
+  wphysmax  :   3.619    
+  wphysmin  :  -6.912    
+Time: 13.0 hours
+  volerr    : -0.1662E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   69.51    
+  volume2   :  0.4808    
+  volume3   :   30.01    
+  uvelmax   :   13.40    
+  uvelmin   :  -32.26    
+  wphysmax  :   1.903    
+  wphysmin  :  -1.412    
+Time: 13.5 hours
+  volerr    : -0.3620E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   69.86    
+  volume2   :  0.7753    
+  volume3   :   29.37    
+  uvelmax   :   90.18    
+  uvelmin   : -0.1296    
+  wphysmax  :   2.298    
+  wphysmin  : -0.7278    
+Time: 14.0 hours
+  volerr    : -0.5935E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   69.09    
+  volume2   :   1.265    
+  volume3   :   29.65    
+  uvelmax   :   162.2    
+  uvelmin   :  0.1733    
+  wphysmax  :   3.730    
+  wphysmin  :  -1.932    
+Time: 14.5 hours
+  volerr    : -0.8360E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   66.70    
+  volume2   :   1.910    
+  volume3   :   31.39    
+  uvelmax   :   160.3    
+  uvelmin   :  0.3673    
+  wphysmax  :   5.474    
+  wphysmin  :  -2.114    
+Time: 15.0 hours
+  volerr    : -0.7276E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   63.67    
+  volume2   :   2.745    
+  volume3   :   33.58    
+  uvelmax   :   92.56    
+  uvelmin   :  0.1376    
+  wphysmax  :   3.972    
+  wphysmin  :  -1.116    
+Time: 15.5 hours
+  volerr    : -0.4780E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   62.60    
+  volume2   :   3.230    
+  volume3   :   34.17    
+  uvelmax   :   40.85    
+  uvelmin   : -0.8101E-01
+  wphysmax  :   1.968    
+  wphysmin  : -0.5374    
+Time: 16.0 hours
+  volerr    : -0.5119E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   61.33    
+  volume2   :   3.659    
+  volume3   :   35.01    
+  uvelmax   :   45.64    
+  uvelmin   : -0.3579E-01
+  wphysmax  :   2.226    
+  wphysmin  : -0.5647    
+Time: 16.5 hours
+  volerr    : -0.3450E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   60.73    
+  volume2   :   3.941    
+  volume3   :   35.33    
+  uvelmax   :   25.33    
+  uvelmin   : -0.1443    
+  wphysmax  :   1.322    
+  wphysmin  : -0.3504    
+Time: 17.0 hours
+  volerr    : -0.2244E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   59.97    
+  volume2   :   4.186    
+  volume3   :   35.84    
+  uvelmax   :   17.03    
+  uvelmin   : -0.3280    
+  wphysmax  :  0.7461    
+  wphysmin  : -0.1296    
+Time: 17.5 hours
+  volerr    : -0.1772E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   59.79    
+  volume2   :   4.293    
+  volume3   :   35.92    
+  uvelmax   :   14.30    
+  uvelmin   : -0.1881    
+  wphysmax  :  0.7547    
+  wphysmin  : -0.2082    
+Time: 18.0 hours
+  volerr    :  0.6252E-03
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   59.63    
+  volume2   :   4.342    
+  volume3   :   36.03    
+  uvelmax   :  0.6826    
+  uvelmin   :  -6.952    
+  wphysmax  :  0.2230    
+  wphysmin  : -0.5624    
+Time: 18.5 hours
+  volerr    :  0.7743E-03
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   59.67    
+  volume2   :   4.309    
+  volume3   :   36.02    
+  uvelmax   :  0.9782    
+  uvelmin   :  -4.113    
+  wphysmax  :  0.9942E-01
+  wphysmin  : -0.3019    
+Time: 19.0 hours
+  volerr    :  0.2524E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   60.13    
+  volume2   :   4.163    
+  volume3   :   35.71    
+  uvelmax   :  0.1101    
+  uvelmin   :  -17.87    
+  wphysmax  :  0.3453    
+  wphysmin  : -0.9043    
+Time: 19.5 hours
+  volerr    :  0.3714E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   60.53    
+  volume2   :   3.968    
+  volume3   :   35.50    
+  uvelmax   :  0.3187E-01
+  uvelmin   :  -28.59    
+  wphysmax  :  0.5181    
+  wphysmin  :  -1.361    
+Time: 20.0 hours
+  volerr    :  0.4278E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   61.42    
+  volume2   :   3.648    
+  volume3   :   34.93    
+  uvelmax   : -0.4945E-03
+  uvelmin   :  -36.64    
+  wphysmax  :  0.5556    
+  wphysmin  :  -1.356    
+Time: 20.5 hours
+  volerr    :  0.5636E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   62.33    
+  volume2   :   3.261    
+  volume3   :   34.40    
+  uvelmax   : -0.1142    
+  uvelmin   :  -56.78    
+  wphysmax  :  0.8684    
+  wphysmin  :  -2.095    
+Time: 21.0 hours
+  volerr    :  0.5748E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   63.57    
+  volume2   :   2.776    
+  volume3   :   33.65    
+  uvelmax   : -0.1235    
+  uvelmin   :  -66.43    
+  wphysmax  :  0.9378    
+  wphysmin  :  -2.197    
+Time: 21.5 hours
+  volerr    :  0.6083E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   64.83    
+  volume2   :   2.231    
+  volume3   :   32.94    
+  uvelmax   : -0.1672    
+  uvelmin   :  -90.35    
+  wphysmax  :   1.171    
+  wphysmin  :  -2.651    
+Time: 22.0 hours
+  volerr    :  0.5502E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   66.09    
+  volume2   :   1.666    
+  volume3   :   32.24    
+  uvelmax   : -0.1397    
+  uvelmin   :  -110.2    
+  wphysmax  :   1.210    
+  wphysmin  :  -2.683    
+Time: 22.5 hours
+  volerr    :  0.4384E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   67.03    
+  volume2   :   1.181    
+  volume3   :   31.79    
+  uvelmax   : -0.7911E-01
+  uvelmin   :  -132.5    
+  wphysmax  :   1.082    
+  wphysmin  :  -3.098    
+Time: 23.0 hours
+  volerr    :  0.2985E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   67.55    
+  volume2   :  0.8661    
+  volume3   :   31.58    
+  uvelmax   : -0.1322E-01
+  uvelmin   :  -157.8    
+  wphysmax  :  0.8196    
+  wphysmin  :  -4.205    
+Time: 23.5 hours
+  volerr    :  0.1678E-02
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   67.86    
+  volume2   :  0.7015    
+  volume3   :   31.44    
+  uvelmax   :  0.5834    
+  uvelmin   :  -175.0    
+  wphysmax  :  0.5872    
+  wphysmin  :  -8.675    
+Time: 24.0 hours
+  volerr    :  0.7691E-03
+  depmeanerr:  0.2124E-02
+  depmaxerr :  0.7235E-02
+  dryarea   :   0.000    
+  volume1   :   68.20    
+  volume2   :  0.6037    
+  volume3   :   31.19    
+  uvelmax   :   27.65    
+  uvelmin   :  -71.31    
+  wphysmax  :   4.615    
+  wphysmin  :  -6.219    

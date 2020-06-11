@@ -1,0 +1,14 @@
+#!/bin/sh
+
+#PBS -l select=1:ncpus=10:mpiprocs=10
+#PBS -l walltime=01:00:00
+#PBS -l place=shared
+
+echo "executing test case optos_bcz"
+
+cd $PBS_O_WORKDIR
+
+./Run_spp.sh
+
+
+

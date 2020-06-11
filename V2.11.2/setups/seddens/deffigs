@@ -1,0 +1,291 @@
+#
+# $Date: 2015-02-03 10:21:02 +0100 (Tue, 03 Feb 2015) $
+#
+# $Revision: 812 $
+#
+
+
+Figure 1
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   Time
+Ydata		:   bstresmax
+XdataDef	:   (:)
+YdataDef	:   (:)
+TimeUnit	:
+
+Plot options
+xlabel		:   Time [seconds]
+ylabel		:   Maximum bottom stress [Pa]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:
+
+
+Figure 2
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   Time
+Ydata		:   umean
+XdataDef	:   (:)
+YdataDef	:   (:)
+TimeUnit	:
+
+Plot options
+xlabel		:   Time [seconds]
+ylabel		:   Depth mean current at maximum [m/s]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:
+
+
+Figure 3
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   Time
+Ydata		:   hcurmax
+XdataDef	:   (:)
+YdataDef	:   (:)
+TimeUnit	:
+
+Plot options
+xlabel		:   Time [seconds]
+ylabel		:   Height density current [m]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:
+
+
+Figure 4
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   Time
+Ydata		:   xmax
+XdataDef	:   (:)
+YdataDef	:   (:)
+TimeUnit	:
+
+Plot options
+xlabel		:   Time [seconds]
+ylabel		:   Maximum current location [m]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:
+
+
+Figure 5
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   Time
+Ydata		:   hgradmax
+XdataDef	:   (:)
+YdataDef	:   (:)
+TimeUnit	:
+
+Plot options
+xlabel		:   Time [seconds]
+ylabel		:   Maximum concentration gradient [m^2/m^3]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:
+
+
+Figure 6
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   Time
+Ydata		:   sedmax
+XdataDef	:   (:)
+YdataDef	:   (:)
+TimeUnit	:
+
+Plot options
+xlabel		:   Time [seconds]
+ylabel		:   Maximum concentration [kg/m^3]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:
+
+
+Figure 7
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   Time
+Ydata		:   sedmin
+XdataDef	:   (:)
+YdataDef	:   (:)
+TimeUnit	:
+
+Plot options
+xlabel		:   Time [seconds]
+ylabel		:   Minimum concentration [kg/m^3]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:
+
+
+Figure 8
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   Time
+Ydata		:   sedtot
+XdataDef	:   (:)
+YdataDef	:   (:)
+TimeUnit	:
+
+Plot options
+xlabel		:   Time [seconds]
+ylabel		:   Total sediment amount [kg]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:
+
+
+Figure 9
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   Time
+Ydata		:   sedbot
+XdataDef	:   (:)
+YdataDef	:   (:)
+TimeUnit	:
+
+Plot options
+xlabel		:   Time [seconds]
+ylabel		:   Bottom sediment concentration [kg/m^3]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:
+
+
+Figure 10
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   Time
+Ydata		:   bflxtot
+XdataDef	:   (:)
+YdataDef	:   (:)
+TimeUnit	:
+
+Plot options
+xlabel		:   Time [seconds]
+ylabel		:   Bottom sediment mass flux [kg/s]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:
+
+
+Figure 11
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   x
+Ydata		:   uvel
+XdataDef	:   (:)
+YdataDef	:   (:,1,5,end)
+TimeUnit	:
+
+Plot options
+xlabel		:   x
+ylabel		:   X-component of current [m/s]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:
+
+
+Figure 12
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   x
+Ydata		:   wphys
+XdataDef	:   (:)
+YdataDef	:   (:,1,5,end)
+TimeUnit	:
+
+Plot options
+xlabel		:   x
+ylabel		:   Vertical current [m/s]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:
+
+
+Figure 13
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   x
+Ydata		:   cvol_1
+XdataDef	:   (:)
+YdataDef	:   (:,1,5,end)
+TimeUnit	:
+
+Plot options
+xlabel		:   x
+ylabel		:   sediment concentration [m^3/m^3]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:

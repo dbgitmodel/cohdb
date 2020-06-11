@@ -1,0 +1,294 @@
+Version: V2.11
+Output parameters for test case partrhone:  simulation partrhoneC
+ 
+Time: 36.00 hours
+  xpos1    :   4.848     
+  ypos1    :   43.28     
+  htrack1  :   0.000     
+  xdev1    :  0.8659E-003
+  ydev1    :  0.6163E-003
+  xpos4    :   4.748     
+  ypos4    :   43.26     
+  htrack4  :   0.000     
+  xdev4    :  0.1000     
+  ydev4    :  0.1668E-001
+  xpos7    :   4.948     
+  ypos7    :   43.26     
+  htrack7  :   0.000     
+  xdev7    :  0.1000     
+  ydev7    :  0.1668E-001
+Time: 38.00 hours
+  xpos1    :   4.822     
+  ypos1    :   43.25     
+  htrack1  :   4.149     
+  xdev1    :  0.4065E-002
+  ydev1    :  0.2935E-002
+  xpos4    :   4.688     
+  ypos4    :   43.26     
+  htrack4  :   6.794     
+  xdev4    :  0.1367     
+  ydev4    :  0.2039E-001
+  xpos7    :   4.948     
+  ypos7    :   43.25     
+  htrack7  :   1.841     
+  xdev7    :  0.1234     
+  ydev7    :  0.8605E-002
+Time: 40.00 hours
+  xpos1    :   4.791     
+  ypos1    :   43.22     
+  htrack1  :   8.305     
+  xdev1    :  0.4642E-002
+  ydev1    :  0.1923E-002
+  xpos4    :   4.643     
+  ypos4    :   43.30     
+  htrack4  :   12.61     
+  xdev4    :  0.1494     
+  ydev4    :  0.7349E-001
+  xpos7    :   4.948     
+  ypos7    :   43.24     
+  htrack7  :   3.666     
+  xdev7    :  0.1555     
+  ydev7    :  0.1991E-001
+Time: 42.00 hours
+  xpos1    :   4.749     
+  ypos1    :   43.22     
+  htrack1  :   13.17     
+  xdev1    :  0.6731E-002
+  ydev1    :  0.5303E-002
+  xpos4    :   4.617     
+  ypos4    :   43.33     
+  htrack4  :   16.91     
+  xdev4    :  0.1353     
+  ydev4    :  0.1191     
+  xpos7    :   4.948     
+  ypos7    :   43.23     
+  htrack7  :   5.408     
+  xdev7    :  0.1954     
+  ydev7    :  0.2260E-001
+Time: 44.00 hours
+  xpos1    :   4.700     
+  ypos1    :   43.21     
+  htrack1  :   18.71     
+  xdev1    :  0.7960E-002
+  ydev1    :  0.5668E-002
+  xpos4    :   4.610     
+  ypos4    :   43.35     
+  htrack4  :   19.29     
+  xdev4    :  0.9377E-001
+  ydev4    :  0.1385     
+  xpos7    :   4.941     
+  ypos7    :   43.23     
+  htrack7  :   7.648     
+  xdev7    :  0.2375     
+  ydev7    :  0.1810E-001
+Time: 46.00 hours
+  xpos1    :   4.647     
+  ypos1    :   43.23     
+  htrack1  :   24.73     
+  xdev1    :  0.8162E-002
+  ydev1    :  0.7913E-002
+  xpos7    :   4.936     
+  ypos7    :   43.22     
+  htrack7  :   9.472     
+  xdev7    :  0.2864     
+  ydev7    :  0.5856E-002
+Time: 48.00 hours
+  xpos1    :   4.604     
+  ypos1    :   43.25     
+  htrack1  :   30.20     
+  xdev1    :  0.6575E-002
+  ydev1    :  0.9743E-002
+  xpos7    :   4.931     
+  ypos7    :   43.21     
+  htrack7  :   11.15     
+  xdev7    :  0.3268     
+  ydev7    :  0.3446E-001
+Time: 50.00 hours
+  xpos1    :   4.587     
+  ypos1    :   43.31     
+  htrack1  :   35.32     
+  xdev1    :  0.5881E-002
+  ydev1    :  0.1153E-001
+  xpos7    :   4.936     
+  ypos7    :   43.24     
+  htrack7  :   14.25     
+  xdev7    :  0.3484     
+  ydev7    :  0.6049E-001
+Time: 52.00 hours
+  xpos1    :   4.581     
+  ypos1    :   43.35     
+  htrack1  :   39.60     
+  xdev1    :  0.9399E-002
+  ydev1    :  0.1014E-001
+  xpos7    :   4.956     
+  ypos7    :   43.27     
+  htrack7  :   18.19     
+  xdev7    :  0.3745     
+  ydev7    :  0.7353E-001
+Time: 54.00 hours
+  xpos7    :   4.996     
+  ypos7    :   43.30     
+  htrack7  :   23.65     
+  xdev7    :  0.4274     
+  ydev7    :  0.6480E-001
+Time: 56.00 hours
+  xpos7    :   5.046     
+  ypos7    :   43.32     
+  htrack7  :   29.46     
+  xdev7    :  0.4762     
+  ydev7    :  0.4946E-001
+Time: 58.00 hours
+Time: 60.00 hours
+  xpos2    :   4.848     
+  ypos2    :   43.28     
+  htrack2  :   0.000     
+  xdev2    :  0.2782     
+  ydev2    :  0.9407E-001
+  xpos5    :   4.748     
+  ypos5    :   43.26     
+  htrack5  :   0.000     
+  xdev5    :  0.1783     
+  ydev5    :  0.1105     
+  xpos8    :   4.948     
+  ypos8    :   43.26     
+  htrack8  :   0.000     
+  xdev8    :  0.3781     
+  ydev8    :  0.1105     
+Time: 62.00 hours
+  xpos2    :   4.878     
+  ypos2    :   43.27     
+  htrack2  :   3.660     
+  xdev2    :  0.3083     
+  ydev2    :  0.9849E-001
+  xpos5    :   4.746     
+  ypos5    :   43.29     
+  htrack5  :   2.935     
+  xdev5    :  0.1764     
+  ydev5    :  0.8219E-001
+  xpos8    :   5.000     
+  ypos8    :   43.29     
+  htrack8  :   6.321     
+  xdev8    :  0.4307     
+  ydev8    :  0.8504E-001
+Time: 64.00 hours
+  xpos2    :   4.935     
+  ypos2    :   43.29     
+  htrack2  :   10.28     
+  xdev2    :  0.3652     
+  ydev2    :  0.8394E-001
+  xpos5    :   4.756     
+  ypos5    :   43.32     
+  htrack5  :   5.822     
+  xdev5    :  0.1863     
+  ydev5    :  0.5572E-001
+  xpos8    :   5.036     
+  ypos8    :   43.32     
+  htrack8  :   11.03     
+  xdev8    :  0.4658     
+  ydev8    :  0.5621E-001
+Time: 66.00 hours
+  xpos2    :   4.968     
+  ypos2    :   43.33     
+  htrack2  :   15.10     
+  xdev2    :  0.3980     
+  ydev2    :  0.4942E-001
+  xpos5    :   4.775     
+  ypos5    :   43.34     
+  htrack5  :   8.978     
+  xdev5    :  0.2058     
+  ydev5    :  0.3414E-001
+Time: 68.00 hours
+  xpos2    :   4.991     
+  ypos2    :   43.35     
+  htrack2  :   18.86     
+  xdev2    :  0.4217     
+  ydev2    :  0.2493E-001
+Time: 70.00 hours
+  xpos2    :   5.002     
+  ypos2    :   43.38     
+  htrack2  :   21.98     
+  xdev2    :  0.4323     
+  ydev2    :  0.2085E-001
+Time: 72.00 hours
+Time: 74.00 hours
+Time: 76.00 hours
+Time: 78.00 hours
+Time: 80.00 hours
+Time: 82.00 hours
+Time: 84.00 hours
+  xpos3    :   4.848     
+  ypos3    :   43.28     
+  htrack3  :   0.000     
+  xdev3    :  0.2782     
+  ydev3    :  0.9412E-001
+  xpos6    :   4.748     
+  ypos6    :   43.26     
+  htrack6  :   0.000     
+  xdev6    :  0.1783     
+  ydev6    :  0.1106     
+  xpos9    :   4.948     
+  ypos9    :   43.26     
+  htrack9  :   0.000     
+  xdev9    :  0.3782     
+  ydev9    :  0.1106     
+Time: 86.00 hours
+  xpos3    :   4.880     
+  ypos3    :   43.26     
+  htrack3  :   4.066     
+  xdev3    :  0.3103     
+  ydev3    :  0.1095     
+  xpos6    :   4.734     
+  ypos6    :   43.30     
+  htrack6  :   3.811     
+  xdev6    :  0.1645     
+  ydev6    :  0.7697E-001
+  xpos9    :   4.998     
+  ypos9    :   43.29     
+  htrack9  :   6.193     
+  xdev9    :  0.4279     
+  ydev9    :  0.7940E-001
+Time: 88.00 hours
+  xpos3    :   4.926     
+  ypos3    :   43.28     
+  htrack3  :   9.447     
+  xdev3    :  0.3563     
+  ydev3    :  0.9702E-001
+  xpos6    :   4.735     
+  ypos6    :   43.32     
+  htrack6  :   6.337     
+  xdev6    :  0.1650     
+  ydev6    :  0.5256E-001
+  xpos9    :   5.024     
+  ypos9    :   43.32     
+  htrack9  :   9.931     
+  xdev9    :  0.4543     
+  ydev9    :  0.5767E-001
+Time: 90.00 hours
+  xpos3    :   4.965     
+  ypos3    :   43.31     
+  htrack3  :   14.54     
+  xdev3    :  0.3949     
+  ydev3    :  0.6833E-001
+  xpos6    :   4.741     
+  ypos6    :   43.34     
+  htrack6  :   8.659     
+  xdev6    :  0.1719     
+  ydev6    :  0.3419E-001
+Time: 92.00 hours
+  xpos3    :   4.978     
+  ypos3    :   43.33     
+  htrack3  :   17.65     
+  xdev3    :  0.4087     
+  ydev3    :  0.4229E-001
+Time: 94.00 hours
+  xpos3    :   4.985     
+  ypos3    :   43.36     
+  htrack3  :   20.24     
+  xdev3    :  0.4150     
+  ydev3    :  0.2099E-001
+Time: 96.00 hours
+  xpos3    :   4.990     
+  ypos3    :   43.39     
+  htrack3  :   23.00     
+  xdev3    :  0.4203     
+  ydev3    :  0.2128E-001

@@ -1,0 +1,12 @@
+#
+# test case partrot 
+#
+# particles rotating around common center
+#
+# Test  iopt_part_model iopt_part_hadv
+# ------------------------------------
+#   A      1                2
+#   B      1                1
+#   C      3                1
+#   D      4                1
+

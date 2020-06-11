@@ -1,0 +1,446 @@
+#
+# $Date: 2014-04-28 11:11:34 +0200 (Mon, 28 Apr 2014) $
+#
+# $Revision: 697 $
+#
+
+
+Figure 1
+
+User Data
+ChartType	: 
+Runs		:   wavloadB,wavloadC,wavloadD
+PhysProp	: 
+Xdata		:   waveheight
+Ydata		:   qtotatu_1
+XdataDef	:   (1,1,91:100)
+YdataDef	:   (1,1,91:100)
+TimeUnit	:
+
+Plot options
+xlabel		:   waveheight [m]
+ylabel		:   qtotatu [m^2/s]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		: 
+
+
+Figure 2
+
+User Data
+ChartType	: 
+Runs		:   wavloadB,wavloadC,wavloadD
+PhysProp	: 
+Xdata		:   waveheight
+Ydata		:   qtotatu_1
+XdataDef	:   (1,1,291:300)
+YdataDef	:   (1,1,291:300)
+TimeUnit	:
+
+Plot options
+xlabel		:   waveheight [m]
+ylabel		:   qtotatu [m^2/s] 
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		: 
+
+
+Figure 3
+
+User Data
+ChartType	: 
+Runs		:   wavloadB,wavloadC,wavloadD 
+PhysProp	: 
+Xdata		:   waveheight
+Ydata		:   qtotatu_1
+XdataDef	:   (1,1,491:500)
+YdataDef	:   (1,1,491:500)
+TimeUnit	:
+
+Plot options
+xlabel		:   waveheight [m]
+ylabel		:   qtotatu [m^2/s] 
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		: 
+
+
+Figure 4
+
+User Data
+ChartType	: 
+Runs		:   wavloadB,wavloadC,wavloadD
+PhysProp	: 
+Xdata		:   waveheight
+Ydata		:   qtotatu_1
+XdataDef	:   (1,1,691:700)
+YdataDef	:   (1,1,691:700)
+TimeUnit	:
+
+Plot options
+xlabel		:   waveheight [m]
+ylabel		:   qtotatu [m^2/s] 
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		: 
+
+
+Figure 5
+
+User Data
+ChartType	: 
+Runs		:   wavloadB,wavloadC,wavloadD 
+PhysProp	: 
+Xdata		:   waveheight
+Ydata		:   qtotatu_1
+XdataDef	:   (1,1,891:900)
+YdataDef	:   (1,1,891:900)
+TimeUnit	:
+
+Plot options
+xlabel		:   waveheight [m]
+ylabel		:   qtotatu [m^2/s] 
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		: 
+
+
+Figure 6
+
+User Data
+ChartType	: 
+Runs		:   wavloadA
+PhysProp	: 
+Xdata		:   waveheight
+Ydata		:   qbedatu_1
+XdataDef	:   (1,1,91:100)
+YdataDef	:   (1,1,91:100)
+TimeUnit	:
+
+Plot options
+xlabel		:   waveheight [m]
+ylabel		:   qbedatu [m^2/s] 
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		: 
+
+
+Figure 7
+
+User Data
+ChartType	: 
+Runs		:   wavloadA
+PhysProp	: 
+Xdata		:   waveheight
+Ydata		:   qbedatu_1
+XdataDef	:   (1,1,291:300)
+YdataDef	:   (1,1,291:300)
+TimeUnit	:
+
+Plot options
+xlabel		:   waveheight [m]
+ylabel		:   qbedatu [m^2/s] 
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		: 
+
+
+Figure 8
+
+User Data
+ChartType	: 
+Runs		:   wavloadA
+PhysProp	: 
+Xdata		:   waveheight
+Ydata		:   qbedatu_1
+XdataDef	:   (1,1,491:500)
+YdataDef	:   (1,1,491:500)
+TimeUnit	:
+
+Plot options
+xlabel		:   waveheight [m]
+ylabel		:   qbedatu [m^2/s] 
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		: 
+
+
+Figure 9
+
+User Data
+ChartType	: 
+Runs		:   wavloadA
+PhysProp	: 
+Xdata		:   waveheight
+Ydata		:   qbedatu_1
+XdataDef	:   (1,1,691:700)
+YdataDef	:   (1,1,691:700)
+TimeUnit	:
+
+Plot options
+xlabel		:   waveheight [m]
+ylabel		:   qbedatu [m^2/s] 
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		: 
+
+
+Figure 10
+
+User Data
+ChartType	: 
+Runs		:   wavloadA
+PhysProp	: 
+Xdata		:   waveheight
+Ydata		:   qbedatu_1
+XdataDef	:   (1,1,891:900)
+YdataDef	:   (1,1,891:900)
+TimeUnit	:
+
+Plot options
+xlabel		:   waveheight [m]
+ylabel		:   qbedatu [m^2/s] 
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		: 
+
+
+Figure 11
+
+
+User Data
+ChartType	: 
+Runs		:   wavloadB,wavloadC,wavloadD
+PhysProp	: 
+Xdata		:   waveheight
+Ydata		:   qtotatv_1
+XdataDef	:   (1,1,91:100)
+YdataDef	:   (1,1,91:100)
+TimeUnit	:
+
+Plot options
+xlabel		:   waveheight [m]
+ylabel		:   qtotatv [m^2/s]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		: 
+
+
+Figure 12
+
+User Data
+ChartType	: 
+Runs		:   wavloadB,wavloadC,wavloadD
+PhysProp	: 
+Xdata		:   waveheight
+Ydata		:   qtotatv_1
+XdataDef	:   (1,1,291:300)
+YdataDef	:   (1,1,291:300)
+TimeUnit	:
+
+Plot options
+xlabel		:   waveheight [m]
+ylabel		:   qtotatv [m^2/s]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		: 
+
+
+Figure 13
+
+User Data
+ChartType	: 
+Runs		:   wavloadB,wavloadC,wavloadD 
+PhysProp	: 
+Xdata		:   waveheight
+Ydata		:   qtotatv_1
+XdataDef	:   (1,1,491:500)
+YdataDef	:   (1,1,491:500)
+TimeUnit	:
+
+Plot options
+xlabel		:   waveheight [m]
+ylabel		:   qtotatv [m^2/s]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		: 
+
+
+Figure 14
+
+User Data
+ChartType	: 
+Runs		:   wavloadB,wavloadC,wavloadD
+PhysProp	: 
+Xdata		:   waveheight
+Ydata		:   qtotatv_1
+XdataDef	:   (1,1,691:700)
+YdataDef	:   (1,1,691:700)
+TimeUnit	:
+
+Plot options
+xlabel		:   waveheight [m]
+ylabel		:   qtotatv [m^2/s]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		: 
+
+
+Figure 15
+
+User Data
+ChartType	: 
+Runs		:   wavloadB,wavloadC,wavloadD 
+PhysProp	: 
+Xdata		:   waveheight
+Ydata		:   qtotatv_1
+XdataDef	:   (1,1,891:900)
+YdataDef	:   (1,1,891:900)
+TimeUnit	:
+
+Plot options
+xlabel		:   waveheight [m]
+ylabel		:   qtotatv [m^2/s]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		: 
+
+
+Figure 16
+
+User Data
+ChartType	: 
+Runs		:   wavloadA
+PhysProp	: 
+Xdata		:   waveheight
+Ydata		:   qbedatv_1
+XdataDef	:   (1,1,91:100)
+YdataDef	:   (1,1,91:100)
+TimeUnit	:
+
+Plot options
+xlabel		:   waveheight [m]
+ylabel		:   qbedatv [m^2/s]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		: 
+
+
+Figure 17
+
+User Data
+ChartType	: 
+Runs		:  wavloadA
+PhysProp	: 
+Xdata		:  waveheight
+Ydata		:  qbedatv_1
+XdataDef	:  (1,1,291:300)
+YdataDef	:  (1,1,291:300)
+TimeUnit	:
+
+Plot options
+xlabel		:   waveheight [m]
+ylabel		:   qbedatv [m^2/s]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		: 
+
+
+Figure 18
+
+User Data
+ChartType	: 
+Runs		:   wavloadA
+PhysProp	: 
+Xdata		:   waveheight
+Ydata		:   qbedatv_1
+XdataDef	:   (1,1,491:500)
+YdataDef	:   (1,1,491:500)
+TimeUnit	:
+
+Plot options
+xlabel		:   waveheight [m] 
+ylabel		:   qbedatv [m^2/s]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		: 
+
+
+Figure 19
+
+User Data
+ChartType	: 
+Runs		:   wavloadA
+PhysProp	: 
+Xdata		:   waveheight
+Ydata		:   qbedatv_1
+XdataDef	:   (1,1,691:700)
+YdataDef	:   (1,1,691:700)
+TimeUnit	:
+
+Plot options
+xlabel		:   waveheight [m]
+ylabel		:   qbedatv [m^2/s]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		: 
+
+
+Figure 20
+
+User Data
+ChartType	: 
+Runs		:   wavloadA
+PhysProp	: 
+Xdata		:   waveheight
+Ydata		:   qbedatv_1
+XdataDef	:   (1,1,891:900)
+YdataDef	:   (1,1,891:900)
+TimeUnit	:
+
+Plot options
+xlabel		:   waveheight [m]
+ylabel		:   qbedatv [m^2/s]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		: 

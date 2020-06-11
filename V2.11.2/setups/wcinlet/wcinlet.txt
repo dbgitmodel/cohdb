@@ -1,0 +1,11 @@
+#
+# test case wcinlet
+#
+# Test iopt_bstres_waves_bfric
+#-----------------------------
+#   A     0                   
+#   B     1                   
+#   C     2                   
+#   D     3                   
+#   E     4                   
+

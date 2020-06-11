@@ -1,0 +1,421 @@
+Version: V2.11.2
+Output parameters for test case isotest: simulation isotestA
+
+Time:   0 days
+  xdiffmean_temp   : -0.2277E-002
+  xdiffmean_sal    :  0.1840E-003
+  xdiffmean_dens   :  0.5546E-006
+  diffprojmean_temp: -0.5778E-005
+  diffprojmean_sal : -0.6328E-008
+  diffprojmean_dens: -0.1990E-009
+  xdiffmax_temp    :  -0.000     
+  xdiffmax_sal     :  0.4983E-003
+  xdiffmax_dens    :  0.1014E-004
+  diffprojmax_temp :   0.000     
+  diffprojmax_sal  : -0.8411E-013
+  diffprojmax_dens :   0.000     
+  xdiffmin_temp    : -0.4791E-001
+  xdiffmin_sal     :  0.1297E-005
+  xdiffmin_dens    :  0.9654E-009
+  diffprojmin_temp : -0.1738E-003
+  diffprojmin_sal  : -0.2483E-007
+  diffprojmin_dens : -0.7057E-008
+  tempvar          :   53.47     
+  salvar           :  0.3333     
+  densvar          :   2.874     
+Time:  10 days
+  xdiffmean_temp   : -0.2277E-002
+  xdiffmean_sal    :  0.1712E-003
+  xdiffmean_dens   :  0.5246E-006
+  diffprojmean_temp: -0.1827E-005
+  diffprojmean_sal : -0.5230E-008
+  diffprojmean_dens: -0.7080E-010
+  xdiffmax_temp    :  -0.000     
+  xdiffmax_sal     :  0.4414E-003
+  xdiffmax_dens    :  0.2848E-005
+  diffprojmax_temp :   0.000     
+  diffprojmax_sal  : -0.8411E-013
+  diffprojmax_dens :   0.000     
+  xdiffmin_temp    : -0.1382E-001
+  xdiffmin_sal     :  0.1297E-005
+  xdiffmin_dens    :  0.9654E-009
+  diffprojmin_temp : -0.1865E-004
+  diffprojmin_sal  : -0.1935E-007
+  diffprojmin_dens : -0.7878E-009
+  tempvar          :   48.70     
+  salvar           :  0.3241     
+  densvar          :   2.752     
+Time:  20 days
+  xdiffmean_temp   : -0.2277E-002
+  xdiffmean_sal    :  0.1634E-003
+  xdiffmean_dens   :  0.5162E-006
+  diffprojmean_temp: -0.1330E-005
+  diffprojmean_sal : -0.4480E-008
+  diffprojmean_dens: -0.5564E-010
+  xdiffmax_temp    :  -0.000     
+  xdiffmax_sal     :  0.4018E-003
+  xdiffmax_dens    :  0.2107E-005
+  diffprojmax_temp :   0.000     
+  diffprojmax_sal  : -0.8411E-013
+  diffprojmax_dens :   0.000     
+  xdiffmin_temp    : -0.1003E-001
+  xdiffmin_sal     :  0.1297E-005
+  xdiffmin_dens    :  0.9654E-009
+  diffprojmin_temp : -0.9944E-005
+  diffprojmin_sal  : -0.1570E-007
+  diffprojmin_dens : -0.4437E-009
+  tempvar          :   46.03     
+  salvar           :  0.3175     
+  densvar          :   2.672     
+Time:  30 days
+  xdiffmean_temp   : -0.2272E-002
+  xdiffmean_sal    :  0.1578E-003
+  xdiffmean_dens   :  0.5099E-006
+  diffprojmean_temp: -0.1097E-005
+  diffprojmean_sal : -0.4048E-008
+  diffprojmean_dens: -0.4812E-010
+  xdiffmax_temp    :  -0.000     
+  xdiffmax_sal     :  0.3716E-003
+  xdiffmax_dens    :  0.1774E-005
+  diffprojmax_temp :   0.000     
+  diffprojmax_sal  : -0.8411E-013
+  diffprojmax_dens :   0.000     
+  xdiffmin_temp    : -0.8273E-002
+  xdiffmin_sal     :  0.1297E-005
+  xdiffmin_dens    :  0.9654E-009
+  diffprojmin_temp : -0.6785E-005
+  diffprojmin_sal  : -0.1369E-007
+  diffprojmin_dens : -0.3140E-009
+  tempvar          :   43.95     
+  salvar           :  0.3116     
+  densvar          :   2.604     
+Time:  40 days
+  xdiffmean_temp   : -0.2260E-002
+  xdiffmean_sal    :  0.1522E-003
+  xdiffmean_dens   :  0.5027E-006
+  diffprojmean_temp: -0.9547E-006
+  diffprojmean_sal : -0.3728E-008
+  diffprojmean_dens: -0.4320E-010
+  xdiffmax_temp    :  -0.000     
+  xdiffmax_sal     :  0.3557E-003
+  xdiffmax_dens    :  0.1566E-005
+  diffprojmax_temp :   0.000     
+  diffprojmax_sal  : -0.8411E-013
+  diffprojmax_dens : -0.5892E-016
+  xdiffmin_temp    : -0.7201E-002
+  xdiffmin_sal     :  0.1297E-005
+  xdiffmin_dens    :  0.9654E-009
+  diffprojmin_temp : -0.5157E-005
+  diffprojmin_sal  : -0.1263E-007
+  diffprojmin_dens : -0.2470E-009
+  tempvar          :   42.19     
+  salvar           :  0.3072     
+  densvar          :   2.543     
+Time:  50 days
+  xdiffmean_temp   : -0.2236E-002
+  xdiffmean_sal    :  0.1466E-003
+  xdiffmean_dens   :  0.4939E-006
+  diffprojmean_temp: -0.8553E-006
+  diffprojmean_sal : -0.3438E-008
+  diffprojmean_dens: -0.3947E-010
+  xdiffmax_temp    :  -0.000     
+  xdiffmax_sal     :  0.3467E-003
+  xdiffmax_dens    :  0.1427E-005
+  diffprojmax_temp :   0.000     
+  diffprojmax_sal  : -0.8411E-013
+  diffprojmax_dens : -0.7348E-015
+  xdiffmin_temp    : -0.6466E-002
+  xdiffmin_sal     :  0.1297E-005
+  xdiffmin_dens    :  0.4757E-008
+  diffprojmin_temp : -0.4156E-005
+  diffprojmin_sal  : -0.1177E-007
+  diffprojmin_dens : -0.2050E-009
+  tempvar          :   40.63     
+  salvar           :  0.3029     
+  densvar          :   2.488     
+Time:  60 days
+  xdiffmean_temp   : -0.2202E-002
+  xdiffmean_sal    :  0.1410E-003
+  xdiffmean_dens   :  0.4834E-006
+  diffprojmean_temp: -0.7793E-006
+  diffprojmean_sal : -0.3174E-008
+  diffprojmean_dens: -0.3639E-010
+  xdiffmax_temp    :  -0.000     
+  xdiffmax_sal     :  0.3398E-003
+  xdiffmax_dens    :  0.1323E-005
+  diffprojmax_temp :   0.000     
+  diffprojmax_sal  : -0.8411E-013
+  diffprojmax_dens : -0.1177E-014
+  xdiffmin_temp    : -0.5918E-002
+  xdiffmin_sal     :  0.1297E-005
+  xdiffmin_dens    :  0.4822E-008
+  diffprojmin_temp : -0.3488E-005
+  diffprojmin_sal  : -0.1103E-007
+  diffprojmin_dens : -0.1768E-009
+  tempvar          :   39.22     
+  salvar           :  0.2989     
+  densvar          :   2.437     
+Time:  70 days
+  xdiffmean_temp   : -0.2159E-002
+  xdiffmean_sal    :  0.1354E-003
+  xdiffmean_dens   :  0.4716E-006
+  diffprojmean_temp: -0.7174E-006
+  diffprojmean_sal : -0.2929E-008
+  diffprojmean_dens: -0.3370E-010
+  xdiffmax_temp    :  -0.000     
+  xdiffmax_sal     :  0.3239E-003
+  xdiffmax_dens    :  0.1245E-005
+  diffprojmax_temp :   0.000     
+  diffprojmax_sal  : -0.8411E-013
+  diffprojmax_dens : -0.1045E-014
+  xdiffmin_temp    : -0.5488E-002
+  xdiffmin_sal     :  0.1297E-005
+  xdiffmin_dens    :  0.4891E-008
+  diffprojmin_temp : -0.2998E-005
+  diffprojmin_sal  : -0.1038E-007
+  diffprojmin_dens : -0.1563E-009
+  tempvar          :   37.93     
+  salvar           :  0.2951     
+  densvar          :   2.389     
+Time:  80 days
+  xdiffmean_temp   : -0.2110E-002
+  xdiffmean_sal    :  0.1298E-003
+  xdiffmean_dens   :  0.4588E-006
+  diffprojmean_temp: -0.6643E-006
+  diffprojmean_sal : -0.2708E-008
+  diffprojmean_dens: -0.3131E-010
+  xdiffmax_temp    :  -0.000     
+  xdiffmax_sal     :  0.3185E-003
+  xdiffmax_dens    :  0.1178E-005
+  diffprojmax_temp :   0.000     
+  diffprojmax_sal  : -0.8411E-013
+  diffprojmax_dens : -0.1208E-014
+  xdiffmin_temp    : -0.5140E-002
+  xdiffmin_sal     :  0.1297E-005
+  xdiffmin_dens    :  0.4894E-008
+  diffprojmin_temp : -0.2631E-005
+  diffprojmin_sal  : -0.9807E-008
+  diffprojmin_dens : -0.1405E-009
+  tempvar          :   36.74     
+  salvar           :  0.2915     
+  densvar          :   2.345     
+Time:  90 days
+  xdiffmean_temp   : -0.2057E-002
+  xdiffmean_sal    :  0.1242E-003
+  xdiffmean_dens   :  0.4454E-006
+  diffprojmean_temp: -0.6174E-006
+  diffprojmean_sal : -0.2504E-008
+  diffprojmean_dens: -0.2912E-010
+  xdiffmax_temp    :  -0.000     
+  xdiffmax_sal     :  0.3080E-003
+  xdiffmax_dens    :  0.1126E-005
+  diffprojmax_temp :   0.000     
+  diffprojmax_sal  : -0.8411E-013
+  diffprojmax_dens : -0.9225E-015
+  xdiffmin_temp    : -0.4857E-002
+  xdiffmin_sal     :  0.1297E-005
+  xdiffmin_dens    :  0.4898E-008
+  diffprojmin_temp : -0.2351E-005
+  diffprojmin_sal  : -0.9277E-008
+  diffprojmin_dens : -0.1281E-009
+  tempvar          :   35.64     
+  salvar           :  0.2880     
+  densvar          :   2.303     
+Time: 100 days
+  xdiffmean_temp   : -0.2001E-002
+  xdiffmean_sal    :  0.1186E-003
+  xdiffmean_dens   :  0.4315E-006
+  diffprojmean_temp: -0.5751E-006
+  diffprojmean_sal : -0.2320E-008
+  diffprojmean_dens: -0.2710E-010
+  xdiffmax_temp    :  -0.000     
+  xdiffmax_sal     :  0.3015E-003
+  xdiffmax_dens    :  0.1080E-005
+  diffprojmax_temp :   0.000     
+  diffprojmax_sal  : -0.8411E-013
+  diffprojmax_dens : -0.1077E-014
+  xdiffmin_temp    : -0.4597E-002
+  xdiffmin_sal     :  0.1297E-005
+  xdiffmin_dens    :  0.4902E-008
+  diffprojmin_temp : -0.2110E-005
+  diffprojmin_sal  : -0.8803E-008
+  diffprojmin_dens : -0.1182E-009
+  tempvar          :   34.62     
+  salvar           :  0.2848     
+  densvar          :   2.264     
+Time: 110 days
+  xdiffmean_temp   : -0.1944E-002
+  xdiffmean_sal    :  0.1139E-003
+  xdiffmean_dens   :  0.4182E-006
+  diffprojmean_temp: -0.5364E-006
+  diffprojmean_sal : -0.2176E-008
+  diffprojmean_dens: -0.2527E-010
+  xdiffmax_temp    :  -0.000     
+  xdiffmax_sal     :  0.2921E-003
+  xdiffmax_dens    :  0.1041E-005
+  diffprojmax_temp :   0.000     
+  diffprojmax_sal  : -0.8411E-013
+  diffprojmax_dens : -0.1070E-014
+  xdiffmin_temp    : -0.4380E-002
+  xdiffmin_sal     :  0.1297E-005
+  xdiffmin_dens    :  0.4905E-008
+  diffprojmin_temp : -0.1915E-005
+  diffprojmin_sal  : -0.8357E-008
+  diffprojmin_dens : -0.1100E-009
+  tempvar          :   33.66     
+  salvar           :  0.2835     
+  densvar          :   2.230     
+Time: 120 days
+  xdiffmean_temp   : -0.1887E-002
+  xdiffmean_sal    :  0.1139E-003
+  xdiffmean_dens   :  0.4083E-006
+  diffprojmean_temp: -0.5006E-006
+  diffprojmean_sal : -0.2175E-008
+  diffprojmean_dens: -0.2388E-010
+  xdiffmax_temp    :  -0.000     
+  xdiffmax_sal     :  0.2921E-003
+  xdiffmax_dens    :  0.1006E-005
+  diffprojmax_temp :   0.000     
+  diffprojmax_sal  : -0.8411E-013
+  diffprojmax_dens : -0.1049E-014
+  xdiffmin_temp    : -0.4188E-002
+  xdiffmin_sal     :  0.1297E-005
+  xdiffmin_dens    :  0.4909E-008
+  diffprojmin_temp : -0.1751E-005
+  diffprojmin_sal  : -0.8357E-008
+  diffprojmin_dens : -0.1028E-009
+  tempvar          :   32.77     
+  salvar           :  0.2835     
+  densvar          :   2.203     
+Time: 130 days
+  xdiffmean_temp   : -0.1830E-002
+  xdiffmean_sal    :  0.1139E-003
+  xdiffmean_dens   :  0.3986E-006
+  diffprojmean_temp: -0.4675E-006
+  diffprojmean_sal : -0.2175E-008
+  diffprojmean_dens: -0.2259E-010
+  xdiffmax_temp    :  -0.000     
+  xdiffmax_sal     :  0.2921E-003
+  xdiffmax_dens    :  0.9729E-006
+  diffprojmax_temp :   0.000     
+  diffprojmax_sal  : -0.8411E-013
+  diffprojmax_dens : -0.9181E-015
+  xdiffmin_temp    : -0.4011E-002
+  xdiffmin_sal     :  0.1297E-005
+  xdiffmin_dens    :  0.4913E-008
+  diffprojmin_temp : -0.1606E-005
+  diffprojmin_sal  : -0.8357E-008
+  diffprojmin_dens : -0.9588E-010
+  tempvar          :   31.94     
+  salvar           :  0.2835     
+  densvar          :   2.178     
+Time: 140 days
+  xdiffmean_temp   : -0.1774E-002
+  xdiffmean_sal    :  0.1139E-003
+  xdiffmean_dens   :  0.3892E-006
+  diffprojmean_temp: -0.4369E-006
+  diffprojmean_sal : -0.2175E-008
+  diffprojmean_dens: -0.2139E-010
+  xdiffmax_temp    :  -0.000     
+  xdiffmax_sal     :  0.2921E-003
+  xdiffmax_dens    :  0.9413E-006
+  diffprojmax_temp :   0.000     
+  diffprojmax_sal  : -0.8411E-013
+  diffprojmax_dens : -0.9258E-015
+  xdiffmin_temp    : -0.3853E-002
+  xdiffmin_sal     :  0.1297E-005
+  xdiffmin_dens    :  0.4917E-008
+  diffprojmin_temp : -0.1481E-005
+  diffprojmin_sal  : -0.8357E-008
+  diffprojmin_dens : -0.8987E-010
+  tempvar          :   31.18     
+  salvar           :  0.2835     
+  densvar          :   2.155     
+Time: 150 days
+  xdiffmean_temp   : -0.1720E-002
+  xdiffmean_sal    :  0.1139E-003
+  xdiffmean_dens   :  0.3799E-006
+  diffprojmean_temp: -0.4083E-006
+  diffprojmean_sal : -0.2175E-008
+  diffprojmean_dens: -0.2028E-010
+  xdiffmax_temp    :  -0.000     
+  xdiffmax_sal     :  0.2921E-003
+  xdiffmax_dens    :  0.9143E-006
+  diffprojmax_temp :   0.000     
+  diffprojmax_sal  : -0.8411E-013
+  diffprojmax_dens : -0.9009E-015
+  xdiffmin_temp    : -0.3703E-002
+  xdiffmin_sal     :  0.1297E-005
+  xdiffmin_dens    :  0.4920E-008
+  diffprojmin_temp : -0.1368E-005
+  diffprojmin_sal  : -0.8357E-008
+  diffprojmin_dens : -0.8462E-010
+  tempvar          :   30.46     
+  salvar           :  0.2835     
+  densvar          :   2.133     
+Time: 160 days
+  xdiffmean_temp   : -0.1666E-002
+  xdiffmean_sal    :  0.1139E-003
+  xdiffmean_dens   :  0.3708E-006
+  diffprojmean_temp: -0.3817E-006
+  diffprojmean_sal : -0.2175E-008
+  diffprojmean_dens: -0.1924E-010
+  xdiffmax_temp    :  -0.000     
+  xdiffmax_sal     :  0.2921E-003
+  xdiffmax_dens    :  0.8887E-006
+  diffprojmax_temp :   0.000     
+  diffprojmax_sal  : -0.8411E-013
+  diffprojmax_dens : -0.1202E-014
+  xdiffmin_temp    : -0.3573E-002
+  xdiffmin_sal     :  0.1297E-005
+  xdiffmin_dens    :  0.4924E-008
+  diffprojmin_temp : -0.1274E-005
+  diffprojmin_sal  : -0.8357E-008
+  diffprojmin_dens : -0.8000E-010
+  tempvar          :   29.78     
+  salvar           :  0.2835     
+  densvar          :   2.112     
+Time: 170 days
+  xdiffmean_temp   : -0.1613E-002
+  xdiffmean_sal    :  0.1139E-003
+  xdiffmean_dens   :  0.3619E-006
+  diffprojmean_temp: -0.3569E-006
+  diffprojmean_sal : -0.2175E-008
+  diffprojmean_dens: -0.1826E-010
+  xdiffmax_temp    :  -0.000     
+  xdiffmax_sal     :  0.2921E-003
+  xdiffmax_dens    :  0.8629E-006
+  diffprojmax_temp :   0.000     
+  diffprojmax_sal  : -0.8411E-013
+  diffprojmax_dens : -0.1235E-014
+  xdiffmin_temp    : -0.3447E-002
+  xdiffmin_sal     :  0.1297E-005
+  xdiffmin_dens    :  0.4928E-008
+  diffprojmin_temp : -0.1185E-005
+  diffprojmin_sal  : -0.8357E-008
+  diffprojmin_dens : -0.7532E-010
+  tempvar          :   29.16     
+  salvar           :  0.2835     
+  densvar          :   2.092     
+Time: 180 days
+  xdiffmean_temp   : -0.1562E-002
+  xdiffmean_sal    :  0.1139E-003
+  xdiffmean_dens   :  0.3532E-006
+  diffprojmean_temp: -0.3337E-006
+  diffprojmean_sal : -0.2175E-008
+  diffprojmean_dens: -0.1734E-010
+  xdiffmax_temp    :  -0.000     
+  xdiffmax_sal     :  0.2921E-003
+  xdiffmax_dens    :  0.8402E-006
+  diffprojmax_temp :   0.000     
+  diffprojmax_sal  : -0.8411E-013
+  diffprojmax_dens : -0.1204E-014
+  xdiffmin_temp    : -0.3324E-002
+  xdiffmin_sal     :  0.1297E-005
+  xdiffmin_dens    :  0.4932E-008
+  diffprojmin_temp : -0.1102E-005
+  diffprojmin_sal  : -0.8357E-008
+  diffprojmin_dens : -0.7137E-010
+  tempvar          :   28.57     
+  salvar           :  0.2835     
+  densvar          :   2.074     

@@ -1,0 +1,379 @@
+#
+# $Date: 2014-03-13 15:42:28 +0100 (Thu, 13 Mar 2014) $
+#
+# $Revision: 682 $
+#
+
+
+Figure 1
+
+User data
+ChartType   : bar
+Runs        :
+PhysProp    : ekin,epot,etot,bdissip  
+Xdata       :
+Ydata       : 
+XdataDef    :
+YdataDef    :
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 2
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   M2zetamp1,M2zetamp2,M2zetamp3,M2zetamp7
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 3
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   M2zetpha1,M2zetpha2,M2zetpha3,M2zetpha7
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 4
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   S2zetamp1,S2zetamp2,S2zetamp3,S2zetamp7
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 5
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   S2zetpha1,S2zetpha2,S2zetpha3,S2zetpha7
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 6
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   O1zetamp1,O1zetamp2,O1zetamp3,O1zetamp7
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 7
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   O1zetpha1,O1zetpha2,O1zetpha3,O1zetpha7
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 8
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   K1zetamp1,K1zetamp2,K1zetamp3,K1zetamp7
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 9
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   K1zetpha1,K1zetpha2,K1zetpha3,K1zetpha7
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 10
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   M2zetamp4,M2zetamp5,M2zetamp6,M2zetamp10
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 11
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   M2zetpha4,M2zetpha5,M2zetpha6,M2zetpha10
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 12
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   S2zetamp4,S2zetamp5,S2zetamp6,S2zetamp10
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 13
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   S2zetpha4,S2zetpha5,S2zetpha6,S2zetpha10
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 14
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   O1zetamp4,O1zetamp5,O1zetamp6,O1zetamp10
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 15
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   O1zetpha4,O1zetpha5,O1zetpha6,O1zetpha10
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 16
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   K1zetamp4,K1zetamp5,K1zetamp6,K1zetamp10
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 17
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   K1zetpha4,K1zetpha5,K1zetpha6,K1zetpha10
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :

@@ -1,0 +1,7 @@
+#
+# test case plume
+#
+# Test  description
+# --------------------
+#  A    dry cell test
+#  B    thin dams test

@@ -1,0 +1,267 @@
+Version: V2.7
+Output parameters for test case sedvprof: sedvprofE
+ 
+Time:  0.5 hours
+  umean           :  0.7682    
+  ubot            :  0.1994    
+  usur            :  0.8444    
+  refconc         :  0.1003    
+  heightc         :  0.3237E-01
+  bsed_flux       :  0.2301E-05
+  sedbot          :  0.1003    
+  sedmin          :  0.1530E-08
+  sedmax          :  0.1003    
+  sedint          :  0.3287E-02
+Time:  1.0 hours
+  umean           :   1.186    
+  ubot            :  0.2978    
+  usur            :   1.327    
+  refconc         :  0.1292    
+  heightc         :  0.3562E-01
+  bsed_flux       :  0.4086E-05
+  sedbot          :  0.1291    
+  sedmin          :  0.1126E-05
+  sedmax          :  0.1291    
+  sedint          :  0.9805E-02
+Time:  1.5 hours
+  umean           :   1.344    
+  ubot            :  0.3359    
+  usur            :   1.508    
+  refconc         :  0.1442    
+  heightc         :  0.3723E-01
+  bsed_flux       :  0.2242E-05
+  sedbot          :  0.1441    
+  sedmin          :  0.5663E-05
+  sedmax          :  0.1441    
+  sedint          :  0.1565E-01
+Time:  2.0 hours
+  umean           :   1.396    
+  ubot            :  0.3482    
+  usur            :   1.567    
+  refconc         :  0.1494    
+  heightc         :  0.3779E-01
+  bsed_flux       :  0.8145E-06
+  sedbot          :  0.1494    
+  sedmin          :  0.8974E-05
+  sedmax          :  0.1494    
+  sedint          :  0.1823E-01
+Time:  2.5 hours
+  umean           :   1.411    
+  ubot            :  0.3520    
+  usur            :   1.585    
+  refconc         :  0.1510    
+  heightc         :  0.3797E-01
+  bsed_flux       :  0.2606E-06
+  sedbot          :  0.1510    
+  sedmin          :  0.1028E-04
+  sedmax          :  0.1510    
+  sedint          :  0.1911E-01
+Time:  3.0 hours
+  umean           :   1.416    
+  ubot            :  0.3532    
+  usur            :   1.590    
+  refconc         :  0.1515    
+  heightc         :  0.3802E-01
+  bsed_flux       :  0.8162E-07
+  sedbot          :  0.1515    
+  sedmin          :  0.1071E-04
+  sedmax          :  0.1515    
+  sedint          :  0.1938E-01
+Time:  3.5 hours
+  umean           :   1.417    
+  ubot            :  0.3535    
+  usur            :   1.592    
+  refconc         :  0.1517    
+  heightc         :  0.3804E-01
+  bsed_flux       :  0.2006E-07
+  sedbot          :  0.1517    
+  sedmin          :  0.1084E-04
+  sedmax          :  0.1517    
+  sedint          :  0.1946E-01
+Time:  4.0 hours
+  umean           :   1.418    
+  ubot            :  0.3536    
+  usur            :   1.592    
+  refconc         :  0.1517    
+  heightc         :  0.3804E-01
+  bsed_flux       :  0.6169E-08
+  sedbot          :  0.1517    
+  sedmin          :  0.1088E-04
+  sedmax          :  0.1517    
+  sedint          :  0.1949E-01
+Time:  4.5 hours
+  umean           :   1.418    
+  ubot            :  0.3536    
+  usur            :   1.592    
+  refconc         :  0.1517    
+  heightc         :  0.3804E-01
+  bsed_flux       : -0.4988E-08
+  sedbot          :  0.1517    
+  sedmin          :  0.1089E-04
+  sedmax          :  0.1517    
+  sedint          :  0.1949E-01
+Time:  5.0 hours
+  umean           :   1.418    
+  ubot            :  0.3537    
+  usur            :   1.592    
+  refconc         :  0.1517    
+  heightc         :  0.3804E-01
+  bsed_flux       : -0.2563E-08
+  sedbot          :  0.1517    
+  sedmin          :  0.1089E-04
+  sedmax          :  0.1517    
+  sedint          :  0.1950E-01
+Time:  5.5 hours
+  umean           :   1.418    
+  ubot            :  0.3537    
+  usur            :   1.592    
+  refconc         :  0.1517    
+  heightc         :  0.3804E-01
+  bsed_flux       :  0.5445E-08
+  sedbot          :  0.1517    
+  sedmin          :  0.1090E-04
+  sedmax          :  0.1517    
+  sedint          :  0.1950E-01
+Time:  6.0 hours
+  umean           :   1.418    
+  ubot            :  0.3537    
+  usur            :   1.592    
+  refconc         :  0.1517    
+  heightc         :  0.3804E-01
+  bsed_flux       :  0.1943E-08
+  sedbot          :  0.1517    
+  sedmin          :  0.1090E-04
+  sedmax          :  0.1517    
+  sedint          :  0.1950E-01
+Time:  6.5 hours
+  umean           :   1.418    
+  ubot            :  0.3537    
+  usur            :   1.592    
+  refconc         :  0.1517    
+  heightc         :  0.3804E-01
+  bsed_flux       : -0.6339E-09
+  sedbot          :  0.1517    
+  sedmin          :  0.1090E-04
+  sedmax          :  0.1517    
+  sedint          :  0.1950E-01
+Time:  7.0 hours
+  umean           :   1.418    
+  ubot            :  0.3537    
+  usur            :   1.592    
+  refconc         :  0.1517    
+  heightc         :  0.3804E-01
+  bsed_flux       :  0.8802E-08
+  sedbot          :  0.1517    
+  sedmin          :  0.1090E-04
+  sedmax          :  0.1517    
+  sedint          :  0.1950E-01
+Time:  7.5 hours
+  umean           :   1.418    
+  ubot            :  0.3537    
+  usur            :   1.592    
+  refconc         :  0.1517    
+  heightc         :  0.3804E-01
+  bsed_flux       : -0.1736E-08
+  sedbot          :  0.1517    
+  sedmin          :  0.1090E-04
+  sedmax          :  0.1517    
+  sedint          :  0.1950E-01
+Time:  8.0 hours
+  umean           :   1.418    
+  ubot            :  0.3537    
+  usur            :   1.592    
+  refconc         :  0.1517    
+  heightc         :  0.3804E-01
+  bsed_flux       : -0.4048E-08
+  sedbot          :  0.1517    
+  sedmin          :  0.1090E-04
+  sedmax          :  0.1517    
+  sedint          :  0.1950E-01
+Time:  8.5 hours
+  umean           :   1.418    
+  ubot            :  0.3537    
+  usur            :   1.592    
+  refconc         :  0.1517    
+  heightc         :  0.3804E-01
+  bsed_flux       : -0.1670E-08
+  sedbot          :  0.1517    
+  sedmin          :  0.1089E-04
+  sedmax          :  0.1517    
+  sedint          :  0.1950E-01
+Time:  9.0 hours
+  umean           :   1.418    
+  ubot            :  0.3537    
+  usur            :   1.592    
+  refconc         :  0.1517    
+  heightc         :  0.3804E-01
+  bsed_flux       :  0.7215E-09
+  sedbot          :  0.1517    
+  sedmin          :  0.1089E-04
+  sedmax          :  0.1517    
+  sedint          :  0.1950E-01
+Time:  9.5 hours
+  umean           :   1.418    
+  ubot            :  0.3537    
+  usur            :   1.592    
+  refconc         :  0.1517    
+  heightc         :  0.3804E-01
+  bsed_flux       :  0.4260E-08
+  sedbot          :  0.1517    
+  sedmin          :  0.1090E-04
+  sedmax          :  0.1517    
+  sedint          :  0.1950E-01
+Time: 10.0 hours
+  umean           :   1.418    
+  ubot            :  0.3537    
+  usur            :   1.592    
+  refconc         :  0.1517    
+  heightc         :  0.3804E-01
+  bsed_flux       : -0.4547E-08
+  sedbot          :  0.1517    
+  sedmin          :  0.1090E-04
+  sedmax          :  0.1517    
+  sedint          :  0.1950E-01
+Time: 10.5 hours
+  umean           :   1.418    
+  ubot            :  0.3537    
+  usur            :   1.592    
+  refconc         :  0.1517    
+  heightc         :  0.3804E-01
+  bsed_flux       :  0.5003E-09
+  sedbot          :  0.1517    
+  sedmin          :  0.1090E-04
+  sedmax          :  0.1517    
+  sedint          :  0.1950E-01
+Time: 11.0 hours
+  umean           :   1.418    
+  ubot            :  0.3537    
+  usur            :   1.592    
+  refconc         :  0.1517    
+  heightc         :  0.3804E-01
+  bsed_flux       : -0.3636E-08
+  sedbot          :  0.1517    
+  sedmin          :  0.1089E-04
+  sedmax          :  0.1517    
+  sedint          :  0.1950E-01
+Time: 11.5 hours
+  umean           :   1.418    
+  ubot            :  0.3537    
+  usur            :   1.592    
+  refconc         :  0.1517    
+  heightc         :  0.3804E-01
+  bsed_flux       : -0.1423E-08
+  sedbot          :  0.1517    
+  sedmin          :  0.1090E-04
+  sedmax          :  0.1517    
+  sedint          :  0.1950E-01
+Time: 12.0 hours
+  umean           :   1.418    
+  ubot            :  0.3537    
+  usur            :   1.592    
+  refconc         :  0.1517    
+  heightc         :  0.3804E-01
+  bsed_flux       : -0.4682E-08
+  sedbot          :  0.1517    
+  sedmin          :  0.1089E-04
+  sedmax          :  0.1517    
+  sedint          :  0.1950E-01

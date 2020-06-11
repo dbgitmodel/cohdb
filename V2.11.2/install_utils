@@ -1,0 +1,45 @@
+#!/bin/sh
+#
+# Version - @{COHERENS}dependencies.cmp   V2.0
+#
+# $Date: 2015-10-06 17:42:25 +0200 (Tue, 06 Oct 2015) $
+#
+# $Revision: 886 $
+#
+# installs utility programs on the current directory
+# syntax:
+#   install_utils [-c]
+# with option '-c', all source code is copied to the current directory
+# use option '-c' only if VPATH is not defined in the Makefile
+
+# - installs utility programs in the current directory
+# - this version should only be used if VPATH is defined in Makefile
+#   (this avoids copying all source code the the current directory)
+# - use install_utils2 if VPATH is not defined
+
+# clear any old links that may exist
+
+rm -f PSOURCE PCOMPS PSCR DECOMP
+
+# create the directory links
+#  PSOURCE: full path name of subdirectory with postprocessing source code
+#  PCOMPS: full path name of subdirectory with file for compilation of
+#          postprocessor 
+#  PSCR: full path name of subdirectory with scripts for postprocessing
+#  DECOMP: full path name of subdirectory with source code of parallel grid
+#          generator
+
+# create links
+ln -s COHERENS/utils/post/source PSOURCE
+ln -s COHERENS/utils/post/comps PCOMPS
+ln -s COHERENS/utils/post/scr PSCR
+ln -s COHERENS/utils/decomp DECOMP
+
+# copy files
+if [ "$1" = "-c" ]; then
+  cp PSOURCE/* .
+  cp DECOMP/*90 .
+fi
+cp PCOMPS//MakePost .
+cp PSCR/* .
+cp DECOMP/MakeGrids .

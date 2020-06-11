@@ -1,0 +1,373 @@
+#
+# $Date: 2016-02-22 13:24:45 +0100 (Mon, 22 Feb 2016) $
+#
+# $Revision: 910 $
+#
+
+
+Figure 1
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   depmeanatc_1
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 2
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   bstresatc_2
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 3
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   qbedatu_3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 4
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   qbedatv_4
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 5
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   bed_update_int_5
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 6
+
+User data
+ChartType   :
+Runs        :   morphtrenchB,morphtrenchC,morphtrenchD,morphtrenchF,morphtrenchG,morphtrenchH
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   ctot_6
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 7
+
+User data
+ChartType   :
+Runs        :   morphtrenchB,morphtrenchC,morphtrenchD,morphtrenchF,morphtrenchG,morphtrenchH
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   depero_src_7
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 8
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   qbed_src_8
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 9
+
+User data
+ChartType   :
+Runs        :   
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   vert_sed_balance_5
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 10
+
+User data
+ChartType   :
+Runs        :   morphtrenchA,morphtrenchB,morphtrenchC,morphtrenchD
+PhysProp    :   
+Xdata       :   x
+Ydata       :   bed_update_int
+XdataDef    :   (:)
+YdataDef    :   (:,25,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 11
+
+User data
+ChartType   :
+Runs        :   morphtrenchA,morphtrenchB,morphtrenchC,morphtrenchD
+PhysProp    :   
+Xdata       :   x
+Ydata       :   qbedatu_1
+XdataDef    :   (:)
+YdataDef    :   (:,25,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 12
+
+User data
+ChartType   :
+Runs        :   morphtrenchA,morphtrenchB,morphtrenchC,morphtrenchD
+PhysProp    :   
+Xdata       :   y
+Ydata       :   bed_update_int
+XdataDef    :   (:)
+YdataDef    :   (11,:,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 13
+
+User data
+ChartType   :
+Runs        :   morphtrenchA,morphtrenchB,morphtrenchC,morphtrenchD
+PhysProp    :   
+Xdata       :   y
+Ydata       :   qbedatv_1
+XdataDef    :   (:)
+YdataDef    :   (11,:,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 14
+
+User data
+ChartType   :
+Runs        :   morphtrenchE,morphtrenchF,morphtrenchG,morphtrenchH
+PhysProp    :   
+Xdata       :   x
+Ydata       :   bed_update_int
+XdataDef    :   (:)
+YdataDef    :   (:,35,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 15
+
+User data
+ChartType   :
+Runs        :   morphtrenchE,morphtrenchF,morphtrenchG,morphtrenchH
+PhysProp    :   
+Xdata       :   x
+Ydata       :   qbedatu_1
+XdataDef    :   (:)
+YdataDef    :   (:,35,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 16
+
+User data
+ChartType   :
+Runs        :   morphtrenchE,morphtrenchF,morphtrenchG,morphtrenchH
+PhysProp    :   
+Xdata       :   y
+Ydata       :   bed_update_int
+XdataDef    :   (:)
+YdataDef    :   (3,:,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 17
+
+User data
+ChartType   :
+Runs        :   morphtrenchE,morphtrenchF,morphtrenchG,morphtrenchH
+PhysProp    :   
+Xdata       :   y
+Ydata       :   qbedatv_1
+XdataDef    :   (:)
+YdataDef    :   (3,:,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 

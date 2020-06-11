@@ -1,0 +1,27 @@
+#
+# $Date: 2014-04-28 11:11:34 +0200 (Mon, 28 Apr 2014) $
+#
+# $Revision: 697 $
+#
+
+
+Figure 1
+
+User data
+ChartType   :   
+PhysProp    :   
+Runs        :
+Xdata       : bstres
+Ydata       : qtot
+XdataDef    : (:)
+YdataDef    : (:)
+TimeUnit    :   
+
+Plot options
+xlabel      : Bed stress [Pa]
+ylabel      : Total load [kg/m/s] 
+xlim        :   
+ylim        :
+refmarker   :
+newmarker   :
+title       : Total load transport

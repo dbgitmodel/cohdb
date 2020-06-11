@@ -1,0 +1,9 @@
+#
+# test case cones
+#
+# Test  iopt_adv_scal iopt_adv_tvd
+# --------------------------------
+#   A       1              -
+#   B       3              -
+#   C       4              1
+#   D       4              2

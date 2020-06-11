@@ -1,0 +1,176 @@
+!************************************************************
+! This is an example CIF file, for running the test case river
+! It is the second of two files, which runs the simulation of a density current
+! This file uses the tutorial settings
+! Written by Alexander Breugem
+! April 2012
+!************************************************************
+
+! Monitoring parameters
+!************************************************************
+! In this part, parameters are defined that determine the
+! parameters tha are written to the logfiles
+!
+! Get resonable amount of logdata. Increase the number to obtain more data
+LEVPROCS_INI = 7
+LEVPROCS_RUN = 3
+
+! Generate a detailed timing file
+LEVTIMER = 3
+
+#
+!*************************************************************
+! Switches and parameters.
+! Do not remove the # above
+!
+! In this part, parameters are set for the run
+
+! Define grid
+IOPT_GRID_NODIM = 3
+
+! Use open boundary conditions
+IOPT_OBC_2D = 1
+
+! Switching on simulation of baroclinic currents
+IOPT_DENS = 1
+IOPT_DENS_GRAD = 1
+
+! Calculate salinity
+IOPT_SAL = 2
+
+! Turbulence switch for limiting conditions 
+IOPT_TURB_IWLIM = 1
+
+! Set up model grid
+! Note that you always define an extra dummy cell on the edges
+NC = 141
+NR = 2
+NZ = 20
+
+! Define number of sea boundary conditions
+NOSBU = 2
+NOSBV = 0
+! Define number of river boundary conditions
+NRVBU = 0
+NRVBV = 0
+
+! Define number of tidal constituents at the boundary
+NCONOBC = 1
+
+! Define type of constituent (S2 = 51)
+INDEX_OBC = 51
+
+! Set start and endtime amd Time step
+CSTARTDATETIME = 2003/01/03;00:00:00:000
+CENDDATETIME = 2003/01/06;00:00:00:000
+DELT2D = 30.
+IC3D = 10
+
+! Select constant water depth
+DEPMEAN_CST = 20.
+
+! Accelaration of gravity
+GACC_REF = 9.81
+
+! Bottom friction coefficient
+ZROUGH_CST = 0.6E-02
+
+! Define restart files
+NORESTARTS = 0
+
+! define runtitle
+INTITLE = riverT
+OUTTITLE = riverT
+
+! Define number of outputs for time series
+NOSETSTSR = 1
+NOVARSTSR = 6
+
+! Model files
+!************************************************
+
+! The format is: file descriptor,file number,input(1)/output(2),
+!                format(A=ascii,N=netcdf,U=binary),
+!                status(R=read,W=write,N=usrdef), filename,
+!                tlim1,tlim2,tlim3,endfile,info,time_regular,path
+
+! Grid input
+MODFILES = modgrd,1,1,N,R,riverT.modgrdN,0,0,0,0,F,F,
+
+! Open boundary conditions input
+MODFILES = 2uvobc,1,1,A,R,riverT.2uvobc1A,0,0,0,0,F,F,
+
+! Initial conditions input (restart file from simulation 0)
+MODFILES = inicon,1,1,N,N,riverT.phsfinN,0,0,0,0,F,F,
+
+! Horizontal coordinates
+SURFACEGRIDS = 1,1,0,0,1000.,1000.,0.,0.
+
+#
+!**********************************************
+! Do not remove the # above
+!
+! Parameters for time series output
+!
+
+! Definition of the output variables
+! The format is: number (output), key id, dimension (0/2/3), oopt, klev, dep,
+!                node, fortran name,
+! long name, unit
+! Only the first 3 are required
+
+! Surface elevation (92)
+TSRVARS = 1,92,2,,,,,,,,,
+! Depth avg U velocity (104)
+TSRVARS = 2,107,2,,,,,,,,,
+
+! U velocity
+TSRVARS = 3,109,3,,,,,,,,,,
+! V velocity
+TSRVARS = 4,121,3,,,,,,,,,,
+! Vertical velocity
+TSRVARS = 5,123,3,,,,,,,,,,
+! Salinity
+TSRVARS = 6,128,3,,,,,,,,,,
+
+! Matching the variables to sets
+! Format: iset, ivar1, ivar2,etc.
+IVARSTSR = 1,2,3,4,5,6
+
+! Definition of the output files
+! Format: set number, defined (T/F), format (A=ascii,N=netCDF, U=binary),
+!                     filename, info (T/F), path, header_type
+TSR2D = 1,T,N,riverT_1.tsout2N,T,,2
+TSR3D = 1,T,N,riverT_1.tsout3N,T,,2
+
+! Definition of output grid
+! Format: set number, gridded (T/F), gridfile (T/F), land_mask (T/F),
+!         timegrid (T/F), ref_date, number dimensions, number stations,
+!         start x, end x, stepx, start y, end y, step y, , start z, end z,
+!         step z, start time, end time, timestep
+! note that the end time may have to change if you change the time tspes or
+! time interval of the simulation
+TSRGPARS = 1,T,F,F,T,2003/01/03;00:00:00:000,3,0,0,1,140,1,1,1,1,1,20,1,0,8640,180
+
+#
+!**********************************************
+! Do not remove the # above
+!
+! Parameters for time averaged output
+!
+
+#
+!**********************************************
+! Do not remove the # above
+!
+! Parameters for harmonic analysis
+!
+
+#
+!**********************************************
+! Do not remove the # above
+!
+! Parameters for harmonic output
+!
+
+#

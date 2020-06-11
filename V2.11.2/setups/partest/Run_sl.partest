@@ -1,0 +1,21 @@
+#!/bin/sh
+
+RES=$(sbatch -n 5 ./Run_mpi.sh partestA)
+jobid=${RES##* }
+
+RES=$(sbatch -n 5 -d afterany:$jobid ./Run_mpi.sh partestB)
+jobid=${RES##* }
+
+RES=$(sbatch -n 5 -d afterany:$jobid ./Run_mpi.sh partestC)
+jobid=${RES##* }
+
+RES=$(sbatch -n 5 -d afterany:$jobid ./Run_mpi.sh partestD)
+jobid=${RES##* }
+
+RES=$(sbatch -n 5 -d afterany:$jobid ./Run_mpi.sh partestE)
+jobid=${RES##* }
+
+RES=$(sbatch -n 1 -d afterany:$jobid ./Run_mpi.sh partestF)
+jobid=${RES##* }
+
+RES=$(sbatch -n 1 -d afterany:$jobid ./Run_mpi.sh partestG)

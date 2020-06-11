@@ -1,0 +1,106 @@
+#
+# Makefile for domain decomposition program
+#
+# Author - Patrick Luyten
+# 
+# Version - @{COHERENS}MakeGrids   V2.9
+#
+# $Date: 2018-08-13 15:37:51 +0200 (Mon, 13 Aug 2018) $
+#
+# $Revision: 1179 $
+#
+
+# default machine dependent parameters.
+FC =
+FCOPTS =
+FCDEFS =
+FCDEBUG =
+FCIFLAGS =
+FLIB_FILES =
+CPP =
+CPPIFLAGS =
+CPPF =
+CPPOPTS =
+CPPDEFS =
+
+# include file with cpp options and links for compilation
+DOPTSFILE = coherensflags.cmp
+
+# options for cpp processing and libraries
+include $(DOPTSFILE)
+
+SEDMOD = COHERENS/code/sediment_default
+BIOMOD = COHERENS/code/biology_default
+PARMOD = COHERENS/code/tracers_default
+
+# file paths
+VPATH = .:$(SEDMOD)/source:$(BIOMOD)/source:$(PARMOD)/source:$(PHYSMOD)/source:COHERENS/utils/decomp
+CMPDIR = $(PHYSMOD)/comps
+SCMPDIR = $(SEDMOD)/comps
+BCMPDIR = $(BIOMOD)/comps
+PCMPDIR = $(PARMOD)/comps
+
+# main program 
+EXEFILE = gridproc
+MAINFILE = Generate_Grids.o
+
+# no target
+none:
+	@echo No target provided
+
+# options for cpp processing
+include $(DOPTSFILE)
+
+# invoke make
+include $(CMPDIR)/compilers.cmp
+
+# make command
+MAKE = make -f MakeGrids
+
+# object files
+include $(CMPDIR)/objects.cmp
+include $(SCMPDIR)/objects_sed.cmp
+include $(BCMPDIR)/objects_bio.cmp
+include $(PCMPDIR)/objects_part.cmp
+MODFILES = $(MODULES) $(MODULES_SED) $(MODULES_BIO) $(MODULES_PART) grid_params.o
+SUBFILES = Usrdef_Grids.o
+
+# compilation flags
+CPPFLAGS = $(CPPIFLAGS) $(CPPOPTS) $(CPPDEFS)
+FFLAGS = $(FCIFLAGS) $(FCDEFS) $(FCDEBUG)
+
+# clean unnecessary files
+clean:
+	@rm -f $(MODFILES) $(SUBFILES) $(MAINFILE) $(EXEFILE) *.mod
+
+# create executable
+$(EXEFILE): $(MODFILES) $(SUBFILES) $(MAINFILE)
+	$(FC) $(FFLAGS) -o $(EXEFILE) $(MODFILES) $(SUBFILES) \
+	$(MAINFILE) $(FLIB_FILES)
+
+# dependencies
+include $(CMPDIR)/dependencies.cmp
+include $(SCMPDIR)/dependencies_sed.cmp
+include $(BCMPDIR)/dependencies_bio.cmp
+include $(PCMPDIR)/dependencies_part.cmp
+
+grid_params.o: grid_params.f90
+Usrdef_Grids.o: Usrdef_Grids.f90 $(MODFILES)
+$(MAINFILE): Generate_Grids.F90 datatypes.o depths.o grid.o gridpars.o \
+  grid_params.o iopars.o paralpars.o switches.o syspars.o error_routines.o \
+  grid_routines.o inout_routines.o modvars_routines.o time_routines.o
+ 
+# suffix rules
+.SUFFIXES:
+.SUFFIXES:.o .f90 .F90
+
+.F90.f90:
+	@rm -f $*.f90
+	$(CPPF) $(CPPFLAGS) $< ./$*.f90
+.f90.o:
+	$(FC) $(FFLAGS) -c $< -o $*.o
+.F90.o:
+	@rm -f $*.f90
+	$(CPPF) $(CPPFLAGS) $< ./$*.f90
+	$(FC) $(FFLAGS) -c ./$*.f90 -o $*.o
+	@rm -f $*.f90

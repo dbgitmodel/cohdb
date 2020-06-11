@@ -1,0 +1,2 @@
+echo "executing test case plume"
+sbatch -n 4 ./Run_mpi.sh

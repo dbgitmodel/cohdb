@@ -1,0 +1,12 @@
+#
+# test case plume
+#
+# Test  iopt_adv_2D/3D iopt_hdif_2D/3D/scal iopt_hdif_coef ityp2dobu tides
+# --------------------------------------------------------------------------
+#   A       3              0                      0            11      yes
+#   B       1              0                      0            11      yes
+#   C       1              1                      2            11      yes
+#   D       1              1                      1            11      yes
+#   E       1              1                      1            12      yes
+#   F       1              1                      1             4      yes
+#   G       3              0                      0            13      no

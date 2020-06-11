@@ -1,0 +1,7 @@
+#PBS -l nodes=1:ppn=4
+
+cd $PBS_O_WORKDIR
+
+echo "executing test thacker"
+mpiexec -np 4 ./coherens
+done

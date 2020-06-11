@@ -1,0 +1,143 @@
+Version: V2.7
+Output parameters for test case cones: simulation conesA
+ 
+Time:  12.5 minutes
+  xmin     :   7.399    
+  xplus    :   8.324    
+  ymin     :   10.23    
+  yplus    :   8.654    
+  cmin     :   0.000    
+  cmax     :  0.5773    
+Time:  25.0 minutes
+  xmin     :   9.746    
+  xplus    :   10.76    
+  ymin     :   10.81    
+  yplus    :   7.524    
+  cmin     :   0.000    
+  cmax     :  0.3912    
+Time:  37.5 minutes
+  xmin     :   11.55    
+  xplus    :   12.67    
+  ymin     :  -999.9    
+  yplus    :   8.536    
+  cmin     :   0.000    
+  cmax     :  0.3133    
+Time:  50.0 minutes
+  xmin     :   11.60    
+  xplus    :   13.17    
+  ymin     :   12.35    
+  yplus    :   12.59    
+  cmin     :   0.000    
+  cmax     :  0.2526    
+Time:  62.5 minutes
+  xmin     :   8.350    
+  xplus    :  -999.9    
+  ymin     :   13.32    
+  yplus    :   14.98    
+  cmin     :   0.000    
+  cmax     :  0.2097    
+Time:  75.0 minutes
+  xmin     :   12.53    
+  xplus    :  -999.9    
+  ymin     :   13.86    
+  yplus    :   15.91    
+  cmin     :   0.000    
+  cmax     :  0.1846    
+Time:  87.5 minutes
+  xmin     :   16.06    
+  xplus    :   15.82    
+  ymin     :   12.59    
+  yplus    :  -999.9    
+  cmin     :   0.000    
+  cmax     :  0.1597    
+Time: 100.0 minutes
+  xmin     :   17.18    
+  xplus    :   15.74    
+  ymin     :   12.34    
+  yplus    :  -999.9    
+  cmin     :   0.000    
+  cmax     :  0.1444    
+Time: 112.5 minutes
+  xmin     :  -999.9    
+  xplus    :   15.47    
+  ymin     :   16.64    
+  yplus    :  -999.9    
+  cmin     :   0.000    
+  cmax     :  0.1298    
+Time: 125.0 minutes
+  xmin     :  -999.9    
+  xplus    :   11.18    
+  ymin     :   18.48    
+  yplus    :   18.59    
+  cmin     :   0.000    
+  cmax     :  0.1166    
+Time: 137.5 minutes
+  xmin     :  -999.9    
+  xplus    :   15.45    
+  ymin     :  -999.9    
+  yplus    :   17.73    
+  cmin     :   0.000    
+  cmax     :  0.1090    
+Time: 150.0 minutes
+  xmin     :  -999.9    
+  xplus    :   18.43    
+  ymin     :  -999.9    
+  yplus    :   15.40    
+  cmin     :   0.000    
+  cmax     :  0.9950E-01
+Time: 162.5 minutes
+  xmin     :   22.27    
+  xplus    :   19.65    
+  ymin     :  -999.9    
+  yplus    :   13.16    
+  cmin     :   0.000    
+  cmax     :  0.1161    
+Time: 175.0 minutes
+  xmin     :   18.23    
+  xplus    :  -999.9    
+  ymin     :  -999.9    
+  yplus    :   18.68    
+  cmin     :   0.000    
+  cmax     :  0.8674E-01
+Time: 187.5 minutes
+  xmin     :   14.68    
+  xplus    :  -999.9    
+  ymin     :   18.38    
+  yplus    :   20.87    
+  cmin     :   0.000    
+  cmax     :  0.8443E-01
+Time: 200.0 minutes
+  xmin     :   17.27    
+  xplus    :  -999.9    
+  ymin     :   21.53    
+  yplus    :  -999.9    
+  cmin     :   0.000    
+  cmax     :  0.7888E-01
+Time: 212.5 minutes
+  xmin     :   20.69    
+  xplus    :  -999.9    
+  ymin     :   18.01    
+  yplus    :  -999.9    
+  cmin     :   0.000    
+  cmax     :  0.7919E-01
+Time: 225.0 minutes
+  xmin     :  -999.9    
+  xplus    :   25.39    
+  ymin     :   16.10    
+  yplus    :  -999.9    
+  cmin     :   0.000    
+  cmax     :  0.9996E-01
+Time: 237.5 minutes
+  xmin     :  -999.9    
+  xplus    :   20.37    
+  ymin     :   20.66    
+  yplus    :  -999.9    
+  cmin     :   0.000    
+  cmax     :  0.8326E-01
+Time: 250.0 minutes
+  xmin     :  -999.9    
+  xplus    :   17.05    
+  ymin     :   22.83    
+  yplus    :   19.35    
+  cmin     :   0.000    
+  cmax     :  0.1317    

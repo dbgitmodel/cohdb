@@ -1,0 +1,195 @@
+Version: V2.7
+Output parameters for test case rhone: simulation rhoneG
+ 
+Time:  6 hours
+  area34   :   48.73    
+  area22   :   16.86    
+  ekin     :   9.823    
+  epot     :   4.943    
+  etot     :   14.77    
+  bdissip  :  0.2499    
+  enstr    :   7.862    
+  curmax   :   114.1    
+  wmax     :  0.8667    
+  wmin     :  -1.307    
+  d34max   :   13.90    
+Time: 12 hours
+  area34   :   128.4    
+  area22   :   16.86    
+  ekin     :   14.73    
+  epot     :   13.09    
+  etot     :   27.82    
+  bdissip  :  0.6826    
+  enstr    :   9.237    
+  curmax   :   103.7    
+  wmax     :  0.8742    
+  wmin     : -0.4956    
+  d34max   :   15.75    
+Time: 18 hours
+  area34   :   152.8    
+  area22   :   18.74    
+  ekin     :   14.82    
+  epot     :   26.63    
+  etot     :   41.45    
+  bdissip  :  0.6000    
+  enstr    :   11.34    
+  curmax   :   103.3    
+  wmax     :  0.8771    
+  wmin     : -0.6801    
+  d34max   :   17.61    
+Time: 24 hours
+  area34   :   198.7    
+  area22   :   23.42    
+  ekin     :   19.93    
+  epot     :   34.63    
+  etot     :   54.57    
+  bdissip  :  0.6042    
+  enstr    :   15.95    
+  curmax   :   102.7    
+  wmax     :  0.8769    
+  wmin     : -0.3999    
+  d34max   :   17.61    
+Time: 30 hours
+  area34   :   255.0    
+  area22   :   27.17    
+  ekin     :   24.55    
+  epot     :   42.48    
+  etot     :   67.03    
+  bdissip  :  0.5539    
+  enstr    :   17.66    
+  curmax   :   102.8    
+  wmax     :  0.8815    
+  wmin     : -0.7097    
+  d34max   :   18.53    
+Time: 36 hours
+  area34   :   293.4    
+  area22   :   30.92    
+  ekin     :   26.42    
+  epot     :   52.23    
+  etot     :   78.65    
+  bdissip  :  0.6371    
+  enstr    :   18.68    
+  curmax   :   102.7    
+  wmax     :  0.8814    
+  wmin     : -0.6876    
+  d34max   :   18.53    
+Time: 42 hours
+  area34   :   338.3    
+  area22   :   35.61    
+  ekin     :   29.10    
+  epot     :   60.11    
+  etot     :   89.21    
+  bdissip  :  0.6330    
+  enstr    :   20.28    
+  curmax   :   102.3    
+  wmax     :  0.8825    
+  wmin     : -0.5954    
+  d34max   :   19.46    
+Time: 48 hours
+  area34   :   374.0    
+  area22   :   40.30    
+  ekin     :   31.88    
+  epot     :   69.19    
+  etot     :   101.1    
+  bdissip  :   1.515    
+  enstr    :   21.27    
+  curmax   :   102.3    
+  wmax     :  0.8793    
+  wmin     : -0.5890    
+  d34max   :   19.46    
+Time: 54 hours
+  area34   :   448.1    
+  area22   :   8.429    
+  ekin     :   162.3    
+  epot     :   44.68    
+  etot     :   207.0    
+  bdissip  :  0.5817    
+  enstr    :   24.17    
+  curmax   :   106.7    
+  wmax     :   1.198    
+  wmin     : -0.9598    
+  d34max   :   18.53    
+Time: 60 hours
+  area34   :   340.3    
+  area22   :   8.429    
+  ekin     :   141.0    
+  epot     :   79.77    
+  etot     :   220.7    
+  bdissip  :   6.928    
+  enstr    :   24.77    
+  curmax   :   106.6    
+  wmax     :   1.573    
+  wmin     :  -1.066    
+  d34max   :   22.24    
+Time: 66 hours
+  area34   :   331.9    
+  area22   :   9.366    
+  ekin     :   88.79    
+  epot     :   130.4    
+  etot     :   219.2    
+  bdissip  :   2.142    
+  enstr    :   28.06    
+  curmax   :   106.0    
+  wmax     :   1.860    
+  wmin     :  -1.134    
+  d34max   :   21.31    
+Time: 72 hours
+  area34   :   342.2    
+  area22   :   9.366    
+  ekin     :   147.9    
+  epot     :   131.4    
+  etot     :   279.3    
+  bdissip  :   1.788    
+  enstr    :   29.30    
+  curmax   :   105.7    
+  wmax     :   1.282    
+  wmin     : -0.9068    
+  d34max   :   24.09    
+Time: 78 hours
+  area34   :   361.9    
+  area22   :   9.366    
+  ekin     :   131.4    
+  epot     :   160.5    
+  etot     :   291.9    
+  bdissip  :   5.617    
+  enstr    :   32.33    
+  curmax   :   105.8    
+  wmax     :   1.328    
+  wmin     :  -1.721    
+  d34max   :   25.02    
+Time: 84 hours
+  area34   :   353.4    
+  area22   :   9.366    
+  ekin     :   115.2    
+  epot     :   178.0    
+  etot     :   293.3    
+  bdissip  :   1.969    
+  enstr    :   34.63    
+  curmax   :   105.6    
+  wmax     :   1.251    
+  wmin     :  -1.222    
+  d34max   :   24.09    
+Time: 90 hours
+  area34   :   357.2    
+  area22   :   9.366    
+  ekin     :   158.2    
+  epot     :   160.6    
+  etot     :   318.8    
+  bdissip  :   3.032    
+  enstr    :   37.78    
+  curmax   :   105.6    
+  wmax     :   1.190    
+  wmin     :  -1.245    
+  d34max   :   20.39    
+Time: 96 hours
+  area34   :   361.9    
+  area22   :   9.366    
+  ekin     :   137.0    
+  epot     :   171.8    
+  etot     :   308.8    
+  bdissip  :   5.033    
+  enstr    :   38.67    
+  curmax   :   106.2    
+  wmax     :   1.344    
+  wmin     :  -1.265    
+  d34max   :   20.39    

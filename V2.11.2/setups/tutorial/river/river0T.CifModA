@@ -1,0 +1,126 @@
+!************************************************************
+! This is an example CIF file, for running the test case river
+! It is the first of two files, which generate the initial conditions
+! This file uses the tutorial settings
+! Written by Alexander Breugem
+! April 2012
+!************************************************************
+
+! Monitoring parameters
+!************************************************************
+! In this part, parameters are defined that determine the 
+! parameters tha are written to the logfiles
+!
+! Get resonable amount of logdata. Increase the number to obtain more data
+LEVPROCS_INI = 3
+LEVPROCS_RUN = 3
+
+! Generate a detailed timing file
+LEVTIMER = 3
+
+#
+!*************************************************************
+! Switches and parameters.
+! Do not remove the # above
+!
+! In this part, parameters are set for the run
+
+! Define grid
+IOPT_GRID_NODIM = 3
+
+! Use open boundary conditions
+IOPT_OBC_2D = 1
+
+! Switch off time series output
+IOPT_OUT_TSERS = 0
+
+! Use salinity costant in time
+IOPT_SAL = 1
+
+! Set up model grid
+! Note that you always define an extra dummy cell on the edges
+NC = 141
+NR = 2
+NZ = 20
+
+! Define number of sea boundary conditions
+NOSBU = 2
+NOSBV = 0
+! Define number of river boundary conditions
+NRVBU = 0
+NRVBV = 0
+
+! Define number of tidal constituents at the boundary
+NCONOBC = 1
+
+! Define type of constituent (S2 = 51)
+INDEX_OBC = 51
+
+! Set start and endtime amd Time step
+CSTARTDATETIME = 2003/01/01;00:00:00:000
+CENDDATETIME = 2003/01/03;00:00:00:000
+DELT2D = 30.
+IC3D = 10
+
+! Select constant water depth
+DEPMEAN_CST = 20.
+
+! Accelaration of gravity
+GACC_REF = 9.81
+
+! Bottom friction coefficient
+ZROUGH_CST = 0.6E-02
+
+! Define restart files
+NORESTARTS = 1
+! Note that you have to change the restart time when you change time information
+NTRESTART = 5760
+
+! define runtitle
+INTITLE = riverT
+OUTTITLE = riverT
+
+! Define number of outputs for time series
+NOSETSTSR = 1
+NOVARSTSR = 6
+
+! Model files
+!************************************************
+
+! The format is: file descriptor,file number,input(1)/output(2),
+!                format(A=ascii,N=netcdf,U=binary),
+!                status(R=read,W=write,N=usrdef), filename,
+!                tlim1,tlim2,tlim3,endfile,info,time_regular,path
+
+! Grid input
+MODFILES = modgrd,1,1,N,R,riverT.modgrdN,0,0,0,0,F,F,
+
+! Open boundary conditions input
+MODFILES = 2uvobc,1,1,A,R,riverT.2uvobc1A,0,0,0,0,F,F,
+
+! Initial conditions output (restart file
+MODFILES = fincon,1,2,N,W,riverT.phsfinN,0,0,1,0,F,F,
+
+! Horizontal coordinates
+SURFACEGRIDS = 1,1,0,0,1000.,1000.,0.,0.
+
+#
+!**********************************************
+!Parameters for time series output
+!
+
+#
+!**********************************************
+!Parameters for time averaged output
+!
+#
+!**********************************************
+!Parameters for harmonic analysis
+!
+
+#
+!**********************************************
+!Parameters for harmonic output
+!
+
+#

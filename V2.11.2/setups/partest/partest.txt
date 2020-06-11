@@ -1,0 +1,12 @@
+#
+# test case partest (obcestA test case including particle module)
+#
+# Test  iopt_part_model nopart state iopt_part_vdif
+# -------------------------------------------------
+#   A      1               30    1       0
+#   B      1               30    2       0
+#   C      1               30    2       2
+#   D      1             3000    2       0
+#   E      1             3000    2       2
+#   F      3               30    2       0
+#   G      4               30    1       0

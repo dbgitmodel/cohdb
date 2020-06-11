@@ -1,0 +1,81 @@
+Version: V2.11
+Output parameters for test case front: simulation frontB
+ 
+Time:  0 hours
+  gradh    :   1.000     
+  gradv    :  0.8000     
+  hleng    :   1.000     
+  cmin     :   0.000     
+  cmax     :   2.000     
+Time:  3 hours
+  gradh    :  0.2869     
+  gradv    :  0.4789     
+  hleng    :   15.00     
+  cmin     : -0.6327E-001
+  cmax     :   2.654     
+Time:  6 hours
+  gradh    :  0.3123     
+  gradv    :  0.1940     
+  hleng    :   10.00     
+  cmin     :  0.1853     
+  cmax     :   2.001     
+Time:  9 hours
+  gradh    :  0.2482     
+  gradv    :  0.1816     
+  hleng    :   24.00     
+  cmin     :  0.2013     
+  cmax     :   1.997     
+Time: 12 hours
+  gradh    :  0.2641     
+  gradv    :  0.2013     
+  hleng    :   9.000     
+  cmin     :  0.2592     
+  cmax     :   2.009     
+Time: 15 hours
+  gradh    :  0.2323     
+  gradv    :  0.1692     
+  hleng    :   10.00     
+  cmin     :  0.3747     
+  cmax     :   2.026     
+Time: 18 hours
+  gradh    :  0.2352     
+  gradv    :  0.1869     
+  hleng    :   14.00     
+  cmin     :  0.3124     
+  cmax     :   1.999     
+Time: 21 hours
+  gradh    :  0.2122     
+  gradv    :  0.1448     
+  hleng    :   14.00     
+  cmin     :  0.4545     
+  cmax     :   1.997     
+Time: 24 hours
+  gradh    :  0.2177     
+  gradv    :  0.1734     
+  hleng    :   15.00     
+  cmin     :  0.2844     
+  cmax     :   2.001     
+Time: 27 hours
+  gradh    :  0.2039     
+  gradv    :  0.1639     
+  hleng    :   15.00     
+  cmin     :  0.5036     
+  cmax     :   2.039     
+Time: 30 hours
+  gradh    :  0.2299     
+  gradv    :  0.1765     
+  hleng    :   15.00     
+  cmin     :  0.4834     
+  cmax     :   2.008     
+Time: 33 hours
+  gradh    :  0.1920     
+  gradv    :  0.1373     
+  hleng    :   15.00     
+  cmin     :  0.5880     
+  cmax     :   2.002     
+Time: 36 hours
+  gradh    :  0.2068     
+  gradv    :  0.1692     
+  hleng    :   15.00     
+  cmin     :  0.4454     
+  cmax     :   2.008     

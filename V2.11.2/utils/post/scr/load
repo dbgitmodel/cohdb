@@ -1,0 +1,6 @@
+device,pseudo_color=8
+device,decomposed=0
+.run muplot
+.run printw
+;@/usr/local/mumap/start
+@~/MUMAP/start

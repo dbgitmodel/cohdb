@@ -1,0 +1,15 @@
+#
+# test case obtang
+#
+# Testing tangential boundary condition and nesting (V2.6)
+#
+# Test   grid   ityp2dobu/v tangential obc
+#-----------------------------------------
+#   A    main   12             yes
+#   B    sub    12             yes
+#   C    main   11             yes
+#   D    sub    11             yes
+#   E    main   12             no
+#   F    sub    12             no
+#   G    main   11             no
+#   H    sub    11             no

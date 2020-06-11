@@ -1,0 +1,3 @@
+echo "executing test case optos_nos"
+sbatch -n 11 ./Run_mpi.sh
+

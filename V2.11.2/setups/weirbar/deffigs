@@ -1,0 +1,444 @@
+#
+# $Date: 2015-02-03 10:21:02 +0100 (Tue, 03 Feb 2015) $
+#
+# $Revision: 812 $
+#
+
+
+Figure 1
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   wdeptot1
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time
+ylabel      :   
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 2
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   wmean1
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time
+ylabel      :   
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 3
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   eloss1
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time
+ylabel      :   
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 4
+
+User data
+ChartType   :
+Runs        :	weirbarE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   eloss4
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time
+ylabel      :   
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 5
+
+User data
+ChartType   :
+Runs        :   weirbarE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   eloss7
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time
+ylabel      :   
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 6
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   uvelmax
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   Maximum current in X-direction [cm/s]
+xlim        :   
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 7
+
+User data
+ChartType   :
+Runs        :   
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   uvelmin
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   Minimum current in X-direction [cm/s]
+xlim        :   
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 8
+
+User data
+ChartType   :
+Runs        :	weirbarE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   vvelmax
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   Maximum current in Y-direction [cm/s]
+xlim        :   
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 9
+
+User data
+ChartType   :
+Runs        :   weirbarE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   vvelmin
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   Minimum current in Y-direction [cm/s]
+xlim        :   
+ylim        :
+refmarker   :
+newmarker   :
+title       
+
+
+Figure 10
+
+User data
+ChartType   :
+Runs        :   weirbarB,weirbarC,weirbarD,weirbarE
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   wphysmax
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   Maximum vertical current [mm/s]
+xlim        :   
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 11
+
+User data
+ChartType   :
+Runs        :   weirbarB,weirbarC,weirbarD,weirbarE
+PhysProp    :
+Xdata       :   Time
+Ydata       :   wphysmin
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   Minimum vertical current [mm/s]
+xlim        :   
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 12
+
+User data
+ChartType   :	
+Runs        :   weirbarA,weirbarB,weirbarC,weirbarD
+PhysProp    :   
+Xdata       :   x
+Ydata       :   umvel
+XdataDef    :   (:)
+YdataDef    :   (:,1,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 13
+
+User data
+ChartType   :	
+Runs        :   weirbarB,weirbarC,weirbarD
+PhysProp    :   
+Xdata       :   x
+Ydata       :   uvel
+XdataDef    :   (:)
+YdataDef    :   (:,1,end,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 14
+
+User data
+ChartType   :	
+Runs        :   weirbarE
+PhysProp    :   
+Xdata       :   x
+Ydata       :   uvel
+XdataDef    :   (:)
+YdataDef    :   (:,3,end,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 15
+
+User data
+ChartType   :	
+Runs        :   weirbarB,weirbarC,weirbarD
+PhysProp    :   
+Xdata       :   x
+Ydata       :   uvel
+XdataDef    :   (:)
+YdataDef    :   (:,1,1,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 16
+
+User data
+ChartType   :	
+Runs        :   weirbarE
+PhysProp    :   
+Xdata       :   x
+Ydata       :   uvel
+XdataDef    :   (:)
+YdataDef    :   (:,3,1,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+Figure 17
+
+User data
+ChartType   :	
+Runs        :   weirbarB,weirbarC,weirbarD
+PhysProp    :   
+Xdata       :   x
+Ydata       :   wphys
+XdataDef    :   (:)
+YdataDef    :   (:,1,50,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 18
+
+User data
+ChartType   :	
+Runs        :   weirbarE
+PhysProp    :   
+Xdata       :   x
+Ydata       :   wphys
+XdataDef    :   (:)
+YdataDef    :   (:,3,50,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 19
+
+User data
+ChartType   :	
+Runs        :   weirbarA,weirbarB,weirbarC,weirbarD
+PhysProp    :   
+Xdata       :   x
+Ydata       :   zeta
+XdataDef    :   (:)
+YdataDef    :   (:,1,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 20
+
+User data
+ChartType   :	
+Runs        :   weirbarE
+PhysProp    :   
+Xdata       :   x
+Ydata       :   zeta
+XdataDef    :   (:)
+YdataDef    :   (:,3,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :

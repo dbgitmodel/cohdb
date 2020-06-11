@@ -1,0 +1,112 @@
+#
+# Licensed under the EUPL, Version 1.1 or - as soon they will be approved by
+# the European Commission - subsequent versions of the EUPL (the "Licence");
+# You may not use this work except in compliance with the Licence.
+# You may obtain a copy of the Licence at:
+#
+# http://ec.europa.eu/idabc/eupl
+#
+# Unless required by the applicable law or agreed to in writing, software
+# distributed under the Licence is distributed on an "AS IS" basis,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the Licence for the specific language governing permissions and
+# limitations under the Licence.
+#
+# Generic Makefile for COHERENS
+#
+# Author - Patrick Luyten
+# 
+# Version - @{COHERENS}Makefile   V2.9
+#
+# $Date: 2018-08-13 15:37:51 +0200 (Mon, 13 Aug 2018) $
+#
+# $Revision: 1179 $
+#
+
+# default machine dependent parameters.
+FC =
+FCOPTS =
+FCDEFS =
+FCDEBUG =
+FCIFLAGS =
+FLIB_FILES =
+CPP =
+CPPIFLAGS =
+CPPF =
+CPPOPTS =
+CPPDEFS =
+
+# include file with cpp options and links for compilation
+DOPTSFILE = coherensflags.cmp
+
+# options for cpp processing and libraries
+include $(DOPTSFILE)
+
+# file paths
+VPATH = .:$(SEDMOD)/source:$(BIOMOD)/source:$(PHYSMOD)/source:$(PARMOD)/source:COHERENS/utils/post/source
+CMPDIR = $(PHYSMOD)/comps
+SCMPDIR = $(SEDMOD)/comps
+BCMPDIR = $(BIOMOD)/comps
+PCMPDIR = $(PARMOD)/comps
+
+# main program 
+EXEFILE = postproc
+MAINFILE = Post_Program.o
+
+# no target
+none:
+	@echo No target provided
+
+# invoke make
+include $(CMPDIR)/compilers.cmp
+
+# make command
+MAKE = make -f MakePost
+
+# object files
+include $(CMPDIR)/objects.cmp
+include $(SCMPDIR)/objects_sed.cmp
+include $(BCMPDIR)/objects_bio.cmp
+include $(PCMPDIR)/objects_part.cmp
+MODFILES = $(MODULES) $(MODULES_SED) $(MODULES_BIO) $(MODULES_PART) plotpars.o
+SUBFILES = Wave_Coupler.o
+
+# compilation flags
+CPPFLAGS = $(CPPIFLAGS) $(CPPOPTS) $(CPPDEFS)
+FFLAGS = $(FCIFLAGS) $(FCDEFS) $(FCDEBUG)
+
+# clean unnecessary files
+clean:
+	@rm -f $(MODFILES) $(SUBFILES) $(MAINFILE) $(EXEFILE) *.mod
+ 
+# create executable
+$(EXEFILE): $(MODFILES) $(SUBFILES) $(MAINFILE)
+	$(FC) $(FFLAGS) -o $(EXEFILE) $(MODFILES) $(SUBFILES) $(MAINFILE)\
+        $(FLIB_FILES)
+
+# dependencies
+include $(CMPDIR)/dependencies.cmp
+include $(SCMPDIR)/dependencies_sed.cmp
+include $(BCMPDIR)/dependencies_bio.cmp
+include $(PCMPDIR)/dependencies_part.cmp
+
+plotpars.o: plotpars.f90 datatypes.o syspars.o
+$(MAINFILE): Post_Program.F90 depths.o grid.o iopars.o paralpars.o physpars.o \
+  plotpars.o switches.o syspars.o timepars.o array_interp.o datatypes_init.o \
+  error_routines.o grid_routines.o inout_routines.o time_routines.o \
+  utility_routines.o
+ 
+# suffix rules
+.SUFFIXES:
+.SUFFIXES:.o .f90 .F90
+
+.F90.f90:
+	@rm -f $*.f90
+	$(CPPF) $(CPPFLAGS) $< ./$*.f90
+.f90.o:
+	$(FC) $(FFLAGS) -c $< -o $*.o
+.F90.o:
+	@rm -f $*.f90
+	$(CPPF) $(CPPFLAGS) $< ./$*.f90
+	$(FC) $(FFLAGS) -c ./$*.f90 -o $*.o
+	@rm -f $*.f90

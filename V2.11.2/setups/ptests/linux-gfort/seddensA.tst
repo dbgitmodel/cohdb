@@ -1,0 +1,255 @@
+Version: V2.11.2
+Output parameters for test case seddens: simulation seddensA
+
+Time:  0.00 seconds
+  bstresmax:   0.000     
+  ubot     :   0.000     
+  umean    :   0.000     
+  hcurmax  :   9.900     
+  xmax     :  0.1000     
+  hgradmax :   0.000     
+  sedmax   :   132.5     
+  sedmin   :   0.000     
+  sedtot   :  0.2650E+007
+  sedbot   :   132.5     
+  bflxtot  :   0.000     
+Time:  0.50 seconds
+  bstresmax:   24.31     
+  ubot     :   0.000     
+  umean    :   0.000     
+  hcurmax  :   9.900     
+  xmax     :  0.1000     
+  hgradmax :   0.000     
+  sedmax   :   132.5     
+  sedmin   :   0.000     
+  sedtot   :  0.2728E+007
+  sedbot   :   132.5     
+  bflxtot  : -0.8481E-004
+Time:  1.00 seconds
+  bstresmax:   25.73     
+  ubot     :   1.035     
+  umean    : -0.7281E-001
+  hcurmax  :   6.900     
+  xmax     :  0.3000     
+  hgradmax :  0.2680E-001
+  sedmax   :   132.5     
+  sedmin   :   0.000     
+  sedtot   :  0.2708E+007
+  sedbot   :   132.5     
+  bflxtot  : -0.1194E-003
+Time:  1.50 seconds
+  bstresmax:   25.63     
+  ubot     :   1.110     
+  umean    :  -1.133     
+  hcurmax  :   5.500     
+  xmax     :   1.100     
+  hgradmax :  0.2687E-001
+  sedmax   :   132.5     
+  sedmin   :   0.000     
+  sedtot   :  0.2668E+007
+  sedbot   :   132.5     
+  bflxtot  : -0.1520E-003
+Time:  2.00 seconds
+  bstresmax:   29.92     
+  ubot     :   1.198     
+  umean    : -0.2293     
+  hcurmax  :   4.900     
+  xmax     :   1.700     
+  hgradmax :  0.1959E-001
+  sedmax   :   132.5     
+  sedmin   :   0.000     
+  sedtot   :  0.2699E+007
+  sedbot   :   132.5     
+  bflxtot  : -0.1874E-003
+Time:  2.50 seconds
+  bstresmax:   26.54     
+  ubot     :   1.448     
+  umean    : -0.4656E-001
+  hcurmax  :   4.700     
+  xmax     :   2.700     
+  hgradmax :  0.1483E-001
+  sedmax   :   132.5     
+  sedmin   :   0.000     
+  sedtot   :  0.2712E+007
+  sedbot   :   132.5     
+  bflxtot  : -0.2220E-003
+Time:  3.00 seconds
+  bstresmax:   26.30     
+  ubot     :   1.332     
+  umean    : -0.6050     
+  hcurmax  :   4.500     
+  xmax     :   3.300     
+  hgradmax :  0.1186E-001
+  sedmax   :   132.5     
+  sedmin   :   0.000     
+  sedtot   :  0.2701E+007
+  sedbot   :   132.5     
+  bflxtot  : -0.2547E-003
+Time:  3.50 seconds
+  bstresmax:   24.77     
+  ubot     :   1.554     
+  umean    :  0.2731     
+  hcurmax  :   4.300     
+  xmax     :   4.100     
+  hgradmax :  0.1013E-001
+  sedmax   :   132.5     
+  sedmin   :   0.000     
+  sedtot   :  0.2700E+007
+  sedbot   :   132.5     
+  bflxtot  : -0.2880E-003
+Time:  4.00 seconds
+  bstresmax:   24.46     
+  ubot     :   1.540     
+  umean    : -0.9303E-001
+  hcurmax  :   4.300     
+  xmax     :   5.100     
+  hgradmax :  0.8496E-002
+  sedmax   :   132.5     
+  sedmin   :   0.000     
+  sedtot   :  0.2729E+007
+  sedbot   :   132.5     
+  bflxtot  : -0.3234E-003
+Time:  4.50 seconds
+  bstresmax:   25.56     
+  ubot     :   1.542     
+  umean    :  0.1481     
+  hcurmax  :   4.100     
+  xmax     :   5.700     
+  hgradmax :  0.7788E-002
+  sedmax   :   132.5     
+  sedmin   :   0.000     
+  sedtot   :  0.2722E+007
+  sedbot   :   132.5     
+  bflxtot  : -0.3549E-003
+Time:  5.00 seconds
+  bstresmax:   25.70     
+  ubot     :   1.610     
+  umean    : -0.1131     
+  hcurmax  :   4.100     
+  xmax     :   6.700     
+  hgradmax :  0.6229E-002
+  sedmax   :   132.5     
+  sedmin   :   0.000     
+  sedtot   :  0.2730E+007
+  sedbot   :   132.5     
+  bflxtot  : -0.3876E-003
+Time:  5.50 seconds
+  bstresmax:   28.73     
+  ubot     :   1.887     
+  umean    :  0.3922     
+  hcurmax  :   4.900     
+  xmax     :   7.900     
+  hgradmax :  0.5340E-002
+  sedmax   :   132.5     
+  sedmin   :  0.4077E-022
+  sedtot   :  0.2716E+007
+  sedbot   :   104.6     
+  bflxtot  : -0.4167E-003
+Time:  6.00 seconds
+  bstresmax:   9.678     
+  ubot     :  0.5319     
+  umean    : -0.4101E-002
+  hcurmax  :   8.300     
+  xmax     :   7.700     
+  hgradmax :  0.5332E-001
+  sedmax   :   132.5     
+  sedmin   :  0.2504E-020
+  sedtot   :  0.2737E+007
+  sedbot   :   132.5     
+  bflxtot  : -0.4177E-003
+Time:  6.50 seconds
+  bstresmax:   3.854     
+  ubot     : -0.3076     
+  umean    : -0.1752E-001
+  hcurmax  :   7.700     
+  xmax     :   7.300     
+  hgradmax :  0.5546E-001
+  sedmax   :   132.5     
+  sedmin   :  0.3422E-020
+  sedtot   :  0.2741E+007
+  sedbot   :   132.1     
+  bflxtot  : -0.4165E-003
+Time:  7.00 seconds
+  bstresmax:   5.770     
+  ubot     : -0.6219     
+  umean    :  0.3390     
+  hcurmax  :   7.500     
+  xmax     :   7.300     
+  hgradmax :  0.4600E-001
+  sedmax   :   132.5     
+  sedmin   :  0.4096E-020
+  sedtot   :  0.2730E+007
+  sedbot   :   132.4     
+  bflxtot  : -0.4156E-003
+Time:  7.50 seconds
+  bstresmax:   10.89     
+  ubot     : -0.9121     
+  umean    : -0.1036     
+  hcurmax  :   6.300     
+  xmax     :   6.900     
+  hgradmax :  0.4368E-001
+  sedmax   :   132.5     
+  sedmin   :  0.4970E-020
+  sedtot   :  0.2734E+007
+  sedbot   :   132.4     
+  bflxtot  : -0.4153E-003
+Time:  8.00 seconds
+  bstresmax:   13.87     
+  ubot     : -0.8067     
+  umean    :  0.1114E-001
+  hcurmax  :   5.500     
+  xmax     :   6.700     
+  hgradmax :  0.3402E-001
+  sedmax   :   132.5     
+  sedmin   :  0.1096E-019
+  sedtot   :  0.2736E+007
+  sedbot   :   132.4     
+  bflxtot  : -0.4159E-003
+Time:  8.50 seconds
+  bstresmax:   11.39     
+  ubot     : -0.6692     
+  umean    :  0.1019     
+  hcurmax  :   4.900     
+  xmax     :   6.700     
+  hgradmax :  0.2540E-001
+  sedmax   :   132.5     
+  sedmin   :  0.2048E-019
+  sedtot   :  0.2725E+007
+  sedbot   :   132.5     
+  bflxtot  : -0.4176E-003
+Time:  9.00 seconds
+  bstresmax:   16.57     
+  ubot     : -0.9465     
+  umean    : -0.7785     
+  hcurmax  :   4.300     
+  xmax     :   6.300     
+  hgradmax :  0.2422E-001
+  sedmax   :   132.5     
+  sedmin   :  0.4629E-019
+  sedtot   :  0.2719E+007
+  sedbot   :   132.5     
+  bflxtot  : -0.4195E-003
+Time:  9.50 seconds
+  bstresmax:   14.06     
+  ubot     : -0.7872     
+  umean    : -0.5575E-001
+  hcurmax  :   3.900     
+  xmax     :   6.100     
+  hgradmax :  0.2084E-001
+  sedmax   :   132.5     
+  sedmin   :  0.7213E-019
+  sedtot   :  0.2737E+007
+  sedbot   :   132.4     
+  bflxtot  : -0.4210E-003
+Time: 10.00 seconds
+  bstresmax:   11.72     
+  ubot     : -0.8112     
+  umean    :  0.7951E-001
+  hcurmax  :   3.500     
+  xmax     :   5.700     
+  hgradmax :  0.1992E-001
+  sedmax   :   132.5     
+  sedmin   :  0.8058E-019
+  sedtot   :  0.2724E+007
+  sedbot   :   132.4     
+  bflxtot  : -0.4220E-003

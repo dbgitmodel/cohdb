@@ -1,0 +1,351 @@
+Version: V2.11.2
+Output parameters for test case seamount: simulation seamountF
+
+Time: 0.00 days
+  ekintot   :   0.000     
+  ekin2d    :   0.000     
+  ekindev   :   0.000     
+  ekinrat   :   0.000     
+  edens     :   2843.     
+  curmean   :   0.000     
+  curmean2d :   0.000     
+  curmeandev:   0.000     
+  curmax    :   0.000     
+  curmax2d  :   0.000     
+  curmaxdev :   0.000     
+Time: 0.25 days
+  ekintot   :  0.9242E-007
+  ekin2d    :  0.1016E-007
+  ekindev   :  0.8226E-007
+  ekinrat   :   8.094     
+  edens     :   2843.     
+  curmean   :  0.9208E-003
+  curmean2d :  0.2710E-003
+  curmeandev:  0.8519E-003
+  curmax    :  0.7923E-001
+  curmax2d  :  0.7830E-002
+  curmaxdev :  0.7442E-001
+Time: 0.50 days
+  ekintot   :  0.1274E-006
+  ekin2d    :  0.3820E-007
+  ekindev   :  0.8922E-007
+  ekinrat   :   2.335     
+  edens     :   2843.     
+  curmean   :  0.1374E-002
+  curmean2d :  0.5185E-003
+  curmeandev:  0.1156E-002
+  curmax    :  0.7482E-001
+  curmax2d  :  0.1518E-001
+  curmaxdev :  0.7426E-001
+Time: 0.75 days
+  ekintot   :  0.1250E-006
+  ekin2d    :  0.7734E-007
+  ekindev   :  0.4766E-007
+  ekinrat   :  0.6162     
+  edens     :   2843.     
+  curmean   :  0.1599E-002
+  curmean2d :  0.7384E-003
+  curmeandev:  0.1088E-002
+  curmax    :  0.2861E-001
+  curmax2d  :  0.2144E-001
+  curmaxdev :  0.2549E-001
+Time: 1.00 days
+  ekintot   :  0.2653E-006
+  ekin2d    :  0.1185E-006
+  ekindev   :  0.1468E-006
+  ekinrat   :   1.239     
+  edens     :   2843.     
+  curmean   :  0.2076E-002
+  curmean2d :  0.9185E-003
+  curmeandev:  0.1665E-002
+  curmax    :  0.8987E-001
+  curmax2d  :  0.2600E-001
+  curmaxdev :  0.7335E-001
+Time: 1.25 days
+  ekintot   :  0.2839E-006
+  ekin2d    :  0.1519E-006
+  ekindev   :  0.1319E-006
+  ekinrat   :  0.8682     
+  edens     :   2843.     
+  curmean   :  0.2277E-002
+  curmean2d :  0.1052E-002
+  curmeandev:  0.1711E-002
+  curmax    :  0.8382E-001
+  curmax2d  :  0.2994E-001
+  curmaxdev :  0.6813E-001
+Time: 1.50 days
+  ekintot   :  0.2836E-006
+  ekin2d    :  0.1704E-006
+  ekindev   :  0.1132E-006
+  ekinrat   :  0.6645     
+  edens     :   2843.     
+  curmean   :  0.2449E-002
+  curmean2d :  0.1133E-002
+  curmeandev:  0.1704E-002
+  curmax    :  0.4643E-001
+  curmax2d  :  0.3164E-001
+  curmaxdev :  0.3389E-001
+Time: 1.75 days
+  ekintot   :  0.3868E-006
+  ekin2d    :  0.1706E-006
+  ekindev   :  0.2161E-006
+  ekinrat   :   1.267     
+  edens     :   2843.     
+  curmean   :  0.2740E-002
+  curmean2d :  0.1162E-002
+  curmeandev:  0.2201E-002
+  curmax    :  0.9479E-001
+  curmax2d  :  0.3378E-001
+  curmaxdev :  0.7453E-001
+Time: 2.00 days
+  ekintot   :  0.3405E-006
+  ekin2d    :  0.1533E-006
+  ekindev   :  0.1872E-006
+  ekinrat   :   1.221     
+  edens     :   2843.     
+  curmean   :  0.2735E-002
+  curmean2d :  0.1142E-002
+  curmeandev:  0.2166E-002
+  curmax    :  0.8003E-001
+  curmax2d  :  0.3258E-001
+  curmaxdev :  0.5324E-001
+Time: 2.25 days
+  ekintot   :  0.3216E-006
+  ekin2d    :  0.1246E-006
+  ekindev   :  0.1970E-006
+  ekinrat   :   1.581     
+  edens     :   2843.     
+  curmean   :  0.2849E-002
+  curmean2d :  0.1080E-002
+  curmeandev:  0.2273E-002
+  curmax    :  0.5077E-001
+  curmax2d  :  0.2900E-001
+  curmaxdev :  0.3553E-001
+Time: 2.50 days
+  ekintot   :  0.3856E-006
+  ekin2d    :  0.9266E-007
+  ekindev   :  0.2929E-006
+  ekinrat   :   3.161     
+  edens     :   2843.     
+  curmean   :  0.3033E-002
+  curmean2d :  0.9889E-003
+  curmeandev:  0.2675E-002
+  curmax    :  0.9512E-001
+  curmax2d  :  0.2677E-001
+  curmaxdev :  0.8047E-001
+Time: 2.75 days
+  ekintot   :  0.3165E-006
+  ekin2d    :  0.6637E-007
+  ekindev   :  0.2502E-006
+  ekinrat   :   3.769     
+  edens     :   2843.     
+  curmean   :  0.2892E-002
+  curmean2d :  0.9023E-003
+  curmeandev:  0.2560E-002
+  curmax    :  0.6845E-001
+  curmax2d  :  0.2970E-001
+  curmaxdev :  0.4820E-001
+Time: 3.00 days
+  ekintot   :  0.3402E-006
+  ekin2d    :  0.5303E-007
+  ekindev   :  0.2872E-006
+  ekinrat   :   5.415     
+  edens     :   2843.     
+  curmean   :  0.3056E-002
+  curmean2d :  0.8474E-003
+  curmeandev:  0.2771E-002
+  curmax    :  0.6371E-001
+  curmax2d  :  0.3032E-001
+  curmaxdev :  0.4093E-001
+Time: 3.25 days
+  ekintot   :  0.4257E-006
+  ekin2d    :  0.5622E-007
+  ekindev   :  0.3694E-006
+  ekinrat   :   6.571     
+  edens     :   2843.     
+  curmean   :  0.3314E-002
+  curmean2d :  0.8632E-003
+  curmeandev:  0.3082E-002
+  curmax    :  0.9059E-001
+  curmax2d  :  0.2978E-001
+  curmaxdev :  0.7942E-001
+Time: 3.50 days
+  ekintot   :  0.3936E-006
+  ekin2d    :  0.7494E-007
+  ekindev   :  0.3187E-006
+  ekinrat   :   4.253     
+  edens     :   2843.     
+  curmean   :  0.3330E-002
+  curmean2d :  0.9475E-003
+  curmeandev:  0.2906E-002
+  curmax    :  0.4673E-001
+  curmax2d  :  0.3140E-001
+  curmaxdev :  0.4339E-001
+Time: 3.75 days
+  ekintot   :  0.4803E-006
+  ekin2d    :  0.1040E-006
+  ekindev   :  0.3763E-006
+  ekinrat   :   3.618     
+  edens     :   2843.     
+  curmean   :  0.3576E-002
+  curmean2d :  0.1053E-002
+  curmeandev:  0.3196E-002
+  curmax    :  0.7203E-001
+  curmax2d  :  0.2959E-001
+  curmaxdev :  0.4786E-001
+Time: 4.00 days
+  ekintot   :  0.5726E-006
+  ekin2d    :  0.1359E-006
+  ekindev   :  0.4367E-006
+  ekinrat   :   3.213     
+  edens     :   2843.     
+  curmean   :  0.3830E-002
+  curmean2d :  0.1146E-002
+  curmeandev:  0.3412E-002
+  curmax    :  0.9249E-001
+  curmax2d  :  0.3019E-001
+  curmaxdev :  0.7405E-001
+Time: 4.25 days
+  ekintot   :  0.5480E-006
+  ekin2d    :  0.1614E-006
+  ekindev   :  0.3866E-006
+  ekinrat   :   2.395     
+  edens     :   2843.     
+  curmean   :  0.3883E-002
+  curmean2d :  0.1211E-002
+  curmeandev:  0.3212E-002
+  curmax    :  0.5243E-001
+  curmax2d  :  0.3395E-001
+  curmaxdev :  0.3551E-001
+Time: 4.50 days
+  ekintot   :  0.6354E-006
+  ekin2d    :  0.1737E-006
+  ekindev   :  0.4617E-006
+  ekinrat   :   2.658     
+  edens     :   2843.     
+  curmean   :  0.4088E-002
+  curmean2d :  0.1238E-002
+  curmeandev:  0.3567E-002
+  curmax    :  0.7535E-001
+  curmax2d  :  0.3735E-001
+  curmaxdev :  0.5168E-001
+Time: 4.75 days
+  ekintot   :  0.6667E-006
+  ekin2d    :  0.1690E-006
+  ekindev   :  0.4977E-006
+  ekinrat   :   2.944     
+  edens     :   2843.     
+  curmean   :  0.4166E-002
+  curmean2d :  0.1222E-002
+  curmeandev:  0.3685E-002
+  curmax    :  0.9837E-001
+  curmax2d  :  0.3669E-001
+  curmaxdev :  0.7154E-001
+Time: 5.00 days
+  ekintot   :  0.6031E-006
+  ekin2d    :  0.1481E-006
+  ekindev   :  0.4550E-006
+  ekinrat   :   3.071     
+  edens     :   2843.     
+  curmean   :  0.4103E-002
+  curmean2d :  0.1164E-002
+  curmeandev:  0.3502E-002
+  curmax    :  0.5378E-001
+  curmax2d  :  0.3199E-001
+  curmaxdev :  0.3493E-001
+Time: 5.25 days
+  ekintot   :  0.6579E-006
+  ekin2d    :  0.1163E-006
+  ekindev   :  0.5415E-006
+  ekinrat   :   4.654     
+  edens     :   2843.     
+  curmean   :  0.4262E-002
+  curmean2d :  0.1070E-002
+  curmeandev:  0.3893E-002
+  curmax    :  0.6662E-001
+  curmax2d  :  0.2919E-001
+  curmaxdev :  0.5529E-001
+Time: 5.50 days
+  ekintot   :  0.6342E-006
+  ekin2d    :  0.8142E-007
+  ekindev   :  0.5528E-006
+  ekinrat   :   6.789     
+  edens     :   2843.     
+  curmean   :  0.4205E-002
+  curmean2d :  0.9516E-003
+  curmeandev:  0.3930E-002
+  curmax    :  0.8169E-001
+  curmax2d  :  0.2677E-001
+  curmaxdev :  0.6574E-001
+Time: 5.75 days
+  ekintot   :  0.5754E-006
+  ekin2d    :  0.5265E-007
+  ekindev   :  0.5228E-006
+  ekinrat   :   9.929     
+  edens     :   2843.     
+  curmean   :  0.4057E-002
+  curmean2d :  0.8404E-003
+  curmeandev:  0.3791E-002
+  curmax    :  0.4297E-001
+  curmax2d  :  0.2427E-001
+  curmaxdev :  0.3576E-001
+Time: 6.00 days
+  ekintot   :  0.6499E-006
+  ekin2d    :  0.3743E-007
+  ekindev   :  0.6125E-006
+  ekinrat   :   16.36     
+  edens     :   2843.     
+  curmean   :  0.4305E-002
+  curmean2d :  0.7818E-003
+  curmeandev:  0.4168E-002
+  curmax    :  0.6644E-001
+  curmax2d  :  0.1905E-001
+  curmaxdev :  0.6113E-001
+Time: 6.25 days
+  ekintot   :  0.6401E-006
+  ekin2d    :  0.3988E-007
+  ekindev   :  0.6002E-006
+  ekinrat   :   15.05     
+  edens     :   2843.     
+  curmean   :  0.4300E-002
+  curmean2d :  0.8212E-003
+  curmeandev:  0.4130E-002
+  curmax    :  0.6338E-001
+  curmax2d  :  0.1632E-001
+  curmaxdev :  0.6005E-001
+Time: 6.50 days
+  ekintot   :  0.6483E-006
+  ekin2d    :  0.5954E-007
+  ekindev   :  0.5887E-006
+  ekinrat   :   9.889     
+  edens     :   2843.     
+  curmean   :  0.4336E-002
+  curmean2d :  0.9381E-003
+  curmeandev:  0.4066E-002
+  curmax    :  0.4456E-001
+  curmax2d  :  0.1807E-001
+  curmaxdev :  0.3786E-001
+Time: 6.75 days
+  ekintot   :  0.7676E-006
+  ekin2d    :  0.9161E-007
+  ekindev   :  0.6760E-006
+  ekinrat   :   7.379     
+  edens     :   2843.     
+  curmean   :  0.4659E-002
+  curmean2d :  0.1103E-002
+  curmeandev:  0.4406E-002
+  curmax    :  0.8352E-001
+  curmax2d  :  0.2456E-001
+  curmaxdev :  0.6324E-001
+Time: 7.00 days
+  ekintot   :  0.7776E-006
+  ekin2d    :  0.1281E-006
+  ekindev   :  0.6495E-006
+  ekinrat   :   5.070     
+  edens     :   2843.     
+  curmean   :  0.4733E-002
+  curmean2d :  0.1258E-002
+  curmeandev:  0.4318E-002
+  curmax    :  0.6383E-001
+  curmax2d  :  0.2829E-001
+  curmaxdev :  0.5712E-001

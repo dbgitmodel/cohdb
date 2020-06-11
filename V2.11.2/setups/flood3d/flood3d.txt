@@ -1,0 +1,9 @@
+#
+# test case flood3d (wetting/drying over 3-D obstacle)
+#
+# Test    configuration   
+# -----------------------------------
+#   A     single hill
+#   B     double peaked hill      
+#   C     atoll (3-D)
+#   D     atoll (2-D)

@@ -1,0 +1,15 @@
+#
+# test case csnsp
+#
+#  Test  Purpose
+#  -------------------------------------------------------
+#   A    Charnock with MO stratification
+#   B    as A iopt_turb_iwlim = 0
+#   C    as A iopt_turb_stab_form = 2, iopt_turb_iwlim = 0
+#   D    as A with iopt_vdif_coef = 2, iopt_turb_alg = 2
+#   E    Kondo with stratification
+#   F    Charnock without stratification
+#   G    Wu with stratification
+#   H    constant drag and exchange coefficients
+#   I    as A with iopt_temp_optic = 0
+

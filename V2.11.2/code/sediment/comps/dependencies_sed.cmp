@@ -1,0 +1,114 @@
+#
+# Copyright 2013 RBINS-MUMM
+#
+# Licensed under the EUPL, Version 1.1 or - as soon they will be approved by
+# the European Commission - subsequent versions of the EUPL (the "Licence");
+# You may not use this work except in compliance with the Licence.
+# You may obtain a copy of the Licence at:
+#
+# http://ec.europa.eu/idabc/eupl
+#
+# Unless required by the applicable law or agreed to in writing, software
+# distributed under the Licence is distributed on an "AS IS" basis,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the Licence for the specific language governing permissions and
+# limitations under the Licence.
+#
+# Dependencies for compiling the sediment model
+#
+# Version -  @{COHERENS}dependencies_sed_cmp   V2.11.2
+#
+# $Date: 2018-07-13 10:07:41 +0200 (Fri, 13 Jul 2018) $
+#
+# $Revision: 1163 $
+#
+
+# modules
+
+dararrays.o: dararrays.f90 dartypes.o
+darpars.o: darpars.f90
+darswitches.o: darswitches.f90
+dartypes.o: dartypes.f90 darpars.o syspars.o
+morpharrays.o: morpharrays.f90
+morphpars.o: morphpars.f90 syspars.o
+morphswitches.o: morphswitches.f90
+sedarrays.o: sedarrays.f90
+sedids.o: sedids.f90 syspars.o
+sedpars.o: sedpars.f90 syspars.o
+sedswitches.o: sedswitches.f90
+
+check_sediments.o: check_sediments.f90 dararrays.o darpars.o darswitches.o \
+ grid.o gridpars.o iopars.o morpharrays.o morphpars.o morphswitches.o \
+ paralpars.o sedarrays.o sedpars.o sedswitches.o switches.o timepars.o \
+ error_routines.o time_routines.o
+dartypes_init.o: dartypes_init.f90 darpars.o dartypes.o iopars.o syspars.o \
+ error_routines.o
+default_sediments.o: default_sediments.f90 darpars.o darswitches.o grid.o \
+ gridpars.o iopars.o morpharrays.o morphpars.o morphswitches.o physpars.o \
+ sedarrays.o sedpars.o sedswitches.o timepars.o time_routines.o
+reset_sediments.o: reset_sediments.f90 darswitches.o gridpars.o iopars.o \
+ morphpars.o morphswitches.o sedpars.o sedswitches.o switches.o timepars.o \
+ error_routines.o inout_routines.o time_routines.o
+sediment_output.o: sediment_output.f90 currents.o dararrays.o depths.o \
+ grid.o gridpars.o iopars.o morpharrays.o morphpars.o physpars.o sedarrays.o \
+ sedids.o sedpars.o switches.o syspars.o array_interp.o error_routines.o \
+ grid_interp.o math_library.o modvars_routines.o paral_utilities.o \
+ time_routines.o
+sedvars_routines.o: sedvars_routines.f90 darpars.o darswitches.o datatypes.o \
+ gridpars.o iopars.o modids.o morphpars.o morphswitches.o sedids.o sedpars.o \
+ sedswitches.o switches.o syspars.o
+ 
+# subprograms
+ 
+Allocate_Sediment_Arrays.o: Allocate_Sediment_Arrays.f90 dararrays.o \
+ darpars.o darswitches.o dartypes.o gridpars.o iopars.o morpharrays.o \
+ morphpars.o morphswitches.o sedarrays.o sedpars.o sedswitches.o switches.o \
+ syspars.o dartypes_init.o error_routines.o time_routines.o
+Dredging_Equations.o: Dredging_Equations.f90 dararrays.o darpars.o \
+ darswitches.o datatypes.o depths.o grid.o gridpars.o iopars.o modids.o \
+ morpharrays.o morphpars.o morphswitches.o paralpars.o sedarrays.o sedpars.o \
+ switches.o syspars.o timepars.o datatypes_init.o error_routines.o \
+ grid_interp.o grid_routines.o math_library.o paral_comms.o paral_utilities.o \
+ rng_library.o time_routines.o
+Flocculation_Equations.o: Flocculation_Equations.f90 density.o depths.o \
+ diffusion.o grid.o gridpars.o iopars.o modids.o nestgrids.o physpars.o \
+ relaxation.o sedarrays.o sedids.o sedpars.o sedswitches.o switches.o \
+ syspars.o timepars.o turbulence.o array_interp.o error_routines.o \
+ paral_comms.o time_routines.o
+Morphology_Equations.o: Morphology_Equations.f90 currents.o dararrays.o \
+ depths.o fluxes.o grid.o gridpars.o iopars.o modids.o morpharrays.o \
+ morphpars.o morphswitches.o physpars.o sedarrays.o sedids.o sedpars.o \
+ sedswitches.o switches.o syspars.o timepars.o array_interp.o \
+ error_routines.o inout_routines.o paral_comms.o paral_utilities.o \
+ time_routines.o utility_routines.o
+Sediment_Bottom_Fluxes.o: Sediment_Bottom_Fluxes.f90 currents.o density.o \
+ depths.o diffusion.o fluxes.o grid.o gridpars.o iopars.o physpars.o \
+ sedarrays.o sedids.o sedpars.o sedswitches.o switches.o syspars.o timepars.o \
+ array_interp.o error_routines.o paral_comms.o time_routines.o
+Sediment_Density_Equations.o: Sediment_Density_Equations.f90 currents.o \
+ density.o grid.o gridpars.o iopars.o physpars.o sedarrays.o sedids.o \
+ sedpars.o sedswitches.o switches.o syspars.o array_interp.o error_routines.o \
+ paral_comms.o time_routines.o
+Sediment_Equations.o: Sediment_Equations.f90 currents.o dararrays.o depths.o \
+ diffusion.o grid.o gridpars.o iopars.o modids.o morpharrays.o morphpars.o \
+ nestgrids.o paralpars.o physpars.o relaxation.o sedarrays.o sedids.o \
+ sedpars.o sedswitches.o structures.o switches.o syspars.o timepars.o \
+ turbulence.o wavevars.o array_interp.o error_routines.o math_library.o \
+ modvars_routines.o paral_comms.o time_routines.o utility_routines.o
+Sediment_Finalisation.o: Sediment_Finalisation.f90 dararrays.o darpars.o \
+ darswitches.o datatypes.o grid.o gridpars.o iopars.o morpharrays.o \
+ morphswitches.o paralpars.o sedarrays.o sedpars.o sedswitches.o switches.o \
+ syspars.o timepars.o error_routines.o inout_paral.o inout_routines.o \
+ modvars_routines.o time_routines.o
+Sediment_Initialisation.o: Sediment_Initialisation.f90 dararrays.o darpars.o \
+ darswitches.o datatypes.o grid.o gridpars.o iopars.o morpharrays.o \
+ morphswitches.o sedarrays.o sedids.o sedpars.o sedswitches.o switches.o \
+ syspars.o timepars.o datatypes_init.o error_routines.o inout_paral.o \
+ inout_routines.o paral_comms.o time_routines.o
+Sediment_Parameters.o: Sediment_Parameters.f90 darpars.o darswitches.o \
+ iopars.o morphpars.o morphswitches.o paralpars.o sedpars.o sedswitches.o \
+ switches.o syspars.o cif_routines.o inout_routines.o time_routines.o
+
+# user-defined subprograms
+
+Usrdef_Sediment.o: Usrdef_Sediment.f90 $(MODFILES)

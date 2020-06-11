@@ -1,0 +1,416 @@
+#
+# $Date: 2016-02-22 13:24:45 +0100 (Mon, 22 Feb 2016) $
+#
+# $Revision: 910 $
+#
+
+
+Figure 1
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   bstresatc3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 2
+
+User data
+ChartType   :
+Runs        :   tidalinletB,tidalinletC,tidalinletD
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   waveheight1
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 3
+
+User data
+ChartType   :
+Runs        :   tidalinletB,tidalinletC,tidalinletD
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   waveheight3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 4
+
+User data
+ChartType   :
+Runs        :   tidalinletB,tidalinletC,tidalinletD
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   waveheight5
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 5
+
+User data
+ChartType   :
+Runs        :   tidalinletB,tidalinletC,tidalinletD
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   umstokes1
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 6
+
+User data
+ChartType   :
+Runs        :   tidalinletB,tidalinletC,tidalinletD
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   vmstokes3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 7
+
+User data
+ChartType   :
+Runs        :   tidalinletB,tidalinletC,tidalinletD
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   waveperiod5
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 8
+
+User data
+ChartType   :
+Runs        :   tidalinletB,tidalinletC,tidalinletD
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   umveltot1
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 9
+
+User data
+ChartType   :
+Runs        :   tidalinletB,tidalinletC,tidalinletD
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   vmveltot3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+Figure 10
+
+User data
+ChartType   :
+Runs        :   tidalinletB,tidalinletC,tidalinletD
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   wavedir5
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 11
+
+User data
+ChartType   :
+Runs        :   tidalinletB,tidalinletC,tidalinletD
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   vmswdissip3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 12
+
+User data
+ChartType   :
+Runs        :   tidalinletB,tidalinletC,tidalinletD
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   vmbwdissip3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 13
+
+User data
+ChartType   :
+Runs        :   tidalinletB,tidalinletC,tidalinletD
+PhysProp    :   
+Xdata       :   Time
+Ydata       :   wavepres3
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 14
+
+User data
+ChartType   :
+Runs        :
+PhysProp    :   
+Xdata       :   y
+Ydata       :   zeta
+XdataDef    :   (:)
+YdataDef    :   (35,:,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 15
+
+User data
+ChartType   :
+Runs        :   tidalinletB,tidalinletC,tidalinletD
+PhysProp    :   
+Xdata       :   y
+Ydata       :   umveltot
+XdataDef    :   (:)
+YdataDef    :   (35,:,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 16
+
+User data
+ChartType   :
+Runs        :   tidalinletB,tidalinletC,tidalinletD
+PhysProp    :   
+Xdata       :   y
+Ydata       :   vmveltot
+XdataDef    :   (:)
+YdataDef    :   (35,:,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 17
+
+User data
+ChartType   :
+Runs        :   tidalinletB,tidalinletC,tidalinletD
+PhysProp    :   
+Xdata       :   y
+Ydata       :   umstokesatc
+XdataDef    :   (:)
+YdataDef    :   (35,:,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 18
+
+User data
+ChartType   :
+Runs        :   tidalinletB,tidalinletC,tidalinletD
+PhysProp    :   
+Xdata       :   y
+Ydata       :   vmstokesatc
+XdataDef    :   (:)
+YdataDef    :   (35,:,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 
+
+
+Figure 19
+
+User data
+ChartType   :
+Runs        :   tidalinletB,tidalinletC,tidalinletD
+PhysProp    :   
+Xdata       :   y
+Ydata       :   waveheight
+XdataDef    :   (:)
+YdataDef    :   (35,:,end)
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       : 

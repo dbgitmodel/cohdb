@@ -1,0 +1,268 @@
+#
+# $Date: 2015-02-03 10:21:02 +0100 (Tue, 03 Feb 2015) $
+#
+# $Revision: 812 $
+#
+
+
+Figure 1
+
+User data
+ChartType   :   
+PhysProp    :   
+Runs        :
+Xdata       :   Time
+Ydata       :   umean
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :   
+
+Plot options
+xlabel      :   Time [hours] 
+ylabel      :   Depth mean current [m/s]  
+xlim        :   
+ylim        :
+refmarker   :
+newmarker   :
+title       :  
+
+
+Figure 2
+
+User data
+ChartType   :   
+PhysProp    :   
+Runs        :
+Xdata       :   Time
+Ydata       :   ubot
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :   
+
+Plot options
+xlabel      :   Time [hours] 
+ylabel      :   Bottom current [m/s]  
+xlim        :   
+ylim        :
+refmarker   :
+newmarker   :
+title       :  
+
+
+Figure 3
+
+User data
+ChartType   :   
+PhysProp    :   
+Runs        :
+Xdata       :   Time
+Ydata       :   usur
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :   
+
+Plot options
+xlabel      :   Time [hours] 
+ylabel      :   Surface current [m/s]  
+xlim        :   
+ylim        :
+refmarker   :
+newmarker   :
+title       :  
+
+
+Figure 4
+
+User data
+ChartType   :   
+PhysProp    :   
+Runs        :
+Xdata       :   Time
+Ydata       :   refconc
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :   
+
+Plot options
+xlabel      :   Time [hours] 
+ylabel      :   Reference concentration [m^3/m^3]  
+xlim        :   
+ylim        :
+refmarker   :
+newmarker   :
+title       :  
+
+
+Figure 5
+
+User data
+ChartType   :   
+PhysProp    :   
+Runs        :
+Xdata       :   Time
+Ydata       :   heightc
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :   
+
+Plot options
+xlabel      :   Time [hours] 
+ylabel      :   Reference height
+xlim        :   
+ylim        :
+refmarker   :
+newmarker   :
+title       :  
+
+
+Figure 6
+
+User data
+ChartType   :   
+PhysProp    :   
+Runs        :
+Xdata       :   Time
+Ydata       :   bsed_flux
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :   
+
+Plot options
+xlabel      :   Time [hours] 
+ylabel      :   Bottom sediment flux [m/s]  
+xlim        :   
+ylim        :
+refmarker   :
+newmarker   :
+title       :  
+
+
+Figure 7
+
+User data
+ChartType   :   
+PhysProp    :   
+Runs        :
+Xdata       :   Time
+Ydata       :   sedbot
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :   
+
+Plot options
+xlabel      :   Time [hours] 
+ylabel      :   Bottom sediment concentration [m^3/m^3]  
+xlim        :   
+ylim        :
+refmarker   :
+newmarker   :
+title       :  
+
+
+Figure 8
+
+User data
+ChartType   :   
+PhysProp    :   
+Runs        :
+Xdata       :   Time
+Ydata       :   sedmin
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :   
+
+Plot options
+xlabel      :   Time [hours]
+ylabel      :   Minimum concentration [m^3/m^3] 
+xlim        :   
+ylim        :
+refmarker   :
+newmarker   :
+title       :  
+
+Figure 9
+
+User data
+ChartType   :   
+PhysProp    :   
+Runs        :
+Xdata       :   Time
+Ydata       :   sedmax
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :   
+
+Plot options
+xlabel      :   Time [hours] 
+ylabel      :   Maximum concentration [m^3/m^3]
+xlim        :   
+ylim        :
+refmarker   :
+newmarker   :
+title       :  
+
+
+Figure 10
+
+User data
+ChartType   :   
+PhysProp    :   
+Runs        :
+Xdata       :   Time
+Ydata       :   sedint
+XdataDef    :   (:)
+YdataDef    :   (:)
+TimeUnit    :   
+
+Plot options
+xlabel      :   Time [hours] 
+ylabel      :   Vertically integrated concentration [m^4/m^3]  
+xlim        :   
+ylim        :
+refmarker   :
+newmarker   :
+title       :  
+
+
+Figure 11
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   uvel
+Ydata		:   lev
+XdataDef	:   (1,1,:,end)
+YdataDef	:   (:)
+TimeUnit	:
+
+Plot options
+xlabel		:   Current [m/s]
+ylabel		:   Water depth [m]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:
+
+
+Figure 12
+
+User Data
+ChartType	:
+PhysProp	:
+Runs		:
+Xdata		:   cvol_1
+Ydata		:   lev
+XdataDef	:   (1,1,:,end)
+YdataDef	:   (:)
+TimeUnit	:
+
+Plot options
+xlabel		:   Concentration [m^3/m^3]
+ylabel		:   Water depth [m]
+xlim		:
+ylim		:
+refmarker	:
+newmarker	:
+title		:

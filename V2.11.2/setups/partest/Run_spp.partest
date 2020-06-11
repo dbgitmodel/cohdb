@@ -1,0 +1,15 @@
+#!/bin/sh
+
+##PBS -l select=1:ncpus=5:mpiprocs=5
+#PBS -l select=1:ncpus=1:mpiprocs=1
+#PBS -l walltime=00:30:00
+#PBS -l place=shared
+
+echo "executing test case partest"
+
+cd $PBS_O_WORKDIR
+
+./Run_spp.sh
+
+
+

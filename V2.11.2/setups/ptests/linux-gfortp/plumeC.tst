@@ -1,0 +1,139 @@
+Version: V2.11.2
+Output parameters for test case plume: simulation plumeC
+
+Time:  3 hours
+  hbulge   :   8.225     
+  hwidth   :   0.000     
+  pdep     :   0.000     
+  hfront   :   4.842     
+Time:  6 hours
+  hbulge   :   12.31     
+  hwidth   :   0.000     
+  pdep     :   0.000     
+  hfront   :   16.11     
+Time:  9 hours
+  hbulge   :   10.32     
+  hwidth   :   7.515     
+  pdep     :   1.431     
+  hfront   :   0.000     
+Time: 12 hours
+  hbulge   :   6.559     
+  hwidth   :   3.527     
+  pdep     :   0.000     
+  hfront   :   31.89     
+Time: 15 hours
+  hbulge   :   8.899     
+  hwidth   :   5.409     
+  pdep     :  0.9450     
+  hfront   :   29.03     
+Time: 18 hours
+  hbulge   :   13.61     
+  hwidth   :   9.475     
+  pdep     :   1.294     
+  hfront   :   32.91     
+Time: 21 hours
+  hbulge   :   12.77     
+  hwidth   :   12.23     
+  pdep     :   2.142     
+  hfront   :   0.000     
+Time: 24 hours
+  hbulge   :   8.324     
+  hwidth   :   7.542     
+  pdep     :   0.000     
+  hfront   :   46.22     
+Time: 27 hours
+  hbulge   :   8.304     
+  hwidth   :   6.360     
+  pdep     :   2.370     
+  hfront   :   43.16     
+Time: 30 hours
+  hbulge   :   14.17     
+  hwidth   :   11.24     
+  pdep     :   1.794     
+  hfront   :   42.45     
+Time: 33 hours
+  hbulge   :   14.28     
+  hwidth   :   13.84     
+  pdep     :   2.878     
+  hfront   :   0.000     
+Time: 36 hours
+  hbulge   :   9.919     
+  hwidth   :   9.619     
+  pdep     :  0.9952     
+  hfront   :   54.57     
+Time: 39 hours
+  hbulge   :   7.836     
+  hwidth   :   6.326     
+  pdep     :   4.403     
+  hfront   :   51.39     
+Time: 42 hours
+  hbulge   :   13.72     
+  hwidth   :   11.26     
+  pdep     :   2.418     
+  hfront   :   49.03     
+Time: 45 hours
+  hbulge   :   15.25     
+  hwidth   :   14.84     
+  pdep     :   2.910     
+  hfront   :   0.000     
+Time: 48 hours
+  hbulge   :   11.13     
+  hwidth   :   11.02     
+  pdep     :   1.288     
+  hfront   :   62.15     
+Time: 51 hours
+  hbulge   :   7.949     
+  hwidth   :   6.727     
+  pdep     :   5.358     
+  hfront   :   59.66     
+Time: 54 hours
+  hbulge   :   13.27     
+  hwidth   :   10.73     
+  pdep     :   2.845     
+  hfront   :   56.64     
+Time: 57 hours
+  hbulge   :   15.75     
+  hwidth   :   15.38     
+  pdep     :   2.340     
+  hfront   :   0.000     
+Time: 60 hours
+  hbulge   :   12.35     
+  hwidth   :   12.31     
+  pdep     :   1.519     
+  hfront   :   68.61     
+Time: 63 hours
+  hbulge   :   9.266     
+  hwidth   :   8.110     
+  pdep     :   3.505     
+  hfront   :   66.11     
+Time: 66 hours
+  hbulge   :   12.40     
+  hwidth   :   10.30     
+  pdep     :   3.450     
+  hfront   :   64.14     
+Time: 69 hours
+  hbulge   :   16.26     
+  hwidth   :   15.80     
+  pdep     :   2.434     
+  hfront   :   66.39     
+Time: 72 hours
+  hbulge   :   13.33     
+  hwidth   :   13.28     
+  pdep     :   2.133     
+  hfront   :   74.18     
+
+Harmonic parameters
+  sures    :  0.8646E-001
+  svres    : -0.9618E-001
+  selmaj   :   78.94     
+  sellip   : -0.5051     
+  bures    : -0.3205E-001
+  bvres    : -0.2279E-002
+  belmaj   :   43.56     
+  bellip   :  0.1707     
+  dures    : -0.7647E-002
+  duamp    :  0.6395     
+  dupha    :   69.74     
+  zetres   : -0.6195E-002
+  zetamp   :  0.3469     
+  zetpha   :   108.2     

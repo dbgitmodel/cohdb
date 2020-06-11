@@ -1,0 +1,14 @@
+#
+# test case pycno
+#
+# iopt_turb_* switches
+#
+# Test  ntrans param stab_form lmix iwlim stab_mod
+# ------------------------------------------------
+#   A       0     1      3        4    0      1
+#   B       1     1      2        4    0      1
+#   C       1     1      2        4    1      1
+#   D       1     2      3        1    1      4
+#   E       1     2      3        4    1      4
+#   F       2     1      3        4    1      1
+#   G       2     2      3        4    1      4

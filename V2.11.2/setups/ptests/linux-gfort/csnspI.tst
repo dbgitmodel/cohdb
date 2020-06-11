@@ -1,0 +1,390 @@
+Version: V2.11.2
+Output parameters for test case csnsp: simulation csnspI
+
+Time:   8 days
+  tsur     :   7.749     
+  tbot     :   7.757     
+  tmean    :   7.753     
+  tdep     :  -999.9     
+  tgrad    :  0.1387E-003
+  twidth   :  -999.9     
+  qrad     :   72.77     
+  qlwave   :   45.63     
+Time:  15 days
+  tsur     :   7.570     
+  tbot     :   7.575     
+  tmean    :   7.572     
+  tdep     :  -999.9     
+  tgrad    :  0.1657E-003
+  twidth   :  -999.9     
+  qrad     :   69.47     
+  qlwave   :   33.74     
+Time:  22 days
+  tsur     :   7.419     
+  tbot     :   7.419     
+  tmean    :   7.416     
+  tdep     :  -999.9     
+  tgrad    :  0.8732E-003
+  twidth   :  -999.9     
+  qrad     :   93.30     
+  qlwave   :   44.39     
+Time:  29 days
+  tsur     :   7.330     
+  tbot     :   7.330     
+  tmean    :   7.329     
+  tdep     :  -999.9     
+  tgrad    :  0.2720E-003
+  twidth   :  -999.9     
+  qrad     :   92.03     
+  qlwave   :   34.04     
+Time:  36 days
+  tsur     :   7.227     
+  tbot     :   7.220     
+  tmean    :   7.220     
+  tdep     :  -999.9     
+  tgrad    :  0.1035E-002
+  twidth   :  -999.9     
+  qrad     :   144.1     
+  qlwave   :   55.03     
+Time:  43 days
+  tsur     :   7.135     
+  tbot     :   7.135     
+  tmean    :   7.132     
+  tdep     :  -999.9     
+  tgrad    :  0.1266E-002
+  twidth   :  -999.9     
+  qrad     :   167.3     
+  qlwave   :   56.62     
+Time:  50 days
+  tsur     :   6.934     
+  tbot     :   6.942     
+  tmean    :   6.937     
+  tdep     :  -999.9     
+  tgrad    :  0.1445E-003
+  twidth   :  -999.9     
+  qrad     :   193.1     
+  qlwave   :   59.55     
+Time:  57 days
+  tsur     :   6.805     
+  tbot     :   6.799     
+  tmean    :   6.798     
+  tdep     :  -999.9     
+  tgrad    :  0.1573E-002
+  twidth   :  -999.9     
+  qrad     :   192.5     
+  qlwave   :   49.01     
+Time:  64 days
+  tsur     :   7.163     
+  tbot     :   6.749     
+  tmean    :   6.758     
+  tdep     :  -999.9     
+  tgrad    :  0.2351     
+  twidth   :  -999.9     
+  qrad     :   374.5     
+  qlwave   :   81.88     
+Time:  71 days
+  tsur     :   6.769     
+  tbot     :   6.750     
+  tmean    :   6.756     
+  tdep     :  -999.9     
+  tgrad    :  0.9858E-003
+  twidth   :  -999.9     
+  qrad     :   314.8     
+  qlwave   :   68.18     
+Time:  78 days
+  tsur     :   6.719     
+  tbot     :   6.687     
+  tmean    :   6.696     
+  tdep     :  -999.9     
+  tgrad    :  0.2513E-002
+  twidth   :  -999.9     
+  qrad     :   269.8     
+  qlwave   :   48.34     
+Time:  85 days
+  tsur     :   7.192     
+  tbot     :   6.610     
+  tmean    :   6.632     
+  tdep     :  -999.9     
+  tgrad    :  0.1574     
+  twidth   :  -999.9     
+  qrad     :   423.6     
+  qlwave   :   71.10     
+Time:  92 days
+  tsur     :   7.082     
+  tbot     :   6.617     
+  tmean    :   6.689     
+  tdep     :  -999.9     
+  tgrad    :  0.1826     
+  twidth   :  -999.9     
+  qrad     :   412.7     
+  qlwave   :   74.48     
+Time:  99 days
+  tsur     :   7.136     
+  tbot     :   6.634     
+  tmean    :   6.742     
+  tdep     :  -999.9     
+  tgrad    :  0.7782E-001
+  twidth   :  -999.9     
+  qrad     :   491.9     
+  qlwave   :   70.89     
+Time: 106 days
+  tsur     :   7.312     
+  tbot     :   6.646     
+  tmean    :   6.849     
+  tdep     :  -999.9     
+  tgrad    :  0.1526     
+  twidth   :  -999.9     
+  qrad     :   366.0     
+  qlwave   :   47.97     
+Time: 113 days
+  tsur     :   7.923     
+  tbot     :   6.657     
+  tmean    :   6.926     
+  tdep     :   3.031     
+  tgrad    :  0.1350     
+  twidth   :  -999.9     
+  qrad     :   660.8     
+  qlwave   :   94.79     
+Time: 120 days
+  tsur     :   10.36     
+  tbot     :   6.666     
+  tmean    :   7.064     
+  tdep     :   8.186     
+  tgrad    :  0.9757     
+  twidth   :  -999.9     
+  qrad     :   690.9     
+  qlwave   :   79.59     
+Time: 127 days
+  tsur     :   10.77     
+  tbot     :   6.676     
+  tmean    :   7.203     
+  tdep     :   10.45     
+  tgrad    :   1.113     
+  twidth   :  -999.9     
+  qrad     :   657.7     
+  qlwave   :   77.83     
+Time: 134 days
+  tsur     :   11.13     
+  tbot     :   6.685     
+  tmean    :   7.346     
+  tdep     :   17.23     
+  tgrad    :  0.7331     
+  twidth   :  -999.9     
+  qrad     :   678.4     
+  qlwave   :   76.64     
+Time: 141 days
+  tsur     :   11.13     
+  tbot     :   6.694     
+  tmean    :   7.550     
+  tdep     :   18.29     
+  tgrad    :  0.9941     
+  twidth   :  -999.9     
+  qrad     :   695.5     
+  qlwave   :   81.73     
+Time: 148 days
+  tsur     :   13.04     
+  tbot     :   6.703     
+  tmean    :   7.720     
+  tdep     :   19.06     
+  tgrad    :  0.9721     
+  twidth   :   11.36     
+  qrad     :   455.1     
+  qlwave   :   49.62     
+Time: 155 days
+  tsur     :   13.82     
+  tbot     :   6.712     
+  tmean    :   7.820     
+  tdep     :   19.90     
+  tgrad    :  0.5870     
+  twidth   :   10.15     
+  qrad     :   525.9     
+  qlwave   :   63.65     
+Time: 162 days
+  tsur     :   16.85     
+  tbot     :   6.721     
+  tmean    :   8.019     
+  tdep     :   20.50     
+  tgrad    :   1.856     
+  twidth   :   6.109     
+  qrad     :   660.3     
+  qlwave   :   71.67     
+Time: 169 days
+  tsur     :   21.11     
+  tbot     :   6.731     
+  tmean    :   8.217     
+  tdep     :   21.17     
+  tgrad    :   3.019     
+  twidth   :   8.018     
+  qrad     :   532.9     
+  qlwave   :   62.43     
+Time: 176 days
+  tsur     :   16.68     
+  tbot     :   6.740     
+  tmean    :   8.268     
+  tdep     :   21.78     
+  tgrad    :   1.963     
+  twidth   :   8.516     
+  qrad     :   467.8     
+  qlwave   :   44.61     
+Time: 183 days
+  tsur     :   18.13     
+  tbot     :   6.749     
+  tmean    :   8.466     
+  tdep     :   23.53     
+  tgrad    :   1.661     
+  twidth   :   4.048     
+  qrad     :   788.6     
+  qlwave   :   86.66     
+Time: 190 days
+  tsur     :   17.23     
+  tbot     :   6.759     
+  tmean    :   8.592     
+  tdep     :   24.42     
+  tgrad    :   1.826     
+  twidth   :   5.418     
+  qrad     :   460.0     
+  qlwave   :   46.42     
+Time: 197 days
+  tsur     :   14.52     
+  tbot     :   6.767     
+  tmean    :   8.667     
+  tdep     :   25.16     
+  tgrad    :   1.160     
+  twidth   :   5.060     
+  qrad     :   578.6     
+  qlwave   :   60.46     
+Time: 204 days
+  tsur     :   17.65     
+  tbot     :   6.777     
+  tmean    :   8.889     
+  tdep     :   25.69     
+  tgrad    :  0.9008     
+  twidth   :   5.380     
+  qrad     :   504.7     
+  qlwave   :   52.89     
+Time: 211 days
+  tsur     :   16.49     
+  tbot     :   6.788     
+  tmean    :   8.987     
+  tdep     :   26.27     
+  tgrad    :  0.8680     
+  twidth   :   5.905     
+  qrad     :   491.4     
+  qlwave   :   58.60     
+Time: 218 days
+  tsur     :   17.71     
+  tbot     :   6.797     
+  tmean    :   9.050     
+  tdep     :   26.78     
+  tgrad    :   1.700     
+  twidth   :   4.234     
+  qrad     :   475.6     
+  qlwave   :   51.86     
+Time: 225 days
+  tsur     :   16.35     
+  tbot     :   6.807     
+  tmean    :   9.179     
+  tdep     :   27.25     
+  tgrad    :   1.117     
+  twidth   :   4.884     
+  qrad     :   344.3     
+  qlwave   :   33.96     
+Time: 232 days
+  tsur     :   16.25     
+  tbot     :   6.819     
+  tmean    :   9.266     
+  tdep     :   27.77     
+  tgrad    :   1.413     
+  twidth   :   5.300     
+  qrad     :   491.4     
+  qlwave   :   66.91     
+Time: 239 days
+  tsur     :   16.32     
+  tbot     :   6.830     
+  tmean    :   9.285     
+  tdep     :   28.29     
+  tgrad    :   1.414     
+  twidth   :   4.402     
+  qrad     :   466.2     
+  qlwave   :   69.82     
+Time: 246 days
+  tsur     :   16.11     
+  tbot     :   6.842     
+  tmean    :   9.277     
+  tdep     :   28.76     
+  tgrad    :   1.084     
+  twidth   :   5.014     
+  qrad     :   536.5     
+  qlwave   :   79.59     
+Time: 253 days
+  tsur     :   15.29     
+  tbot     :   6.853     
+  tmean    :   9.271     
+  tdep     :   29.23     
+  tgrad    :   1.279     
+  twidth   :   5.216     
+  qrad     :   318.0     
+  qlwave   :   45.87     
+Time: 260 days
+  tsur     :   15.29     
+  tbot     :   6.865     
+  tmean    :   9.242     
+  tdep     :   29.74     
+  tgrad    :   1.583     
+  twidth   :   4.288     
+  qrad     :   378.8     
+  qlwave   :   65.18     
+Time: 267 days
+  tsur     :   15.21     
+  tbot     :   6.879     
+  tmean    :   9.289     
+  tdep     :   30.22     
+  tgrad    :   1.066     
+  twidth   :   5.001     
+  qrad     :   268.8     
+  qlwave   :   44.52     
+Time: 274 days
+  tsur     :   14.26     
+  tbot     :   6.891     
+  tmean    :   9.180     
+  tdep     :   30.65     
+  tgrad    :   1.066     
+  twidth   :   5.376     
+  qrad     :   243.5     
+  qlwave   :   48.74     
+Time: 281 days
+  tsur     :   13.70     
+  tbot     :   6.904     
+  tmean    :   9.066     
+  tdep     :   31.15     
+  tgrad    :   1.378     
+  twidth   :   4.498     
+  qrad     :   218.2     
+  qlwave   :   50.02     
+Time: 288 days
+  tsur     :   12.12     
+  tbot     :   6.915     
+  tmean    :   8.881     
+  tdep     :   32.42     
+  tgrad    :   1.577     
+  twidth   :   2.649     
+  qrad     :   249.8     
+  qlwave   :   61.05     
+Time: 295 days
+  tsur     :   11.91     
+  tbot     :   6.929     
+  tmean    :   8.857     
+  tdep     :   33.79     
+  tgrad    :   1.015     
+  twidth   :  -999.9     
+  qrad     :   169.7     
+  qlwave   :   46.32     
+Time: 302 days
+  tsur     :   11.18     
+  tbot     :   6.941     
+  tmean    :   8.753     
+  tdep     :   36.47     
+  tgrad    :   1.665     
+  twidth   :  -999.9     
+  qrad     :   211.2     
+  qlwave   :   70.51     

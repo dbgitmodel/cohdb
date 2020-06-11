@@ -1,0 +1,17 @@
+#@ shell = /usr/bin/ksh
+#@ initialdir = /c1a/tmp/ms/be/cv1
+#@ class = ns
+#@ job_type = parallel
+#@ job_name = postproc 
+#@ output = $(job_name).$(jobid).out
+#@ error = $(job_name).$(jobid).err
+#@ environment = COPY_ALL
+#@ notification = never
+#@ cpu_limit = 00:01:00
+#@ wall_clock_limit = 00:02:00
+#@ resources = ConsumableCpus(1) ConsumableMemory(400mb)
+#@ queue
+
+export XLFRTEOPTS="buffering=disable_all"
+
+./postproc  

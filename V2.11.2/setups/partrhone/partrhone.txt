@@ -1,0 +1,9 @@
+#
+# test case parthone (particle cloud drift in rhone plume outflow area)
+#
+# Test  iopt_part_wind iopt_part_hdif iopt_part_leeway
+# ----------------------------------------------------
+#   A        0               0           0
+#   B        1               0           0
+#   C        1               1           0
+#   D        1               0           1

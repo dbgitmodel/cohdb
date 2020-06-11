@@ -1,0 +1,83 @@
+Version: V2.11.2
+Output parameters for test case wcprof: simulation wcprofG
+
+Time: 12.0 hours
+  ubot        :  0.7999     
+  umbot       :   1.708     
+  wavevel     :  0.1069     
+  waveheight  :  0.2500     
+  waveperiod  :   10.00     
+  waveangle   :   90.00     
+  bstres_cur  :   4.948     
+  bstres_mean :   5.028     
+  bstres_max  :   5.126     
+  bstres_wav  :  0.9969     
+  zrough      :  0.1000E-002
+  zarough     :  0.1037E-002
+  bdragcoef   :  0.7666E-002
+  fwave       :  0.1703     
+  wavethick   :   4.502     
+Time: 12.0 hours
+  ubot        :  0.7821     
+  umbot       :   1.690     
+  wavevel     :  0.2137     
+  waveheight  :  0.5000     
+  waveperiod  :   10.00     
+  waveangle   :   90.00     
+  bstres_cur  :   4.730     
+  bstres_mean :   5.028     
+  bstres_max  :   5.409     
+  bstres_wav  :   1.994     
+  zrough      :  0.1000E-002
+  zarough     :  0.1148E-002
+  bdragcoef   :  0.8019E-002
+  fwave       :  0.8515E-001
+  wavethick   :   4.624     
+Time: 12.0 hours
+  ubot        :  0.7519     
+  umbot       :   1.660     
+  wavevel     :  0.3206     
+  waveheight  :  0.7500     
+  waveperiod  :   10.00     
+  waveangle   :   90.00     
+  bstres_cur  :   4.372     
+  bstres_mean :   5.028     
+  bstres_max  :   5.935     
+  bstres_wav  :   3.171     
+  zrough      :  0.1000E-002
+  zarough     :  0.1364E-002
+  bdragcoef   :  0.8675E-002
+  fwave       :  0.6018E-001
+  wavethick   :   4.844     
+Time: 12.0 hours
+  ubot        :  0.7144     
+  umbot       :   1.623     
+  wavevel     :  0.4275     
+  waveheight  :   1.000     
+  waveperiod  :   10.00     
+  waveangle   :   90.00     
+  bstres_cur  :   3.947     
+  bstres_mean :   5.028     
+  bstres_max  :   6.682     
+  bstres_wav  :   4.413     
+  zrough      :  0.1000E-002
+  zarough     :  0.1690E-002
+  bdragcoef   :  0.9610E-002
+  fwave       :  0.4712E-001
+  wavethick   :   5.140     
+Time: 12.0 hours
+  ubot        :  0.6720     
+  umbot       :   1.580     
+  wavevel     :  0.5344     
+  waveheight  :   1.250     
+  waveperiod  :   10.00     
+  waveangle   :   90.00     
+  bstres_cur  :   3.492     
+  bstres_mean :   5.028     
+  bstres_max  :   7.673     
+  bstres_wav  :   5.804     
+  zrough      :  0.1000E-002
+  zarough     :  0.2154E-002
+  bdragcoef   :  0.1086E-001
+  fwave       :  0.3966E-001
+  wavethick   :   5.508     

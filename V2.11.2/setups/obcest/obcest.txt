@@ -1,0 +1,13 @@
+#
+# test case obcest (V2.6)
+#
+# Idealised estuary
+#
+# Test ityp2dobu  description
+#---------------------------------------------------------------
+#   A      3      prescribed elevation
+#   B      8      Flather with prescribed elevation and transport
+#   C      9      Flather with prescribed elevation
+#   D     11      characteristic method with prescribed elevation and transport
+#   E     12      characteristic method with prescribed elevation
+#   F     11      as D using Thatcher-Harlemann obc for salinity

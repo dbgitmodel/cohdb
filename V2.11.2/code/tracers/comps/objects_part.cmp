@@ -1,0 +1,33 @@
+#
+# Copyright 2013 RBINS-MUMM
+#
+# Licensed under the EUPL, Version 1.1 or - as soon they will be approved by
+# the European Commission - subsequent versions of the EUPL (the "Licence");
+# You may not use this work except in compliance with the Licence.
+# You may obtain a copy of the Licence at:
+#
+# http://ec.europa.eu/idabc/eupl
+#
+# Unless required by the applicable law or agreed to in writing, software
+# distributed under the Licence is distributed on an "AS IS" basis,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the Licence for the specific language governing permissions and
+# limitations under the Licence.
+#
+# Object files for the COHERENS particle model
+#
+# Version - @{COHERENS}objects_part_cmp   V2.11.2
+#
+# $Date: 2015-01-16 16:39:38 +0100 (Fri, 16 Jan 2015) $
+#
+# $Revision: 796 $
+#
+
+MODULES_PART =  \
+partids.o partpars.o partswitches.o parttypes.o partvars.o check_particles.o \
+ default_particles.o particle_output.o particle_routines.o parttypes_init.o \
+ partvars_routines.o reset_particles.o
+
+SUBPROGS_PART = Allocate_Particle_Arrays.o Particle_Cloud.o \
+ Particle_Finalisation.o Particle_Forcing_Data.o Particle_Initialisation.o \
+ Particle_Model.o Particle_Parameters.o Particle_Trajects.o Usrdef_Particle.o

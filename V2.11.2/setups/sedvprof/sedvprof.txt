@@ -1,0 +1,17 @@
+#
+# test case sedvprof
+#
+# Test iopt_sed_ws iopt_sed_bstres_cr iopt_sed_bbc_ref iopt_sed_type iopt_sed_dens
+# -----------------------------------------------------------------------------------
+#   A      1            2                 1                1             0
+#   B      2            2                 1                1             0
+#   C      4            2                 1                1             0
+#   D      5            2                 1                1             0
+#   E      1            3                 1                1             0
+#   F      1            2                 2                1             0
+#   G      1            2                 1                1             1
+#   H      1            2                 -                2             0
+#   I      2            2                 -                2             0
+#   J      4            2                 -                2             0
+#   K      5            2                 -                2             0
+#   L      1            3                 -                2             0

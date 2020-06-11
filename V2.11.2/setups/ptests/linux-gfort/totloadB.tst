@@ -1,0 +1,43 @@
+Version: V2.11.2
+Output parameters for test case totload: simulation totloadB
+
+Time:  40 seconds
+  vmean    :  0.2000     
+  bstres   :  0.9732E-001
+  qtot     :   0.000     
+Time: 100 seconds
+  vmean    :  0.4000     
+  bstres   :  0.3893     
+  qtot     :  0.1280E-002
+Time: 160 seconds
+  vmean    :  0.6000     
+  bstres   :  0.8759     
+  qtot     :  0.2271     
+Time: 220 seconds
+  vmean    :  0.8000     
+  bstres   :   1.557     
+  qtot     :  0.6704     
+Time: 280 seconds
+  vmean    :   1.000     
+  bstres   :   2.433     
+  qtot     :   1.345     
+Time: 340 seconds
+  vmean    :   1.200     
+  bstres   :   3.503     
+  qtot     :   1.584     
+Time: 400 seconds
+  vmean    :   1.400     
+  bstres   :   4.769     
+  qtot     :   1.814     
+Time: 460 seconds
+  vmean    :   1.600     
+  bstres   :   6.228     
+  qtot     :   2.040     
+Time: 520 seconds
+  vmean    :   1.800     
+  bstres   :   7.883     
+  qtot     :   3.011     
+Time: 580 seconds
+  vmean    :   2.000     
+  bstres   :   9.732     
+  qtot     :   5.099     

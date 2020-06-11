@@ -1,0 +1,225 @@
+#
+# $Date: 2015-01-18 15:56:08 +0100 (Sun, 18 Jan 2015) $
+#
+# $Revision: 797 $
+#
+
+
+Figure 1
+
+User data
+ChartType   :   bar
+Runs        :   
+PhysProp    :   ekin,epot,etot,bdissip  
+Xdata       :
+Ydata       :
+XdataDef    :
+YdataDef    :
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 2
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   zetamp1,zetpha1,umamp1,umpha1,vmamp1,vmpha1
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 3
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   zetamp2,zetpha2,umamp2,umpha2,vmamp2,vmpha2
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 4
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   zetamp3,zetpha3,umamp3,umpha3,vmamp3,vmpha3
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 5
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   zetamp4,zetpha4,umamp4,umpha4,vmamp4,vmpha4
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 6
+
+User data
+ChartType   :	bar
+Runs        :	
+PhysProp    :   zetamp5,zetpha5,umamp5,umpha5,vmamp5,vmpha5
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 7
+
+User data
+ChartType   :	bar
+Runs        :	obctangA,obctangC,obctangE,obctangG
+PhysProp    :   zetamp6,zetpha6,umamp6,umpha6,vmamp6,vmpha6
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 8
+
+User data
+ChartType   :	bar
+Runs        :	obctangA,obctangC,obctangE,obctangG
+PhysProp    :   zetamp7,zetpha7,umamp7,umpha7,vmamp7,vmpha7
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 9
+
+User data
+ChartType   :	bar
+Runs        :	obctangA,obctangC,obctangE,obctangG
+PhysProp    :   zetamp8,zetpha8,umamp8,umpha8,vmamp8,vmpha8
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :
+
+
+Figure 10
+
+User data
+ChartType   :	bar
+Runs        :	obctangA,obctangC,obctangE,obctangG
+PhysProp    :   zetamp9,zetpha9,umamp9,umpha9,vmamp9,vmpha9
+Xdata       :   
+Ydata       :   
+XdataDef    :   
+YdataDef    :   
+TimeUnit    :
+
+Plot options
+xlabel      :
+ylabel      :
+xlim        :
+ylim        :
+refmarker   :
+newmarker   :
+title       :

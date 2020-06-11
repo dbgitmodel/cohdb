@@ -1,0 +1,267 @@
+Version: V2.7
+Output parameters for test case drythin: simulation drythinA
+ 
+Time:  2.0 hours
+  ekin     :  0.2143E-04
+  epot     :  0.2934E-03
+  edissip  :  0.4385E-02
+  enstr    :  0.1521E-03
+  uvelmax  :   69.56    
+  uvelmin  :  -66.62    
+  vvelmax  :   56.65    
+  vvelmin  :  -56.65    
+  wphysmax :   1.828    
+  wphysmin :  -5.424    
+Time:  4.0 hours
+  ekin     :  0.3125E-03
+  epot     :  0.1226E-03
+  edissip  :  0.2329    
+  enstr    :  0.6431E-03
+  uvelmax  :   38.50    
+  uvelmin  :  -234.4    
+  vvelmax  :   195.1    
+  vvelmin  :  -195.1    
+  wphysmax :   9.742    
+  wphysmin :  -6.668    
+Time:  6.0 hours
+  ekin     :  0.1816E-03
+  epot     :  0.8041E-03
+  edissip  :  0.1295    
+  enstr    :  0.3940E-03
+  uvelmax  :   45.31    
+  uvelmin  :  -196.2    
+  vvelmax  :   162.9    
+  vvelmin  :  -162.9    
+  wphysmax :   7.750    
+  wphysmin :  -4.542    
+Time:  8.0 hours
+  ekin     :  0.1878E-04
+  epot     :  0.3099E-03
+  edissip  :  0.6155E-02
+  enstr    :  0.1265E-03
+  uvelmax  :   105.1    
+  uvelmin  :  -6.237    
+  vvelmax  :   101.3    
+  vvelmin  :  -101.3    
+  wphysmax :   4.515    
+  wphysmin :  -4.018    
+Time: 10.0 hours
+  ekin     :  0.3754E-03
+  epot     :  0.1292E-03
+  edissip  :  0.2379    
+  enstr    :  0.8002E-03
+  uvelmax  :   242.8    
+  uvelmin  :  -49.44    
+  vvelmax  :   201.8    
+  vvelmin  :  -201.8    
+  wphysmax :   11.27    
+  wphysmin :  -8.945    
+Time: 12.0 hours
+  ekin     :  0.2782E-03
+  epot     :  0.8254E-03
+  edissip  :  0.1291    
+  enstr    :  0.6397E-03
+  uvelmax  :   198.1    
+  uvelmin  :  -50.67    
+  vvelmax  :   159.5    
+  vvelmin  :  -159.5    
+  wphysmax :   9.770    
+  wphysmin :  -8.565    
+Time: 14.0 hours
+  ekin     :  0.1581E-04
+  epot     :  0.3048E-03
+  edissip  :  0.4164E-02
+  enstr    :  0.1577E-03
+  uvelmax  :   19.95    
+  uvelmin  :  -101.4    
+  vvelmax  :   87.76    
+  vvelmin  :  -87.76    
+  wphysmax :   4.075    
+  wphysmin :  -5.478    
+Time: 16.0 hours
+  ekin     :  0.3586E-03
+  epot     :  0.1169E-03
+  edissip  :  0.2857    
+  enstr    :  0.7378E-03
+  uvelmax  :   41.70    
+  uvelmin  :  -251.1    
+  vvelmax  :   207.5    
+  vvelmin  :  -207.5    
+  wphysmax :   10.35    
+  wphysmin :  -7.384    
+Time: 18.0 hours
+  ekin     :  0.1895E-03
+  epot     :  0.7986E-03
+  edissip  :  0.1380    
+  enstr    :  0.4111E-03
+  uvelmax  :   46.35    
+  uvelmin  :  -200.4    
+  vvelmax  :   166.3    
+  vvelmin  :  -166.3    
+  wphysmax :   7.895    
+  wphysmin :  -4.669    
+Time: 20.0 hours
+  ekin     :  0.1785E-04
+  epot     :  0.3098E-03
+  edissip  :  0.5861E-02
+  enstr    :  0.1251E-03
+  uvelmax  :   104.1    
+  uvelmin  :  -6.151    
+  vvelmax  :   100.6    
+  vvelmin  :  -100.6    
+  wphysmax :   4.461    
+  wphysmin :  -4.042    
+Time: 22.0 hours
+  ekin     :  0.3747E-03
+  epot     :  0.1293E-03
+  edissip  :  0.2372    
+  enstr    :  0.7987E-03
+  uvelmax  :   242.5    
+  uvelmin  :  -49.37    
+  vvelmax  :   201.6    
+  vvelmin  :  -201.6    
+  wphysmax :   11.26    
+  wphysmin :  -8.934    
+Time: 24.0 hours
+  ekin     :  0.2781E-03
+  epot     :  0.8254E-03
+  edissip  :  0.1290    
+  enstr    :  0.6395E-03
+  uvelmax  :   198.1    
+  uvelmin  :  -50.65    
+  vvelmax  :   159.5    
+  vvelmin  :  -159.5    
+  wphysmax :   9.769    
+  wphysmin :  -8.564    
+Time: 26.0 hours
+  ekin     :  0.1582E-04
+  epot     :  0.3048E-03
+  edissip  :  0.4165E-02
+  enstr    :  0.1577E-03
+  uvelmax  :   19.94    
+  uvelmin  :  -101.5    
+  vvelmax  :   87.76    
+  vvelmin  :  -87.76    
+  wphysmax :   4.075    
+  wphysmin :  -5.478    
+Time: 28.0 hours
+  ekin     :  0.3586E-03
+  epot     :  0.1169E-03
+  edissip  :  0.2857    
+  enstr    :  0.7378E-03
+  uvelmax  :   41.70    
+  uvelmin  :  -251.1    
+  vvelmax  :   207.5    
+  vvelmin  :  -207.5    
+  wphysmax :   10.35    
+  wphysmin :  -7.385    
+Time: 30.0 hours
+  ekin     :  0.1895E-03
+  epot     :  0.7986E-03
+  edissip  :  0.1380    
+  enstr    :  0.4111E-03
+  uvelmax  :   46.36    
+  uvelmin  :  -200.4    
+  vvelmax  :   166.3    
+  vvelmin  :  -166.3    
+  wphysmax :   7.895    
+  wphysmin :  -4.669    
+Time: 32.0 hours
+  ekin     :  0.1785E-04
+  epot     :  0.3098E-03
+  edissip  :  0.5861E-02
+  enstr    :  0.1251E-03
+  uvelmax  :   104.1    
+  uvelmin  :  -6.151    
+  vvelmax  :   100.6    
+  vvelmin  :  -100.6    
+  wphysmax :   4.461    
+  wphysmin :  -4.042    
+Time: 34.0 hours
+  ekin     :  0.3747E-03
+  epot     :  0.1293E-03
+  edissip  :  0.2372    
+  enstr    :  0.7987E-03
+  uvelmax  :   242.5    
+  uvelmin  :  -49.37    
+  vvelmax  :   201.6    
+  vvelmin  :  -201.6    
+  wphysmax :   11.26    
+  wphysmin :  -8.934    
+Time: 36.0 hours
+  ekin     :  0.2781E-03
+  epot     :  0.8254E-03
+  edissip  :  0.1290    
+  enstr    :  0.6395E-03
+  uvelmax  :   198.1    
+  uvelmin  :  -50.65    
+  vvelmax  :   159.5    
+  vvelmin  :  -159.5    
+  wphysmax :   9.769    
+  wphysmin :  -8.564    
+Time: 38.0 hours
+  ekin     :  0.1582E-04
+  epot     :  0.3048E-03
+  edissip  :  0.4165E-02
+  enstr    :  0.1577E-03
+  uvelmax  :   19.94    
+  uvelmin  :  -101.5    
+  vvelmax  :   87.76    
+  vvelmin  :  -87.76    
+  wphysmax :   4.075    
+  wphysmin :  -5.478    
+Time: 40.0 hours
+  ekin     :  0.3586E-03
+  epot     :  0.1169E-03
+  edissip  :  0.2857    
+  enstr    :  0.7378E-03
+  uvelmax  :   41.70    
+  uvelmin  :  -251.1    
+  vvelmax  :   207.5    
+  vvelmin  :  -207.5    
+  wphysmax :   10.35    
+  wphysmin :  -7.385    
+Time: 42.0 hours
+  ekin     :  0.1895E-03
+  epot     :  0.7986E-03
+  edissip  :  0.1380    
+  enstr    :  0.4111E-03
+  uvelmax  :   46.36    
+  uvelmin  :  -200.4    
+  vvelmax  :   166.3    
+  vvelmin  :  -166.3    
+  wphysmax :   7.895    
+  wphysmin :  -4.669    
+Time: 44.0 hours
+  ekin     :  0.1785E-04
+  epot     :  0.3098E-03
+  edissip  :  0.5861E-02
+  enstr    :  0.1251E-03
+  uvelmax  :   104.1    
+  uvelmin  :  -6.151    
+  vvelmax  :   100.6    
+  vvelmin  :  -100.6    
+  wphysmax :   4.461    
+  wphysmin :  -4.042    
+Time: 46.0 hours
+  ekin     :  0.3747E-03
+  epot     :  0.1293E-03
+  edissip  :  0.2372    
+  enstr    :  0.7987E-03
+  uvelmax  :   242.5    
+  uvelmin  :  -49.37    
+  vvelmax  :   201.6    
+  vvelmin  :  -201.6    
+  wphysmax :   11.26    
+  wphysmin :  -8.934    
+Time: 48.0 hours
+  ekin     :  0.2781E-03
+  epot     :  0.8254E-03
+  edissip  :  0.1290    
+  enstr    :  0.6395E-03
+  uvelmax  :   198.1    
+  uvelmin  :  -50.65    
+  vvelmax  :   159.5    
+  vvelmin  :  -159.5    
+  wphysmax :   9.769    
+  wphysmin :  -8.564    

@@ -1,0 +1,63 @@
+Version: V2.7
+Output parameters for test case seich: simulation seichB
+ 
+Time: 1.00 hours
+  hleft    :   1.750    
+  hright   :   2.250    
+  v2up     : -0.1245    
+  v2lo     :  0.1078    
+  wmaxup   :  0.6251    
+  wmaxlo   :  0.4296    
+  wminup   : -0.5178    
+  wminlo   : -0.5173    
+  sdev     :   17.80    
+Time: 2.00 hours
+  hleft    :   4.250    
+  hright   :   4.250    
+  v2up     : -0.1240    
+  v2lo     :  0.1154    
+  wmaxup   :  0.4932    
+  wmaxlo   :  0.3368    
+  wminup   : -0.4317    
+  wminlo   : -0.3916    
+  sdev     :  -2.543    
+Time: 3.00 hours
+  hleft    :   6.250    
+  hright   :   6.250    
+  v2up     : -0.1235    
+  v2lo     :  0.1226    
+  wmaxup   :  0.4097    
+  wmaxlo   :  0.3424    
+  wminup   : -0.3739    
+  wminlo   : -0.3633    
+  sdev     :   14.62    
+Time: 4.00 hours
+  hleft    :   8.250    
+  hright   :   8.250    
+  v2up     : -0.1193    
+  v2lo     :  0.1303    
+  wmaxup   :  0.3627    
+  wmaxlo   :  0.2975    
+  wminup   : -0.3466    
+  wminlo   : -0.3171    
+  sdev     :  -3.179    
+Time: 5.00 hours
+  hleft    :   10.25    
+  hright   :   10.25    
+  v2up     : -0.1199    
+  v2lo     :  0.1297    
+  wmaxup   :  0.3264    
+  wmaxlo   :  0.2672    
+  wminup   : -0.3205    
+  wminlo   : -0.2635    
+  sdev     :  -1.907    
+Time: 6.00 hours
+  hleft    :   12.25    
+  hright   :   11.75    
+  v2up     : -0.1239    
+  v2lo     :  0.1293    
+  wmaxup   :  0.2741    
+  wmaxlo   :  0.1965    
+  wminup   : -0.2675    
+  wminlo   : -0.2327    
+  sdev     :  -13.35    
