@@ -1,0 +1,223 @@
+2000.09.09 By K. Matsumoto @ National Astronomical Observatory
+
+1. NAOTIDE & NAOTIDEJ
+
+NAOTIDE は TOPEX/POSEIDON 海面高度計データに基づいた海洋潮汐
+モデルを用いて世界の任意の海洋上の点について海洋潮汐を予測す
+るプログラムです。NAOTIDEJ は日本周辺海域についての予測を高
+解像度モデルを用いて行うプログラムです、本プログラムおよび海
+洋潮汐モデルは非営利の目的にのみ使用可能です。また、本プログ
+ラムの結果に基づくいかなる損失にも筆者は責任を負いません。
+
+2. 海洋潮汐モデル
+
+○短周期海洋潮汐モデル (NAO.99b, NAO99Jbモデル)
+  主要16分潮(M2, S2, K1, O1, N2, P1, K2, Q1, M1, J1, OO1,
+  2N2, Mu2, Nu2, L2, T2)のモデルが用意されています。
+  モデルの領域と解像度は次のようになっています。
+                                            領域                解像度
+  グローバルモデル(NAO.99bモデル)    0°E-360°E, 90°S-90°N    0.5°
+  日本周辺モデル　(NAO.99Jbモデル) 110°E-165°E, 20°N-65°N    5'
+
+  これらのモデルは、約5年分のTOPEX/POSEIDON海面高度計データ
+  (Cycle 10-198)を潮汐解析し、流体力学数値モデルに同化して構
+  築されました。NAO.99bモデルおよびNAO.99Jbモデルに関する適
+　当なReferenceは以下の通りです。
+  Matsumoto, K., T. Takanezawa, and M. Ooe,
+  Ocean Tide Models Developed by Assimilating TOPEX/POSEIDON
+  Altimeter Data into Hydrodynamical Model: A Global Model 
+  and a Regional Model around Japan,
+  Journal of Oceanography, 56, 567-581, 2000. 
+
+○長周期海洋潮汐モデル(NAO.99L モデル)
+  Mtm, Mf, MSf, Mm, MSm, Ssa, Sa分潮のグローバルモデルが用意
+  されています。これらのモデルは純粋な流体力学数値モデルです
+  (TOPEX/POSEIDONデータは同化されていません)。領域と解像度は
+  次のようになっています。 
+                                         領域                解像度
+  Mtm, Mf, Mm, MSf, Msm, Ssa      0°E-360°E, 90°S-90°N    0.5°
+  Sa                              0°E-360°E, 90°S-90°N    1.0°
+
+  Sa分潮モデルのもともとの解像度は1.0°ですが、計算の都合上、
+  0.5°の解像度にリサンプリングした潮汐マップが使われていま
+  す。   
+
+  長周期海洋潮汐モデルに関する論文は現在高根沢氏が準備中です。 
+
+○荷重潮汐モデル
+  上記23分潮に対する海底の鉛直変位のモデルが用意されています。
+  潮汐場を360次まで球面調和展開し、その展開係数を用いて構築
+  されました。
+                            領域                解像度
+  グローバルモデル   0°E-360°E, 90°S-90°N    0.5°
+
+  Sa分潮モデルのもともとの解像度は1.0°ですが、計算の都合上、
+  0.5°の解像度にリサンプリングした潮汐マップを使って0.5°の
+  解像度をもつ荷重潮汐モデルを構築しました。 
+
+3. プログラム
+
+プログラムはサブルーチンの形で公開します。使い方の例を示した
+ドライバプログラム naotest.f (日本周辺の場合はnaotestj.f)を
+参考にして下さい。  
+プログラム中、 
+
+      itmode   = 1
+の部分で潮汐計算のモードを指定します。
+itmode = 1 : geocentric tideを計算します。geocentric tideは
+             海洋潮汐と荷重潮汐の和です。海面高度計データの
+             補正の場合はこれを使用します。
+itmode = 2 : 海底を基準とした純粋な海洋潮汐を計算します。海
+             底圧力計データ等の補正の場合はこれを使用します。
+itmode = 3 : 荷重潮汐(radial loading tide)を計算します。
+
+      lpmode  = 1
+の部分で長周期潮汐の計算方法の選択をします。
+lpmode  = 1 : 高根沢(2000、準備中)の長周期海洋潮汐モデルを使
+              用します。  
+lpmode  = 2 : 平衡潮モデルを使用します。但し、itmodeが1また
+              は2の時のみ有効で、どちらの場合も同じ値を返し
+              ます。
+18.6年周期の長周期潮汐はlpmodeの値に拘わらず平衡潮として計算
+されます。
+
+           
+      x       = 246.61503d0     ! East longitude in degree
+      y       = -18.42767d0     ! North latitude in degree
+の部分で海洋潮汐を見積もりたい場所の東経と北緯を度単位で与え
+ます。 
+
+      iyear1  = 1997 ! year
+      imon1   =    1 ! month
+      iday1   =    1 ! day
+      ihour1  =    0 ! hour
+      imin1   =    0 ! minute
+の部分で、予測開始時刻を年、月、日、時、分の順にUTCで与えま
+す。
+
+      iyear2  = 1997 ! year
+      imon2   =    1 ! month
+      iday2   =    2 ! day
+      ihour2  =    0 ! hour
+      imin2   =    0 ! minute
+の部分で、予測終了時刻を年、月、日、時、分の順にUTCで与えま
+す。
+
+      dt = 60.d0                ! in minute
+の部分で、時間間隔を分単位で与えます。
+
+      outfile = 'naotest.out'
+の部分で出力ファイル名を与えます。
+
+出力結果は以下のようになります。
+
+Geocentric tidal height
+Elapsed day   Tide(cm)  Short-p   Long-p    M  D  Yr   H  M     MJD     Longitude Latitude
+    0.0        -21.809   -21.663    -0.146  1/ 1 1997  0: 0 50449.000000 246.6150 -18.4277
+    0.041667   -21.544   -21.403    -0.141  1/ 1 1997  1: 0 50449.041667 246.6150 -18.4277
+    0.083333   -14.953   -14.817    -0.136  1/ 1 1997  2: 0 50449.083333 246.6150 -18.4277
+    0.125000    -3.783    -3.652    -0.131  1/ 1 1997  3: 0 50449.125000 246.6150 -18.4277
+
+Elapsed day は観測開始時刻からの経過日。
+Tide        は計算された潮汐の高さ(短周期＋長周期）。単位は cm。
+Short-p     は短周期潮汐の高さ。単位は cm。
+Long-p      は長周期潮汐の高さ。単位は cm。
+M D Yr H M  は時刻UTC。
+MJD         はその時刻に対応する修正ユリウス日。
+Longitude   は東経。単位は度。
+Latitude    は北緯。単位は度。
+をそれぞれ表します。
+
+短周期潮汐には、マップとして用意されている16分潮に加えて、マ
+イナー33分潮の振幅・位相をアドミッタンスの内挿・外挿によって
+求めた結果が含まれています。
+長周期潮汐には、マップとして用意されている7分潮に加えて、
+18.6年のサイドバンド5分潮が含まれています。itmodeが1または2
+の場合には、さらに18.6年周期の分潮が平衡潮として上記12分潮に
+足しあわされます。
+都合62分潮を足し合わせた海洋潮汐高が計算されます。
+
+
+4. インストール方法
+
+グローバル海洋潮汐予測に必要なファイルは、
+naotide990909.tar.gz
+nao99b_gc.tar.gz + nao99L_gc.tar.gz (geocentric tidal height が必要な場合)
+nao99b.tar.gz    + nao99L.tar.gz    (pure ocean tidal height が必要な場合)
+nao99b_rload.tar.gz                 (radial loading tidal height が必要な場合)
+です。
+
+日本周辺の高解像度海洋潮汐モデルを使った予測に必要なファイルは、　
+naotidej990909.tar.gz
+nao99Jb_gc.tar.gz + nao99L_gc.tar.gz  (geocentric tidal height が必要な場合)
+nao99Jb.tar.gz    + nao99L.tar.gz     (pure ocean tidal height が必要な場合)
+です(注：長周期潮および荷重潮汐には日本周辺モデルはありません)。
+
+以下は naotideに関して、UNIX 上での作業を想定して書いてあり
+ます。naotidejについても同様です。
+
+nao99bディレクトリを作ります。
+(~): mkdir nao99b
+(~): cd nao99b/
+
+omapディレクトリを作ります。
+(~/nao99b): mkdir omap
+(~/nao99b): cd omap
+
+geocentic tidal height が必要な場合、omapディレクトリで
+nao99b_gc.tar.gzを展開します。 
+(~/nao99b/omap): gunzip nao99b_gc.tar.gz
+(~/nao99b/omap): tar xvf nao99b_gc.tar
+(~/nao99b/omap): gunzip nao99L_gc.tar.gz
+(~/nao99b/omap): tar xvf nao99L_gc.tar
+
+pure ocean tidal height が必要な場合、omapディレクトリで
+nao99b.tar.gzを展開します。 
+(~/nao99b/omap): gunzip nao99b.tar.gz
+(~/nao99b/omap): tar xvf nao99b.tar
+(~/nao99b/omap): gunzip nao99L.tar.gz
+(~/nao99b/omap): tar xvf nao99L.tar
+
+radial loading tidal height が必要な場合、omapディレクトリで 
+nao99b_rload.tar.gzを展開します。 
+(~/nao99b/omap): gunzip nao99b_rload.tar.gz
+(~/nao99b/omap): tar xvf nao99b_rload.tar
+
+nao99ディレクトリでnaotide000909.tar.gzを展開します。
+(~/nao99b/omap): cd ..
+(~/nao99b): gunzip naotide000909.tar.gz
+(~/nao99b): tar xvf naotide000909.tar
+
+naotideディレクトリでコンパイルします。
+(~/nao99b): cd naotide
+(~/nao99b/naotide): f77 (or f90) -o naotest naotest.f
+
+潮汐モデルディレクトリにリンクを張ります。
+(~/nao99b/naotide): ln -s ../omap .
+
+
+5. 動作確認
+
+naotest を実行して結果のファイル naotest.out と 
+naotest.out.exam を比較してみて下さい。
+
+(~/nao99b/naotest): naotest
+
+naotest.out.exam は HI-UX/MPP 上で計算した結果です。
+
+
+6. お問い合わせ
+
+お問い合わせ、バグレポート、論文別刷の希望、その他ご要望は
+   国立天文台地球回転研究系
+   松本晃治
+   matumoto@miz.nao.ac.jp
+までお願いいたします。
+
+長周期潮汐モデルについてのお問い合わせは
+   国立天文台地球回転研究系
+   高根澤隆
+   takane@miz.nao.ac.jp
+までお願いいたします。
+
+EOF

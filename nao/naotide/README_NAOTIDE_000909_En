@@ -1,0 +1,282 @@
+2000.09.09 By K. Matsumoto @ National Astronomical Observatory
+
+
+1. NAOTIDE & NAOTIDEJ
+
+NAOTIDE is a program to predict ocean tidal height at given
+time and location using ocean tide model developed by
+assimilating TOPEX/POSEIDON altimeter data. NAOTIDEJ is a
+program for ocean tidal prediction near Japan using higher
+resolution regional model. This package comes with NO
+WARRANTY.
+
+2. Ocean tide model
+
+* Short-period ocean tide model (NAO.99b, NAO.99Jb models)
+  Models for major 16 constituents (M2, S2, K1, O1, N2, P1,
+  K2, Q1, M1, J1, OO1, 2N2, Mu2, Nu2, L2, T2) are
+  prepared. Model region and resolution are as follows, 
+
+                                                   Model Region           Resolution
+  Global model                (NAO.99b)    0degE-360degE, 90degS-90degN     0.5deg
+  Regional model around Japan (NAO.99Jb) 110degE-165degE, 20degN-65degN     5min
+
+  These models are developed by assimilating nearly 5 years
+  of TOPEX/POSEIDON altimeter data (Cycle 10-198) into 
+  hydrodynamical model. The appropriate reference to NAO.99b
+  and NAO.99Jb models is 
+  Matsumoto, K., T. Takanezawa, and M. Ooe,
+  Ocean Tide Models Developed by Assimilating TOPEX/POSEIDON
+  Altimeter Data into Hydrodynamical Model: A Global Model 
+  and a Regional Model around Japan,
+  Journal of Oceanography, 56, 567-581, 2000. 
+
+* Long-period ocean tide model (NAO.99L model)
+  Global models for 7 constituents (Mtm, Mf, MSf, Mm, MSm,
+  Ssa, Sa) are prepared. The long-period global models are
+  developed by T. Takanezawa (NAO). These models are purely
+  hydrodynamical model (T/P data not assimilated).  Model
+  region and resolution are as follows, 
+
+                                   Model Region           Resolution
+  Mtm, Mf, MSf, Mm, MSm, Ssa 0degE-360degE, 90degS-90degN     0.5deg
+  Sa                         0degE-360degE, 90degS-90degN     1.0deg
+
+  Sa model is re-sampled into 0.5 deg map for the sake of
+  convenient calculation, although their original resolution
+  is 1.0 deg. 
+  
+  A paper for the long-period model is now being prepared.
+
+* Radial loading tide model
+  Global models for above 23 constituents are prepared.
+  They are based on spherical harmonic decomposition of
+  ocean tidal field up to degree and order 360.
+
+                         Model Region           Resolution
+  Global model   0degE-360degE, 90degS-90degN     0.5deg
+
+  Sa loading models is developed using re-sampled 0.5deg map
+  although their original resolution is 1.0deg for the sake
+  of convenient calculation. 
+
+
+3. Performance
+
+Comparison with 98 open ocean tide gauge data shows
+comparable performance of NAO.99b model as CSR4.0 and
+GOT99.2b model.
+
+---------------------------------------------------------------------------
+                   |  M2    O1    K1    S2    P1    N2    K2    Q1  | RSS  
+---------------------------------------------------------------------------
+RMS Misfit NAO.99b | 1.457 0.755 1.011 1.033 0.378 0.643 0.426 0.236| 2.364
+RMS Misfit CSR4.0  | 1.477 0.848 1.100 1.000 0.397 0.631 0.509 0.324| 2.456
+RMS Misfit GOT99.2b| 1.392 0.829 1.035 1.006 0.372 0.637 0.414 0.289| 2.347
+---------------------------------------------------------------------------
+Unit is in cm.
+
+Collinear residual reduction test shows that performance of
+NAO.99b is better than CSR4.0 and GOT99.2b in shallow waters. 
+TOPEX/POSEIDON data cycles 240-258 are used for this test.
+-------------------------------------------------------------------------
+     ocean depth (m)        |  0 < H < 200 | 200 < H < 1000 | 1000 < H
+     # of normal points     |     25609    |     18796      |   525054
+-------------------------------------------------------------------------
+RMS collinear diff. NAO.99b |  11.20 cm    |   6.98 cm      |   8.56 cm
+RMS collinear diff. CSR4.0  |  15.77 cm    |   7.37 cm      |   8.55 cm 
+RMS collinear diff. GOT99.2b|  13.99 cm    |   7.37 cm      |   8.65 cm 
+-------------------------------------------------------------------------
+
+
+4. Program
+
+Program is supplied as a subroutine form. You may see how
+to use it by taking a look at a test driver program
+naotest.f (or naotidej.f for calculation near Japan).
+
+In the program naotest.f,
+
+at the line
+      itmode   = 1
+you can select tidal calculation mode.
+itmode = 1 : compute geocentric tide, which is sum of pure
+             ocean tide and radial loading tide. This mode
+             is used for tidal correction for altimeter
+             data. 
+itmode = 2 : compute pure ocean tide with respect to ocean
+             floor. This mode may be used for tidal
+             correction for sea-bottom pressure gage.
+itmode = 3 : compute radial loading tide.
+
+
+At the line
+      lpmode  = 1
+you can select the way of calculating long-period tide.
+lpmode  = 1 : use the long-period ocean tide map of
+              Takanezawa (2000, in prep.). 
+lpmode  = 2 : use equilibrium tide model. This is valid for
+              itmode = 1 or 2. Note that, however, the same
+              value will be returned for both itmode values.
+
+18.6-year period tide (Doodson #055.565) is treated as
+equilibrium tide for both lpmode = 1 and 2. 
+           
+
+At the lines
+      x       = 246.61503d0     ! East longitude in degree
+      y       = -18.42767d0     ! North latitude in degree
+given are the ocean location where you want to predict tides.
+
+
+At the lines
+      iyear1  = 1997 ! year
+      imon1   =    1 ! month
+      iday1   =    1 ! day
+      ihour1  =    0 ! hour
+      imin1   =    0 ! minute
+given are the start time epoch of prediction in UTC.
+
+
+At the lines
+      iyear2  = 1997 ! year
+      imon2   =    1 ! month
+      iday2   =    2 ! day
+      ihour2  =    0 ! hour
+      imin2   =    0 ! minute
+given are the end time epoch of prediction in UTC.
+
+
+At the line
+      dt = 60.d0                ! in minute
+give is the time step of prediction in minute.
+
+
+At the line
+      outfile = 'naotest.out'
+given is the output file name.
+
+
+The output file will look like this;
+
+Geocentric tidal height
+Elapsed day   Tide(cm)  Short-p   Long-p    M  D  Yr   H  M     MJD     Longitude Latitude
+    0.0        -21.809   -21.663    -0.146  1/ 1 1997  0: 0 50449.000000 246.6150 -18.4277
+    0.041667   -21.544   -21.403    -0.141  1/ 1 1997  1: 0 50449.041667 246.6150 -18.4277
+    0.083333   -14.953   -14.817    -0.136  1/ 1 1997  2: 0 50449.083333 246.6150 -18.4277
+    0.125000    -3.783    -3.652    -0.131  1/ 1 1997  3: 0
+50449.125000 246.6150 -18.4277
+
+Elapsed day : elapsed time reckoned from the start epoch in day. 
+Tide        : tidal height in cm, which is sum of
+              the short-period tide and the long-period tide.
+Short-p     : short-period tide in cm.
+Long-p      : long-period tide in cm.
+M D Yr H M  : time in UTC.
+MJD         : corresponding Modified Julian Date.
+Longitude   : East longitude in degree.
+Latitude    : North latitude in degree.
+
+The short-period tide value is from 16 major constituents
+and 33 minor constituents which is inferred from major ones
+by interpolating or extrapolating the admittance.
+
+The long-period tide value is from 7 major constituents and
+5 nodal modulations. 18.6-year period equilibrium tide is
+added to the 12 terms when itmode = 1 or 2.
+
+62 tidal constituents are considered in total.
+
+
+5. Install
+
+The following files are necessary for global ocean tidal
+prediction; 
+naotide990909.tar.gz
+nao99b_gc.tar.gz + nao99L_gc.tar.gz (if you need geocentric tidal height)
+nao99b.tar.gz    + nao99L.tar.gz    (if you need pure ocean tidal height)
+nao99b_rload.tar.gz                 (if you need radial loading tidal height)
+
+The following files are necessary for regional ocean tidal
+prediction using high-resolution tidal maps; 
+naotidej990909.tar.gz
+nao99Jb_gc.tar.gz + nao99L_gc.tar.gz (if you need geocentric tidal height)
+nao99Jb.tar.gz    + nao99L.tar.gz    (if you need pure ocean tidal height)
+(Note: No regional models for long-period tides and radial loading tides)
+
+I suppose you are working on UNIX system. The similar as for
+naotidej. 
+
+Make nao99b directory.
+(~): mkdir nao99b
+(~): cd nao99b/
+
+Make omap directory.
+(~/nao99b): mkdir omap
+(~/nao99b): cd omap
+
+If you need geocentric tidal height;
+(~/nao99b/omap): gunzip nao99b_gc.tar.gz
+(~/nao99b/omap): tar xvf nao99b_gc.tar
+(~/nao99b/omap): gunzip nao99L_gc.tar.gz
+(~/nao99b/omap): tar xvf nao99L_gc.tar
+
+If you need pure ocean tidal height;
+(~/nao99b/omap): gunzip nao99b.tar.gz
+(~/nao99b/omap): tar xvf nao99b.tar
+(~/nao99b/omap): gunzip nao99L.tar.gz
+(~/nao99b/omap): tar xvf nao99L.tar
+
+If you need radial loading tidal height;
+(~/nao99b/omap): gunzip nao99b_rload.tar.gz
+(~/nao99b/omap): tar xvf nao99b_rload.tar
+
+Extract naotide program in the nao99b directory.
+(~/nao99b/omap): cd ..
+(~/nao99b): gunzip naotide000909.tar.gz
+(~/nao99b): tar xvf naotide000909.tar
+
+Compile the program in the naotide directory.
+(~/nao99b): cd naotide
+(~/nao99b/naotide): f77 (or f90) -o naotest naotest.f
+
+Make a link to the tide model directory.
+(~/nao99b/naotide): ln -s ../omap .
+
+
+6. Validation
+
+Run naotest and compare the output file "naotest.out" with
+"naotest.out.exam".
+
+(~/nao99b/naotest): naotest
+
+naotest.out.exam is the result on HI-UX/MPP.
+
+
+7. Format transformation
+   The tide models are written in integer table format. In
+   order to transform them to standard (Longitude, Latitude,
+   Amplitude, Greenwich phase) format, please use
+   nao2xyap.f such as; 
+   % f77 (f90) -o nao2xyap nao2xyap.f
+   % nao2xyap < m2.nao > m2.xyap
+  
+
+8. E-mail contact
+
+*  Questions about the short-period ocean tide model and
+   the software as well as reprint request should be sent to
+
+   National Astronomical Observatory
+   Koji MATSUMOTO
+   matumoto@miz.nao.ac.jp
+
+*  Questions about the long-period ocean tide model should
+   be sent to
+
+   National Astronomical Observatory
+   Takashi TAKANEZAWA
+   takane@miz.nao.ac.jp
+
+EOF
