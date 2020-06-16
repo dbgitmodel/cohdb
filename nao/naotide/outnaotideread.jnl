@@ -1,0 +1,12 @@
+ ! NOAA/PMEL TMAP
+ ! FERRET v7 (optimized)
+ ! Darwin 15.6.0 64-bit - 07/26/16
+ ! 16-Jun-20 11:08     
+
+def ax/t=1-jun-2019:31-jul-2019:1/unit=hours/t0=1-jun-2014 thours
+sh ax thours
+def gr/t=thours tg
+sh gr tg
+file/var="elapsed,tide,shp,lp,m,d,y,h,mm,mjd,lon,lat"/g=tg/skip=2 N1.out
+plot tide
+exit
