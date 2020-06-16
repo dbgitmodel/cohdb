@@ -1,0 +1,12 @@
+#
+# test case lembeh
+#
+# Test  iopt_grid_nodim ityp2dobu/ityp2dobv
+# -----------------------------------------
+#   A       2                12
+#   B       2                 9
+#   C       2                 3
+#   D       3                12
+#   E       3                 9
+#   F       3                 3
+
