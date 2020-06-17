@@ -5,7 +5,9 @@ c Test driver program for subroutine <naotide>
 c
 c Code : Koji Matsumoto
 c Date : 2000.09.09
+c
 c modified by: dberlianty 2020.06.16 
+c ==>> objectives: to get amp & pha at selected point  
 c
       implicit double precision (a-h,o-z)
 c     

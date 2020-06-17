@@ -1,0 +1,143 @@
+ --------------< naotest (version000909) >--------------
+ Output file : N1.out                                                                          
+ -------------------------------------------------------
+ Now reading ocean tide map...
+ Reading : ./omap/q1.nao
+   Model name   = NAO.99b                                           
+   Created date = Mon Mar 27 16:48:21 JST 2000                      
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.010, phase unit =   0.010
+ Reading : ./omap/o1.nao
+   Model name   = NAO.99b                                           
+   Created date = Sat Mar 25 18:52:15 JST 2000                      
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.010, phase unit =   0.010
+ Reading : ./omap/m1.nao
+   Model name   = NAO.99b                                           
+   Created date = Mon Apr 10 11:43:30 JST 2000                      
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.010, phase unit =   0.010
+ Reading : ./omap/p1.nao
+   Model name   = NAO.99b                                           
+   Created date = Sat Mar 25 18:53:17 JST 2000                      
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.010, phase unit =   0.010
+ Reading : ./omap/k1.nao
+   Model name   = NAO.99b                                           
+   Created date = Sat Mar 25 18:51:12 JST 2000                      
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.010, phase unit =   0.010
+ Reading : ./omap/j1.nao
+   Model name   = NAO.99b                                           
+   Created date = Mon Apr 10 11:45:34 JST 2000                      
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.010, phase unit =   0.010
+ Reading : ./omap/oo1.nao
+   Model name   = NAO.99b                                           
+   Created date = Mon Apr 10 11:44:32 JST 2000                      
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.010, phase unit =   0.010
+ Reading : ./omap/2n2.nao
+   Model name   = NAO.99b                                           
+   Created date = Mon Apr 10 11:46:36 JST 2000                      
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.010, phase unit =   0.010
+ Reading : ./omap/mu2.nao
+   Model name   = NAO.99b                                           
+   Created date = Mon Apr 10 11:47:38 JST 2000                      
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.010, phase unit =   0.010
+ Reading : ./omap/n2.nao
+   Model name   = NAO.99b                                           
+   Created date = Sat Mar 25 18:54:19 JST 2000                      
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.010, phase unit =   0.010
+ Reading : ./omap/nu2.nao
+   Model name   = NAO.99b                                           
+   Created date = Mon Apr 10 11:50:44 JST 2000                      
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.010, phase unit =   0.010
+ Reading : ./omap/m2.nao
+   Model name   = NAO.99b                                           
+   Created date = Sat Mar 25 18:49:08 JST 2000                      
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.010, phase unit =   0.010
+ Reading : ./omap/l2.nao
+   Model name   = NAO.99b                                           
+   Created date = Mon Apr 10 11:48:40 JST 2000                      
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.010, phase unit =   0.010
+ Reading : ./omap/t2.nao
+   Model name   = NAO.99b                                           
+   Created date = Mon Apr 10 11:49:42 JST 2000                      
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.010, phase unit =   0.010
+ Reading : ./omap/s2.nao
+   Model name   = NAO.99b                                           
+   Created date = Sat Mar 25 18:50:10 JST 2000                      
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.010, phase unit =   0.010
+ Reading : ./omap/k2.nao
+   Model name   = NAO.99b                                           
+   Created date = Sat Mar 25 18:55:21 JST 2000                      
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.010, phase unit =   0.010
+ Reading : ./omap/mtm.nao
+   Model name   = NAO.99L (Long period)                             
+   Created date = Mon Jul 26 09:35:36 1999                          
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.001, phase unit =   0.010
+ Reading : ./omap/mf.nao
+   Model name   = NAO.99L (Long period)                             
+   Created date = Wed Jul 21 14:49:04 1999                          
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.001, phase unit =   0.010
+ Reading : ./omap/msf.nao
+   Model name   = NAO.99L (Long period)                             
+   Created date = Wed Jul 28 00:01:55 1999                          
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.001, phase unit =   0.010
+ Reading : ./omap/mm.nao
+   Model name   = NAO.99L (Long period)                             
+   Created date = Fri Jul 23 12:26:30 1999                          
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.001, phase unit =   0.010
+ Reading : ./omap/msm.nao
+   Model name   = NAO.99L (Long period)                             
+   Created date = Sun Jul 25 18:59:23 1999                          
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.001, phase unit =   0.010
+ Reading : ./omap/ssa.nao
+   Model name   = NAO.99L (Long period)                             
+   Created date = Mon Aug 23 12:18:59 1999                          
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.001, phase unit =   0.010
+ Reading : ./omap/sa.nao
+   Model name   = NAO.99L (Long period, Reformatted from 1.0deg map)
+   Created date = Sat Jul 24 09:36:51 1999                          
+    xmin =   0.25, xmax = 359.75, ymin = -89.75, ymax =  89.75
+    dx   =  0.500, dy =    0.500, mend =  720  , nend =  360
+    amplitude unit =  0.001, phase unit =   0.010
+ ---------------------------------------
